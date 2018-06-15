@@ -1,0 +1,16 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/reconstruction/include/ITSReconstruction/CookedTracker.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/ITSMFT/ITS\l/reconstruction/include\l/ITSReconstruction/CookedTracker.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/ITSMFT/ITS\l/reconstruction/include\l/ITSReconstruction/CookedTracker\lTask.h",height=0.2,width=0.4,color="black",URL="$d3/d9f/CookedTrackerTask_8h.html",tooltip="Definition of the ITS &quot;Cooked Matrix&quot; tracker task. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/ITSMFT/ITS\l/reconstruction/src/CookedTracker\lTask.cxx",height=0.2,width=0.4,color="black",URL="$d5/da2/CookedTrackerTask_8cxx.html",tooltip="Implementation of the ITS &quot;Cooked Matrix&quot; tracker task. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/macro/run_trac_its.C",height=0.2,width=0.4,color="black",URL="$dd/d4e/run__trac__its_8C.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/ITSMFT/ITS\l/reconstruction/src/CookedTracker.cxx",height=0.2,width=0.4,color="black",URL="$d7/dca/CookedTracker_8cxx.html",tooltip="Implementation of the &quot;Cooked Matrix&quot; ITS tracker. "];
+}

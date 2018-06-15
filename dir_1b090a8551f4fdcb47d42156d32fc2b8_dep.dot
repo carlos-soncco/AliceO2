@@ -1,0 +1,14 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/Legacy/HLT/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_089dc9adc6c9bb62b3bf1354810deabd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="HLT" fontname="Helvetica", fontsize="10", URL="dir_089dc9adc6c9bb62b3bf1354810deabd.html"]
+  subgraph clusterdir_1b090a8551f4fdcb47d42156d32fc2b8 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1b090a8551f4fdcb47d42156d32fc2b8.html"];
+    dir_1b090a8551f4fdcb47d42156d32fc2b8 [shape=plaintext label="include"];
+    dir_a0892ff29b7fb044305583a949835f23 [shape=box label="AliceHLT" color="black" fillcolor="white" style="filled" URL="dir_a0892ff29b7fb044305583a949835f23.html"];
+  }
+  }
+}

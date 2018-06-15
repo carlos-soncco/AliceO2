@@ -1,0 +1,8 @@
+digraph "o2::track::TrackPar"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::track::TrackPar\n||+ TrackPar()\l+ TrackPar()\l+ TrackPar()\l+ TrackPar()\l+ operator=()\l+ ~TrackPar()\l+ getParams()\l+ getParam()\l+ getX()\l+ getAlpha()\l+ getY()\l+ getZ()\l+ getSnp()\l+ getTgl()\l+ getQ2Pt()\l+ setX()\l+ setParam()\l+ setAlpha()\l+ setY()\l+ setZ()\l+ setSnp()\l+ setTgl()\l+ setQ2Pt()\l+ getCurvature()\l+ getSign()\l+ getPhi()\l+ getPhiPos()\l+ getP()\l+ getPt()\l+ getTheta()\l+ getEta()\l+ getXYZGlo()\l+ getXYZGlo()\l+ getPxPyPzGlo()\l+ getPosDirGlo()\l+ getYZAt()\l+ getZAt()\l+ getYAt()\l+ getXYZGloAt()\l+ rotateParam()\l+ propagateParamTo()\l+ propagateParamTo()\l+ invertParam()\l+ printParam()\l# updateParam()\l# updateParams()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

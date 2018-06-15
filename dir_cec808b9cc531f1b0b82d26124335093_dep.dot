@@ -1,0 +1,21 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/EventVisualisation" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cec808b9cc531f1b0b82d26124335093 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_cec808b9cc531f1b0b82d26124335093.html"];
+    dir_cec808b9cc531f1b0b82d26124335093 [shape=plaintext label="EventVisualisation"];
+    dir_aefce7a2bfca35990ebbcc105bbcfa2a [shape=box label="Base" color="red" fillcolor="white" style="filled" URL="dir_aefce7a2bfca35990ebbcc105bbcfa2a.html"];
+    dir_208625f00d209be0faef0a73219d1e69 [shape=box label="DataConverter" color="red" fillcolor="white" style="filled" URL="dir_208625f00d209be0faef0a73219d1e69.html"];
+    dir_35dee3f7e1c059d30757a3713756b5fa [shape=box label="Detectors" color="red" fillcolor="white" style="filled" URL="dir_35dee3f7e1c059d30757a3713756b5fa.html"];
+    dir_a37a8fd5762406d546164f859941d1f3 [shape=box label="View" color="red" fillcolor="white" style="filled" URL="dir_a37a8fd5762406d546164f859941d1f3.html"];
+  }
+  dir_6af676bf18881990e4083e191d0e63e0 [shape=box label="CCDB" color="red" URL="dir_6af676bf18881990e4083e191d0e63e0.html"];
+  dir_aefce7a2bfca35990ebbcc105bbcfa2a->dir_208625f00d209be0faef0a73219d1e69 [headlabel="1", labeldistance=1.5 headhref="dir_000104_000331.html"];
+  dir_aefce7a2bfca35990ebbcc105bbcfa2a->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="1", labeldistance=1.5 headhref="dir_000104_000004.html"];
+  dir_35dee3f7e1c059d30757a3713756b5fa->dir_208625f00d209be0faef0a73219d1e69 [headlabel="1", labeldistance=1.5 headhref="dir_000335_000331.html"];
+  dir_35dee3f7e1c059d30757a3713756b5fa->dir_aefce7a2bfca35990ebbcc105bbcfa2a [headlabel="5", labeldistance=1.5 headhref="dir_000335_000104.html"];
+  dir_a37a8fd5762406d546164f859941d1f3->dir_aefce7a2bfca35990ebbcc105bbcfa2a [headlabel="9", labeldistance=1.5 headhref="dir_000339_000104.html"];
+  dir_a37a8fd5762406d546164f859941d1f3->dir_35dee3f7e1c059d30757a3713756b5fa [headlabel="1", labeldistance=1.5 headhref="dir_000339_000335.html"];
+}

@@ -1,0 +1,25 @@
+var classo2_1_1ITS_1_1CookedTracker_1_1Layer =
+[
+    [ "kNSectors", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#abf2536b77c64955e709ef89fb0308a12a72e44aa7a0a0755b7cca38666109ddc6", null ],
+    [ "Layer", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a037500223edb8751aab38e737ace8a5d", null ],
+    [ "Layer", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#ae3c00b6711e1da8c2dfb2d7ffc1a90dc", null ],
+    [ "findClusterIndex", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a83a498d462f1c4288e6370923b1e2584", null ],
+    [ "getAlphaRef", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a148534c0065859454376be5e97c904e0", null ],
+    [ "getCluster", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a3659197526c1d39208b751dbac338f00", null ],
+    [ "getClusterPhi", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a1d634de9a2140436fa38e37cbf00262f", null ],
+    [ "getNumberOfClusters", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a0d22208f34fd4c4786ccba8c76dbe199", null ],
+    [ "getR", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#aa228449255f2f67cad32a0a3d996c667", null ],
+    [ "init", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#aee82c4676d8122879594b21a70d092e6", null ],
+    [ "insertCluster", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#ae38169f699ecefa987c0ac7ace3affe7", null ],
+    [ "operator=", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a8fa6b619e2d168db7bbe9c693a921ce8", null ],
+    [ "selectClusters", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a535721e2d5f19b2b826906c6726a1c08", null ],
+    [ "setGeometry", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a586742802840887f2864cb63b0a32619", null ],
+    [ "setR", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a50a6e7653c119528d5c24385c3ff0933", null ],
+    [ "unloadClusters", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a408aae45cebe5a6ebba425040b7f3d28", null ],
+    [ "mAlphaRef", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#acda89a2b9bc847c7a58b8bb434e673d8", null ],
+    [ "mClusters", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a728afcb9fea35f44d06157ba48119c1a", null ],
+    [ "mGeom", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#afc345be2e9250024f27cb1d23844bcd4", null ],
+    [ "mPhi", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#a5dbcab5ef0fd6e19e9e1ee84aae84a27", null ],
+    [ "mR", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#af6b55b27aa3d422a79b6e2af3ad3e465", null ],
+    [ "mSectors", "df/dd4/classo2_1_1ITS_1_1CookedTracker_1_1Layer.html#ae6664b6dead74cd9809715a2c895b0cb", null ]
+];

@@ -1,0 +1,4 @@
+<map id="o2::ITS::CA::Vertexer" name="o2::ITS::CA::Vertexer">
+<area shape="rect" id="node7" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="939,93,985,171"/>
+<area shape="rect" id="node8" href="$d3/dc2/classo2_1_1ITS_1_1CA_1_1Event.html" title="{o2::ITS::CA::Event\n||+ Event()\l+ getEventId()\l+ getPrimaryVertex()\l+ getLayer()\l+ getPrimaryVerticesNum()\l+ addPrimaryVertex()\l+ addPrimaryReconstructedVertex()\l+ printPrimaryVertices()\l+ getTotalClusters()\l+ addClusterToLayer()\l+ addTrackingFrameInfoToLayer()\l+ addClusterLabelToLayer()\l+ clear()\l}" alt="" coords="1010,5,1240,259"/>
+</map>

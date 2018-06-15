@@ -1,0 +1,10 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Utilities/QC/QCMerger/include/QCMerger" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2b6b85458fba2367dc96941f06345f16 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_2b6b85458fba2367dc96941f06345f16.html"]
+  dir_1b14d4ff4c6148721327f55743a2a569 [shape=box, label="QCMerger", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1b14d4ff4c6148721327f55743a2a569.html"];
+  }
+}

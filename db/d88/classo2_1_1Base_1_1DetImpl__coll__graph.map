@@ -1,0 +1,4 @@
+<map id="o2::Base::DetImpl&lt; Det &gt;" name="o2::Base::DetImpl&lt; Det &gt;">
+<area shape="rect" id="node2" href="$d7/d02/classo2_1_1Base_1_1Detector.html" title="{o2::Base::Detector\n||+ Detector()\l+ Detector()\l+ ~Detector()\l+ Material()\l+ Mixture()\l+ Medium()\l+ SpecialCuts()\l+ SpecialCut()\l+ SpecialProcesses()\l+ SpecialProcess()\l+ Matrix()\l+ addAlignableVolumes()\l+ defineWrapperVolume()\l+ setNumberOfWrapperVolumes()\l+ defineLayer()\l+ defineLayerTurbo()\l+ getMaterialID()\l+ getMediumID()\l+ getMediumIDMappingAsVector()\l+ addNameTo()\l+ getHitBranchNames()\l+ updateHitTrackIndices()\l+ attachHits()\l+ fillHitBranch()\l+ GetCollection()\l+ setDensityFactor()\l+ getDensityFactor()\l+ initFieldTrackingParams()\l# Detector()\l# operator=()\l}" alt="" coords="5,131,227,634"/>
+<area shape="rect" id="node3" href="$d6/d0c/classFairDetector.html" title="{FairDetector\n||}" alt="" coords="69,5,163,83"/>
+</map>

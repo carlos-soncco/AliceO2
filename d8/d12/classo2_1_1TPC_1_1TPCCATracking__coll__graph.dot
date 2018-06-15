@@ -1,0 +1,8 @@
+digraph "o2::TPC::TPCCATracking"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::TPC::TPCCATracking\n||+ TPCCATracking()\l+ ~TPCCATracking()\l+ initialize()\l+ deinitialize()\l+ runTracking()\l+ runTracking()\l+ runTracking()\l+ convertClusters()\l+ convertClusters()\l+ getPseudoVDrift()\l+ getTFReferenceLength()\l+ getNTracksASide()\l+ GetClusterErrors2()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

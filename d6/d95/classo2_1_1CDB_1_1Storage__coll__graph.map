@@ -1,0 +1,5 @@
+<map id="o2::CDB::Storage" name="o2::CDB::Storage">
+<area shape="rect" id="node2" href="$d5/d0f/classTObject.html" title="{TObject\n||}" alt="" coords="104,5,172,83"/>
+<area shape="rect" id="node6" href="$d6/dae/classo2_1_1CDB_1_1IdPath.html" title="{o2::CDB::IdPath\n||+ IdPath()\l+ IdPath()\l+ IdPath()\l+ IdPath()\l+ IdPath()\l+ ~IdPath()\l+ getPathString()\l+ setPath()\l+ getLevel()\l+ isValid()\l+ isWildcard()\l+ doesLevel0Contain()\l+ doesLevel1Contain()\l+ doesLevel2Contain()\l+ isSupersetOf()\l}" alt="" coords="62,156,214,439"/>
+<area shape="rect" id="node8" href="$d8/d14/classo2_1_1CDB_1_1ConditionMetaData.html" title="{o2::CDB::ConditionMetaData\n||+ ConditionMetaData()\l+ ConditionMetaData()\l+ ~ConditionMetaData()\l+ setObjectClassName()\l+ getObjectClassName()\l+ setResponsible()\l+ getResponsible()\l+ setBeamPeriod()\l+ getBeamPeriod()\l+ setAliRootVersion()\l+ getAliRootVersion()\l+ setComment()\l+ getComment()\l+ addDateToComment()\l+ setProperty()\l+ getProperty()\l+ removeProperty()\l+ printConditionMetaData()\l}" alt="" coords="239,134,432,461"/>
+</map>

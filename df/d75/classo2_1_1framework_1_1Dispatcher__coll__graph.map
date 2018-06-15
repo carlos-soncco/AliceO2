@@ -1,0 +1,5 @@
+<map id="o2::framework::Dispatcher" name="o2::framework::Dispatcher">
+<area shape="rect" id="node3" href="$d0/d16/structo2_1_1framework_1_1DataProcessorSpec.html" title="{o2::framework::DataProcessorSpec\n||}" alt="" coords="601,459,831,536"/>
+<area shape="rect" id="node11" href="$d4/d5e/structo2_1_1framework_1_1AlgorithmSpec.html" title="{o2::framework::AlgorithmSpec\n||+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ operator=()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ emptyErrorCallback()\l}" alt="" coords="1058,163,1256,343"/>
+<area shape="rect" id="node15" href="$d6/dea/structo2_1_1framework_1_1DataSamplingConfig_1_1InfrastructureConfig.html" title="Structure that holds general data sampling infrastructure configuration. " alt="" coords="1031,451,1225,543"/>
+</map>

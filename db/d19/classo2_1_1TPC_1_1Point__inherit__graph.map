@@ -1,0 +1,5 @@
+<map id="o2::TPC::Point" name="o2::TPC::Point">
+<area shape="rect" id="node2" href="$de/d90/classo2_1_1BasicXYZEHit.html" title="{o2::BasicXYZEHit\&lt; float \&gt;\n||+ BasicXYZEHit()\l+ BasicXYZEHit()\l+ GetX()\l+ GetY()\l+ GetZ()\l+ GetPos()\l+ GetEnergyLoss()\l+ GetTime()\l+ GetDetectorID()\l+ SetTime()\l+ SetEnergyLoss()\l+ SetDetectorID()\l+ SetX()\l+ SetY()\l+ SetZ()\l+ SetXYZ()\l+ SetPos()\l+ ClassDefNV()\l}" alt="" coords="5,571,184,898"/>
+<area shape="rect" id="node3" href="$db/dfe/classo2_1_1BaseHit.html" title="{o2::BaseHit\n||+ BaseHit()\l+ BaseHit()\l+ GetTrackID()\l+ SetTrackID()\l}" alt="" coords="58,6,168,127"/>
+<area shape="rect" id="node4" href="$de/d90/classo2_1_1BasicXYZEHit.html" title="{o2::BasicXYZEHit\&lt; T, E \&gt;\n||+ BasicXYZEHit()\l+ BasicXYZEHit()\l+ GetX()\l+ GetY()\l+ GetZ()\l+ GetPos()\l+ GetEnergyLoss()\l+ GetTime()\l+ GetDetectorID()\l+ SetTime()\l+ SetEnergyLoss()\l+ SetDetectorID()\l+ SetX()\l+ SetY()\l+ SetZ()\l+ SetXYZ()\l+ SetPos()\l+ ClassDefNV()\l}" alt="" coords="111,179,289,506"/>
+</map>

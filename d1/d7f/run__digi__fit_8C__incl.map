@@ -1,0 +1,13 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/macro/run_digi_fit.C" name="/home/travis/build/AliceO2Group/AliceO2/macro/run_digi_fit.C">
+<area shape="rect" id="node10" href="$d4/dcd/FIT_2simulation_2include_2FITSimulation_2DigitizerTask_8h.html" title="FITSimulation/DigitizerTask.h" alt="" coords="1147,109,1341,136"/>
+<area shape="rect" id="node13" href="$d1/dde/FIT_2base_2include_2FITBase_2Digit_8h.html" title="FITBase/Digit.h" alt="" coords="1429,341,1544,368"/>
+<area shape="rect" id="node16" href="$de/d6b/FIT_2simulation_2include_2FITSimulation_2Detector_8h.html" title="FITSimulation/Detector.h" alt="" coords="1231,259,1399,285"/>
+<area shape="rect" id="node47" href="$d3/da0/FIT_2simulation_2include_2FITSimulation_2Digitizer_8h.html" title="FITSimulation/Digitizer.h" alt="" coords="1282,184,1448,211"/>
+<area shape="rect" id="node14" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1444,424,1671,451"/>
+<area shape="rect" id="node17" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="944,334,1096,375"/>
+<area shape="rect" id="node28" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="2487,341,2661,368"/>
+<area shape="rect" id="node45" href="$d1/db1/FIT_2base_2include_2FITBase_2Geometry_8h.html" title="FITBase/Geometry.h" alt="" coords="1243,341,1387,368"/>
+<area shape="rect" id="node18" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="893,424,1059,451"/>
+<area shape="rect" id="node25" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="143,507,309,533"/>
+<area shape="rect" id="node35" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="3239,424,3459,451"/>
+</map>

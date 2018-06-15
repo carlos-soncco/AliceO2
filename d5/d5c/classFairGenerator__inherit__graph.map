@@ -1,0 +1,5 @@
+<map id="FairGenerator" name="FairGenerator">
+<area shape="rect" id="node2" href="$d6/db8/classo2_1_1eventgen_1_1GeneratorFromFile.html" title="{o2::eventgen::GeneratorFromFile\n||+ GeneratorFromFile()\l+ GeneratorFromFile()\l+ ReadEvent()\l+ SetStartEvent()\l+ SetSkipNonTrackable()\l}" alt="" coords="5,219,219,355"/>
+<area shape="rect" id="node3" href="$d9/df8/classo2_1_1eventgen_1_1Pythia6Generator.html" title="{o2::eventgen::Pythia6Generator\n||+ Pythia6Generator()\l+ Pythia6Generator()\l+ ~Pythia6Generator()\l+ ReadEvent()\l+ SetVerbose()\l}" alt="" coords="243,219,449,355"/>
+<area shape="rect" id="node4" href="$d0/d7d/classo2_1_1eventgen_1_1Pythia8Generator.html" title="{o2::eventgen::Pythia8Generator\n|# mMom\l# mHNL\l# mId\l# mUseRandom1\l# mUseRandom3\l|+ Pythia8Generator()\l+ ~Pythia8Generator()\l+ ReadEvent()\l+ SetParameters()\l+ Print()\l+ Init()\l+ SetMom()\l+ SetId()\l+ SetHNLId()\l+ UseRandom1()\l+ UseRandom3()\l+ GetPythiaInstance()\l# ClassDefOverride()\l}" alt="" coords="474,131,680,443"/>
+</map>

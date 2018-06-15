@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="o2::dataformats::TimeStamp\&lt; T \&gt;" alt="" coords="6,41,226,68"/>
+<area shape="rect" id="node2" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="o2::dataformats::TimeStamp\lWithError\&lt; T, E \&gt;" alt="" coords="275,5,463,46"/>
+<area shape="rect" id="node4" href="$dd/def/classo2_1_1TPC_1_1Digit.html" title="o2::TPC::Digit" alt="" coords="316,71,423,97"/>
+<area shape="rect" id="node3" href="$de/dd5/classo2_1_1TPC_1_1Cluster.html" title="Cluster class for the TPC. " alt="" coords="513,12,634,39"/>
+</map>

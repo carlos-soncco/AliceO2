@@ -1,0 +1,13 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/base" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/base">
+<area shape="rect" id="node2" href="dir_d913fa5f752939d931056a55b4543460.html" title="include" alt="" coords="56,159,128,207"/>
+<area shape="rect" id="node4" href="dir_4ab6b4cc6a7edbff49100e9123df213f.html" title="Common" alt="" coords="17,255,91,303"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000112_000016.html" title="1" alt="" coords="74,234,82,248"/>
+<area shape="rect" id="node5" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="5,351,104,399"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000112_000056.html" title="2" alt="" coords="89,334,97,348"/>
+<area shape="rect" id="node3" href="dir_aaff9a4cab11643ccb41bda8dc752e40.html" title="src" alt="" coords="56,63,128,111"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000222_000112.html" title="6" alt="" coords="96,133,104,148"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000016_000056.html" title="2" alt="" coords="50,325,58,339"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000056_000016.html" title="18" alt="" coords="48,314,63,329"/>
+<area shape="rect" id="clust2" href="dir_478733f24fb8878a4cdf7773310adedd.html" alt="" coords="45,52,235,217"/>
+<area shape="rect" id="clust1" href="dir_088378b58cb1ba39db48039cbd66d10f.html" title="EMCAL" alt="" coords="35,16,245,228"/>
+</map>

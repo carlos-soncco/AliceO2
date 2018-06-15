@@ -1,0 +1,6 @@
+<map id="o2::CDB::Storage" name="o2::CDB::Storage">
+<area shape="rect" id="node3" href="$d2/d33/classo2_1_1CDB_1_1FileStorage.html" title="{o2::CDB::FileStorage\n||+ isReadOnly()\l+ hasSubVersion()\l+ hasConditionType()\l+ idToFilename()\l+ setRetry()\l# getCondition()\l# getConditionId()\l# getAllEntries()\l# putCondition()\l# getIdListFromFile()\l}" alt="" coords="5,1063,152,1273"/>
+<area shape="rect" id="node4" href="$dd/ddb/classo2_1_1CDB_1_1GridStorage.html" title="{o2::CDB::GridStorage\n||+ isReadOnly()\l+ hasSubVersion()\l+ hasConditionType()\l+ idToFilename()\l+ setRetry()\l+ setMirrorSEs()\l+ getMirrorSEs()\l# getCondition()\l# getConditionId()\l# getAllEntries()\l# putCondition()\l# getIdListFromFile()\l}" alt="" coords="177,1049,327,1287"/>
+<area shape="rect" id="node5" href="$d6/dba/classo2_1_1CDB_1_1LocalStorage.html" title="{o2::CDB::LocalStorage\n||+ isReadOnly()\l+ hasSubVersion()\l+ hasConditionType()\l+ idToFilename()\l+ setRetry()\l# getCondition()\l# getConditionId()\l# getAllEntries()\l# putCondition()\l# getIdListFromFile()\l}" alt="" coords="352,1063,509,1273"/>
+<area shape="rect" id="node2" href="$d5/d0f/classTObject.html" title="{TObject\n||}" alt="" coords="218,5,285,83"/>
+</map>

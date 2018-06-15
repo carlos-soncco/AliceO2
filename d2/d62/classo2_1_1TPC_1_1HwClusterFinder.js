@@ -1,0 +1,25 @@
+var classo2_1_1TPC_1_1HwClusterFinder =
+[
+    [ "MiniDigit", "d9/d75/structo2_1_1TPC_1_1HwClusterFinder_1_1MiniDigit.html", "d9/d75/structo2_1_1TPC_1_1HwClusterFinder_1_1MiniDigit" ],
+    [ "HwClusterFinder", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#af3783557f2544570580d1d21a4497e7c", null ],
+    [ "~HwClusterFinder", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a8bf8334ad4131bb35639ffbede78b2bf", null ],
+    [ "addTimebin", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a0dfa3ea53e35a792bea58af5f42524a6", null ],
+    [ "addZeroTimebin", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a9cf7853e092deabeac9a3d75476368ff", null ],
+    [ "clearClusterContainer", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#af6eae0ba27075c80bd67fdc524285e20", null ],
+    [ "clusterAlreadyUsed", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#aef871eece7d34d17c73696b69b2787ac", null ],
+    [ "findCluster", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a97c399b54e8f7deb6a8a6e48de35180c", null ],
+    [ "getClusterContainer", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#ae24658838ebd993849aaaa1cadfcc755", null ],
+    [ "getClusterDigitIndices", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#aab58947fd141c269e694f6634f746f1c", null ],
+    [ "getCRU", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a6fd2cfa2d6b147f95fd970280c5a0405", null ],
+    [ "getGlobalTimeOfLast", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#aff8e479fbdc4e45d02b9b7cd9cdd56d9", null ],
+    [ "getNpads", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a96098e15e549b0160827fe098ff43bf8", null ],
+    [ "getNtimebins", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a499b09fa84d7ac89d8e0d4064346df5f", null ],
+    [ "getPadOffset", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a9f3cd23077e8d8688f5dbb460b8a9c50", null ],
+    [ "getRow", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#abfca13a91c6e2bc0a845b2a9d3adfe4f", null ],
+    [ "getTimebinsAfterLastProcessing", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#af41a9d5b42d00e4b47cb94d8225707a2", null ],
+    [ "printLocalStorage", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a4e354a865a48693f01a074e031b29d06", null ],
+    [ "reset", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a3221c7aa26705b5b2026c29e7af1a289", null ],
+    [ "setAssignChargeUnique", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a0080ce7e01f4c9f932320bbcbb0e745b", null ],
+    [ "setNextCF", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#aa6abeaf55864c94161837c904726b0b9", null ],
+    [ "setTimebinsAfterLastProcessing", "d2/d62/classo2_1_1TPC_1_1HwClusterFinder.html#a914aa06d449ee265684398464ef6c1d6", null ]
+];

@@ -1,0 +1,27 @@
+var classo2_1_1tof_1_1Digitizer =
+[
+    [ "Digitizer", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#add4bee14a48cddcb2540e32eca98b0b0", null ],
+    [ "~Digitizer", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a85c42d880197d884b7b2f49f9eb339ce", null ],
+    [ "getCharge", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#aaf4addec4c0b9f15e7ea402f2f764b91", null ],
+    [ "getCurrentTimeFrame", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a5cca922f33c27ec570de36bb20d3dcf9", null ],
+    [ "getDigitTimeSmeared", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#aecf27c91bfac92975061786bc6aaaf2a", null ],
+    [ "getEffX", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a0d1091304a2d6a1daaf8af2797b6e6ff", null ],
+    [ "getEffZ", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a4ecbe4481fc35624d4639b2dabb9fc86", null ],
+    [ "getFractionOfCharge", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#aff45dcb04b5204081d24ac6ea6dd96ec", null ],
+    [ "getShowerTimeSmeared", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#ab485a8ed5de03ad4c4a7212b562c40bb", null ],
+    [ "getTimeLastHit", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a2900b06091edde3e0f45524b2d7a77e1", null ],
+    [ "getTotLastHit", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a0177640829959cd0b60e9240d718d8f0", null ],
+    [ "getXshift", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a942744debfc62e9a3eace9f9354f5d21", null ],
+    [ "getZshift", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a5f62d66287c3a805b27ce49506f67a65", null ],
+    [ "initParameters", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a26e87f25d3c41c598b8f33b2453defd3", null ],
+    [ "isFired", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a8ef65b9c36f4853cfbf380db3e841c40", null ],
+    [ "printParameters", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#ac5720deed756db76953e007af328bcbe", null ],
+    [ "process", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a2fa204dc97513245110dfbf125d257b0", null ],
+    [ "setCurrentTimeFrame", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a907b6e741f26829f5c105a8aad8f6bd0", null ],
+    [ "setEventID", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#ad50a431305965827b25f3017f5615d05", null ],
+    [ "setEventTime", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#aaf55ea8b815be6efa674b828efdf2b77", null ],
+    [ "setMCTruthContainer", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a4fc3b520582e1bc0d52bc6dbb638e393", null ],
+    [ "setSrcID", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a3965906504d9c3973499269d37b2bfae", null ],
+    [ "test", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#ad412d71edccf446851e9bf8320e0f917", null ],
+    [ "testFromHits", "dd/d5c/classo2_1_1tof_1_1Digitizer.html#a1abf56131e7bac2264e7bcb46cf5797a", null ]
+];

@@ -1,0 +1,34 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$db/dfe/classFairMQDevice.html" title="FairMQDevice" alt="" coords="5,715,112,741"/>
+<area shape="rect" id="node2" href="$d7/dd9/classo2_1_1alice__hlt_1_1EventSampler.html" title="o2::alice_hlt::EventSampler" alt="" coords="173,125,355,152"/>
+<area shape="rect" id="node3" href="$d5/df3/classo2_1_1alice__hlt_1_1WrapperDevice.html" title="o2::alice_hlt::WrapperDevice" alt="" coords="169,176,359,203"/>
+<area shape="rect" id="node4" href="$da/df6/classo2_1_1Base_1_1O2Device.html" title="o2::Base::O2Device" alt="" coords="194,227,334,253"/>
+<area shape="rect" id="node13" href="$d1/d6f/classo2_1_1CDB_1_1ConditionsMQClient.html" title="o2::CDB::ConditionsMQClient" alt="" coords="165,277,363,304"/>
+<area shape="rect" id="node14" href="$df/d95/classo2_1_1Devices_1_1EPNReceiver.html" title="Receives sub&#45;timeframes from the flpSenders and merges these into full timeframes. " alt="" coords="174,328,354,355"/>
+<area shape="rect" id="node15" href="$d5/d70/classo2_1_1Devices_1_1EPNReceiverDevice.html" title="Receives sub&#45;timeframes from the flpSenders and merges these into full timeframes. " alt="" coords="174,379,354,421"/>
+<area shape="rect" id="node16" href="$da/d8b/classo2_1_1Devices_1_1FLPSender.html" title="o2::Devices::FLPSender" alt="" coords="181,445,347,472"/>
+<area shape="rect" id="node17" href="$d3/db6/classo2_1_1Devices_1_1FLPSenderDevice.html" title="o2::Devices::FLPSenderDevice" alt="" coords="161,496,367,523"/>
+<area shape="rect" id="node18" href="$d9/dbe/classo2_1_1Devices_1_1FLPSyncSampler.html" title="Publishes timeframes IDs for flpSenders (used only in test mode) " alt="" coords="163,547,365,573"/>
+<area shape="rect" id="node19" href="$d7/d4c/classo2_1_1devices_1_1O2HitMerger.html" title="o2::devices::O2HitMerger" alt="" coords="179,597,349,624"/>
+<area shape="rect" id="node20" href="$d3/d9a/classo2_1_1devices_1_1O2PrimaryServerDevice.html" title="o2::devices::O2PrimaryServer\lDevice" alt="" coords="165,649,363,690"/>
+<area shape="rect" id="node21" href="$db/dd9/classo2_1_1devices_1_1O2SimDevice.html" title="o2::devices::O2SimDevice" alt="" coords="175,715,353,741"/>
+<area shape="rect" id="node22" href="$d4/d56/classo2_1_1framework_1_1DataProcessingDevice.html" title="o2::framework::DataProcessing\lDevice" alt="" coords="161,766,367,807"/>
+<area shape="rect" id="node23" href="$de/d58/classo2_1_1framework_1_1DataSourceDevice.html" title="o2::framework::DataSource\lDevice" alt="" coords="173,831,355,873"/>
+<area shape="rect" id="node24" href="$d3/d75/classo2_1_1mch_1_1DumpDigits.html" title="o2::mch::DumpDigits" alt="" coords="191,897,337,924"/>
+<area shape="rect" id="node25" href="$d7/dc2/classo2_1_1mch_1_1PreClusterFinderDevice.html" title="o2::mch::PreClusterFinder\lDevice" alt="" coords="177,949,351,990"/>
+<area shape="rect" id="node26" href="$da/df0/classo2_1_1mid_1_1ClusterizerDevice.html" title="Clusterizing device for MID. " alt="" coords="175,1015,353,1041"/>
+<area shape="rect" id="node27" href="$dd/d41/classo2_1_1mid_1_1TrackerDevice.html" title="Tracking device for MID. " alt="" coords="185,1065,343,1092"/>
+<area shape="rect" id="node28" href="$df/d14/classo2_1_1qc_1_1MergerDevice.html" title="o2::qc::MergerDevice" alt="" coords="191,1116,337,1143"/>
+<area shape="rect" id="node29" href="$d1/d14/classo2_1_1qc_1_1ProducerDevice.html" title="o2::qc::ProducerDevice" alt="" coords="185,1167,343,1193"/>
+<area shape="rect" id="node30" href="$d9/dd9/classo2_1_1qc_1_1ViewerDevice.html" title="o2::qc::ViewerDevice" alt="" coords="191,1217,337,1244"/>
+<area shape="rect" id="node31" href="$d3/d79/classO2EPNex.html" title="O2EPNex" alt="" coords="223,1268,305,1295"/>
+<area shape="rect" id="node32" href="$d4/d82/classO2FLPex.html" title="O2FLPex" alt="" coords="225,1319,303,1345"/>
+<area shape="rect" id="node5" href="$d2/d4c/classo2_1_1DataFlow_1_1FakeTimeframeGeneratorDevice.html" title="A device which writes to file the timeframes. " alt="" coords="427,5,626,46"/>
+<area shape="rect" id="node6" href="$d3/d5a/classo2_1_1DataFlow_1_1HeartbeatSampler.html" title="A sampler for heartbeat triggers. " alt="" coords="420,71,633,97"/>
+<area shape="rect" id="node7" href="$db/ded/classo2_1_1DataFlow_1_1SubframeBuilderDevice.html" title="o2::DataFlow::SubframeBuilder\lDevice" alt="" coords="425,122,629,163"/>
+<area shape="rect" id="node8" href="$d4/dea/classo2_1_1DataFlow_1_1TimeframeReaderDevice.html" title="A device which writes to file the timeframes. " alt="" coords="421,187,633,229"/>
+<area shape="rect" id="node9" href="$d8/d54/classo2_1_1DataFlow_1_1TimeframeValidatorDevice.html" title="A validating device for time frame data (coming from EPN) " alt="" coords="416,253,637,294"/>
+<area shape="rect" id="node10" href="$d0/d3e/classo2_1_1DataFlow_1_1TimeframeWriterDevice.html" title="A device which writes to file the timeframes. " alt="" coords="424,318,629,359"/>
+<area shape="rect" id="node11" href="$d7/dd8/classo2_1_1utilities_1_1DataPublisherDevice.html" title="o2::utilities::DataPublisher\lDevice" alt="" coords="439,383,614,425"/>
+<area shape="rect" id="node12" href="$de/d01/classO2MessageMonitor.html" title="O2MessageMonitor" alt="" coords="459,449,594,476"/>
+</map>

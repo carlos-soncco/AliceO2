@@ -1,0 +1,4 @@
+<map id="o2::memoryResources::FairMQMemoryResource" name="o2::memoryResources::FairMQMemoryResource">
+<area shape="rect" id="node3" href="$df/d21/classo2_1_1memoryResources_1_1ChannelResource.html" title="{o2::memoryResources\l::ChannelResource\n|# factory\l# messageMap\l|+ ChannelResource()\l+ ChannelResource()\l+ getMessage()\l+ getTransportFactory()\l+ getNumberOfMessages()\l# do_allocate()\l# do_deallocate()\l# do_is_equal()\l}" alt="" coords="5,318,184,527"/>
+<area shape="rect" id="node4" href="$dd/d7e/classo2_1_1memoryResources_1_1SpectatorMessageResource.html" title="{o2::memoryResources\l::SpectatorMessageResource\n|# message\l|+ SpectatorMessageResource()\l+ SpectatorMessageResource()\l+ getMessage()\l+ getTransportFactory()\l+ getNumberOfMessages()\l# do_allocate()\l# do_deallocate()\l# do_is_equal()\l}" alt="" coords="209,325,415,520"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/Clustering/src/Clusterizer.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/Clustering/src/Clusterizer.h">
+<area shape="rect" id="node2" href="$d9/dd5/Clusterizer_8cxx.html" title="Implementation of the cluster reconstruction algorithm for MID. " alt="" coords="5,126,224,197"/>
+<area shape="rect" id="node3" href="$d8/de7/ClusterizerDevice_8h.html" title="Cluster reconstruction device for MID. " alt="" coords="249,126,468,197"/>
+<area shape="rect" id="node6" href="$d2/d12/bench__Clusterizer_8cxx.html" title="Benchmark clustering device for MID. " alt="" coords="493,126,712,197"/>
+<area shape="rect" id="node7" href="$d6/dee/testClusterizer_8cxx.html" title="Test clustering device for MID. " alt="" coords="737,126,956,197"/>
+<area shape="rect" id="node4" href="$d7/dc5/ClusterizerDevice_8cxx.html" title="Implementation of the cluster reconstruction device for MID. " alt="" coords="126,246,345,317"/>
+<area shape="rect" id="node5" href="$d8/d5f/runMIDClusterizer_8cxx.html" title="A simple program to reconstruct MID clusters. " alt="" coords="370,246,589,317"/>
+</map>

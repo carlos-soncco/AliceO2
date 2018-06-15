@@ -1,0 +1,10 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/MemoryResources/include/MemoryResources" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_aceee2857d20e516da6bd39fe1c74077 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_aceee2857d20e516da6bd39fe1c74077.html"]
+  dir_157f77c0357fbee3c71f1715a6573683 [shape=box, label="MemoryResources", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_157f77c0357fbee3c71f1715a6573683.html"];
+  }
+}

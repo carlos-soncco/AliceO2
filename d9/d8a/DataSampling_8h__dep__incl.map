@@ -1,0 +1,8 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Framework/Core/include/Framework/DataSampling.h" name="/home/travis/build/AliceO2Group/AliceO2/Framework/Core/include/Framework/DataSampling.h">
+<area shape="rect" id="node2" href="$d0/dd6/DataSampling_8cxx.html" title="Implementation of O2 Data Sampling, v0.1. " alt="" coords="5,133,261,189"/>
+<area shape="rect" id="node3" href="$d1/de8/test__DataSampling_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/Core/test/test\l_DataSampling.cxx" alt="" coords="286,126,460,197"/>
+<area shape="rect" id="node4" href="$d2/dad/dataSamplingFullChain_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/TestWorkflows\l/src/dataSamplingFullChain.cxx" alt="" coords="485,126,691,197"/>
+<area shape="rect" id="node5" href="$d3/dbe/dataSamplingParallel_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/TestWorkflows\l/src/dataSamplingParallel.cxx" alt="" coords="716,126,911,197"/>
+<area shape="rect" id="node6" href="$de/da3/dataSamplingPodAndRoot_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/TestWorkflows\l/src/dataSamplingPodAndRoot.cxx" alt="" coords="935,126,1161,197"/>
+<area shape="rect" id="node7" href="$db/d9e/dataSamplingTimePipeline_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/TestWorkflows\l/src/dataSamplingTimePipeline.cxx" alt="" coords="1185,126,1412,197"/>
+</map>

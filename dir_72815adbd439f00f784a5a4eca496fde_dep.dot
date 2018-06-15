@@ -1,0 +1,23 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/simulation/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7f309bec8670bb3fb666e7e061b24659 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="simulation" fontname="Helvetica", fontsize="10", URL="dir_7f309bec8670bb3fb666e7e061b24659.html"]
+  dir_72815adbd439f00f784a5a4eca496fde [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_72815adbd439f00f784a5a4eca496fde.html"];
+  }
+  dir_677b030cc750909e4cd27413873678d8 [shape=box label="base" color="red" URL="dir_677b030cc750909e4cd27413873678d8.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_a3959ed40b1558172144f5e1a56e443f [shape=box label="include" color="red" URL="dir_a3959ed40b1558172144f5e1a56e443f.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_72815adbd439f00f784a5a4eca496fde->dir_677b030cc750909e4cd27413873678d8 [headlabel="16", labeldistance=1.5 headhref="dir_000201_000216.html"];
+  dir_72815adbd439f00f784a5a4eca496fde->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000201_000016.html"];
+  dir_72815adbd439f00f784a5a4eca496fde->dir_a3959ed40b1558172144f5e1a56e443f [headlabel="25", labeldistance=1.5 headhref="dir_000201_000186.html"];
+  dir_72815adbd439f00f784a5a4eca496fde->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000201_000056.html"];
+  dir_677b030cc750909e4cd27413873678d8->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="13", labeldistance=1.5 headhref="dir_000216_000056.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000016_000056.html"];
+  dir_a3959ed40b1558172144f5e1a56e443f->dir_677b030cc750909e4cd27413873678d8 [headlabel="24", labeldistance=1.5 headhref="dir_000186_000216.html"];
+  dir_a3959ed40b1558172144f5e1a56e443f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="6", labeldistance=1.5 headhref="dir_000186_000056.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="18", labeldistance=1.5 headhref="dir_000056_000016.html"];
+}

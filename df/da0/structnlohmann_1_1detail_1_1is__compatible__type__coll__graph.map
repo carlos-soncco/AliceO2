@@ -1,0 +1,4 @@
+<map id="nlohmann::detail::is_compatible_type&lt; BasicJsonType, CompatibleType &gt;" name="nlohmann::detail::is_compatible_type&lt; BasicJsonType, CompatibleType &gt;">
+<area shape="rect" id="node2" href="$dd/dde/structnlohmann_1_1detail_1_1conjunction.html" title="{nlohmann::detail::conjunction\l\&lt; is_complete_type\&lt; CompatibleType\l \&gt;, is_compatible_complete_type\l\&lt; BasicJsonType, CompatibleType \&gt; \&gt;\n||}" alt="" coords="5,334,256,455"/>
+<area shape="rect" id="node4" href="$dd/dde/structnlohmann_1_1detail_1_1conjunction.html" title="{nlohmann::detail::conjunction\&lt;\&gt;\n||}" alt="" coords="151,133,357,211"/>
+</map>

@@ -1,0 +1,8 @@
+digraph "o2::MFT::Tracker"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::MFT::Tracker\n||+ Tracker()\l+ Tracker()\l+ operator=()\l+ ~Tracker()\l+ setNumberOfThreads()\l+ getNumberOfThreads()\l+ process()\l+ processFrame()\l+ getCluster()\l+ setGeometry()\l+ setMCTruthContainers()\l+ setContinuousMode()\l+ getContinuousMode()\l# loadClusters()\l# unloadClusters()\l# trackInThread()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="o2::Examples::ExampleModule2::Bar",height=0.2,width=0.4,color="black",URL="$d5/d2c/classo2_1_1Examples_1_1ExampleModule2_1_1Bar.html",tooltip="Here you put a short description of the class Extended documentation for this class. "];
+}

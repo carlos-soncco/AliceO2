@@ -1,0 +1,6 @@
+<map id="ImGuiStorage" name="ImGuiStorage">
+<area shape="rect" id="node2" href="$d3/d32/classImVector.html" title="{ImVector\&lt; ImGuiStorage\l::Pair \&gt;\n||+ ImVector()\l+ ~ImVector()\l+ empty()\l+ size()\l+ capacity()\l+ operator[]()\l+ operator[]()\l+ clear()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ front()\l+ front()\l+ back()\l+ back()\l+ swap()\l+ _grow_capacity()\l+ resize()\l+ reserve()\l+ push_back()\l+ pop_back()\l+ erase()\l+ insert()\l}" alt="" coords="149,643,315,1072"/>
+<area shape="rect" id="node3" href="$d3/d51/structImGuiStorage_1_1Pair.html" title="{ImGuiStorage::Pair\n||+ Pair()\l+ Pair()\l+ Pair()\l}" alt="" coords="332,317,465,424"/>
+<area shape="rect" id="node4" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="462,7,508,84"/>
+<area shape="rect" id="node9" href="$d3/d32/classImVector.html" title="{ImVector\&lt; T \&gt;\n||+ ImVector()\l+ ~ImVector()\l+ empty()\l+ size()\l+ capacity()\l+ operator[]()\l+ operator[]()\l+ clear()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ front()\l+ front()\l+ back()\l+ back()\l+ swap()\l+ _grow_capacity()\l+ resize()\l+ reserve()\l+ push_back()\l+ pop_back()\l+ erase()\l+ insert()\l}" alt="" coords="5,163,139,578"/>
+</map>

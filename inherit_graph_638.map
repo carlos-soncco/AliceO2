@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d7/d27/classo2_1_1qc_1_1Producer.html" title="o2::qc::Producer" alt="" coords="6,132,125,159"/>
+<area shape="rect" id="node2" href="$d6/deb/classo2_1_1qc_1_1impl_1_1NeverCalled.html" title="o2::qc::impl::NeverCalled" alt="" coords="173,5,344,32"/>
+<area shape="rect" id="node3" href="$d8/d87/classo2_1_1qc_1_1TH1Producer.html" title="o2::qc::TH1Producer" alt="" coords="187,56,330,83"/>
+<area shape="rect" id="node4" href="$d0/d0f/classo2_1_1qc_1_1TH2Producer.html" title="o2::qc::TH2Producer" alt="" coords="187,107,330,133"/>
+<area shape="rect" id="node5" href="$d5/d21/classo2_1_1qc_1_1TH3Producer.html" title="o2::qc::TH3Producer" alt="" coords="187,157,330,184"/>
+<area shape="rect" id="node6" href="$d9/d17/classo2_1_1qc_1_1THnProducer.html" title="o2::qc::THnProducer" alt="" coords="187,208,330,235"/>
+<area shape="rect" id="node7" href="$da/d34/classo2_1_1qc_1_1TreeProducer.html" title="o2::qc::TreeProducer" alt="" coords="187,259,331,285"/>
+</map>

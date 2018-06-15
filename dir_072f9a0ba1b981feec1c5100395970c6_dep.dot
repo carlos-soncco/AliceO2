@@ -1,0 +1,10 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Framework/ArrowTests/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b315c7ac2f7d253010ed820f5520e66b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ArrowTests" fontname="Helvetica", fontsize="10", URL="dir_b315c7ac2f7d253010ed820f5520e66b.html"]
+  dir_072f9a0ba1b981feec1c5100395970c6 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_072f9a0ba1b981feec1c5100395970c6.html"];
+  }
+}

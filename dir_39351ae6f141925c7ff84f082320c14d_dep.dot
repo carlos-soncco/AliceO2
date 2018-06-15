@@ -1,0 +1,14 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Common/Types/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a227714f4bf20de28f228c5ebfa34254 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Types" fontname="Helvetica", fontsize="10", URL="dir_a227714f4bf20de28f228c5ebfa34254.html"]
+  subgraph clusterdir_39351ae6f141925c7ff84f082320c14d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_39351ae6f141925c7ff84f082320c14d.html"];
+    dir_39351ae6f141925c7ff84f082320c14d [shape=plaintext label="include"];
+    dir_9d4ce3bdb895dbe63b29e60b704486db [shape=box label="CommonTypes" color="black" fillcolor="white" style="filled" URL="dir_9d4ce3bdb895dbe63b29e60b704486db.html"];
+  }
+  }
+}

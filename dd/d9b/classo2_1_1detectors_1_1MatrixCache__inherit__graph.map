@@ -1,0 +1,4 @@
+<map id="o2::detectors::MatrixCache&lt; T &gt;" name="o2::detectors::MatrixCache&lt; T &gt;">
+<area shape="rect" id="node2" href="$d4/daa/classo2_1_1detectors_1_1MatrixCache.html" title="{o2::detectors::MatrixCache\l\&lt; o2::Rotation2D \&gt;\n||+ MatrixCache()\l+ MatrixCache()\l+ ~MatrixCache()\l+ operator=()\l+ setSize()\l+ getSize()\l+ setMatrix()\l+ getMatrix()\l+ isFilled()\l}" alt="" coords="5,265,184,474"/>
+<area shape="rect" id="node3" href="$d4/daa/classo2_1_1detectors_1_1MatrixCache.html" title="{o2::detectors::MatrixCache\l\&lt; o2::Transform3D \&gt;\n||+ MatrixCache()\l+ MatrixCache()\l+ ~MatrixCache()\l+ operator=()\l+ setSize()\l+ getSize()\l+ setMatrix()\l+ getMatrix()\l+ isFilled()\l}" alt="" coords="209,265,388,474"/>
+</map>

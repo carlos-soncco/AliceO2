@@ -1,0 +1,14 @@
+digraph "o2::MFT::Support"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::MFT::Support\n||+ Support()\l+ ~Support()\l+ createVolume()\l+ createPCBs()\l+ createPCB_00_01()\l+ createPCB_02()\l+ createPCB_03()\l+ createPCB_04()\l+ createPCB_PSU()\l+ createSupport()\l+ createDisk_Support_00()\l+ createDisk_Support_01()\l+ createDisk_Support_02()\l+ createDisk_Support_03()\l+ createDisk_Support_04()\l+ screw_array()\l+ screw_C()\l+ screw_D()\l+ screw_E()\l+ through_hole_a()\l+ through_hole_b()\l+ through_hole_c()\l+ through_hole_d()\l+ through_hole_e()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{TNamed\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mSupportThickness\n#mPCBThickness" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{Double_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mSupportVolume" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{TGeoVolumeAssembly *\n||}",height=0.2,width=0.4,color="grey75"];
+}

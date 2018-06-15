@@ -1,0 +1,4 @@
+<map id="o2::DataFlow::TimeframeWriterDevice" name="o2::DataFlow::TimeframeWriterDevice">
+<area shape="rect" id="node2" href="$da/df6/classo2_1_1Base_1_1O2Device.html" title="{o2::Base::O2Device\n|+ monitoring\l|+ ~O2Device()\l+ GetMonitoring()\l+ Init()\l}" alt="" coords="50,131,189,237"/>
+<area shape="rect" id="node3" href="$db/dfe/classFairMQDevice.html" title="{FairMQDevice\n||}" alt="" coords="67,5,173,83"/>
+</map>

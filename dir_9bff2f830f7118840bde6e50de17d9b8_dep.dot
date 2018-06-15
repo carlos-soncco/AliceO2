@@ -1,0 +1,16 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/TestingSimTools/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3ffb816f6d71c6665c34f0fe3ab9978a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TestingSimTools" fontname="Helvetica", fontsize="10", URL="dir_3ffb816f6d71c6665c34f0fe3ab9978a.html"]
+  subgraph clusterdir_9bff2f830f7118840bde6e50de17d9b8 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9bff2f830f7118840bde6e50de17d9b8.html"];
+    dir_9bff2f830f7118840bde6e50de17d9b8 [shape=plaintext label="include"];
+    dir_3b3546ff6ae74f231fa8c694b8d9a9ba [shape=box label="MIDTestingSimTools" color="black" fillcolor="white" style="filled" URL="dir_3b3546ff6ae74f231fa8c694b8d9a9ba.html"];
+  }
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_3b3546ff6ae74f231fa8c694b8d9a9ba->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000297_000056.html"];
+}

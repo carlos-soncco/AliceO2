@@ -1,0 +1,14 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Utilities/QC/QCCommon/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9c2311bfeda3fb38e02fb69ee46566d3 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="QCCommon" fontname="Helvetica", fontsize="10", URL="dir_9c2311bfeda3fb38e02fb69ee46566d3.html"]
+  subgraph clusterdir_55b1dd441e776f4b961fce54e1422b8a {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_55b1dd441e776f4b961fce54e1422b8a.html"];
+    dir_55b1dd441e776f4b961fce54e1422b8a [shape=plaintext label="include"];
+    dir_a361018401e6fea79e8040013162c731 [shape=box label="QCCommon" color="black" fillcolor="white" style="filled" URL="dir_a361018401e6fea79e8040013162c731.html"];
+  }
+  }
+}

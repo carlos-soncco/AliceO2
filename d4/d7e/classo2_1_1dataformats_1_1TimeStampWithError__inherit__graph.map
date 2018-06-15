@@ -1,0 +1,5 @@
+<map id="o2::dataformats::TimeStampWithError&lt; T, E &gt;" name="o2::dataformats::TimeStampWithError&lt; T, E &gt;">
+<area shape="rect" id="node3" href="$de/dd5/classo2_1_1TPC_1_1Cluster.html" title="Cluster class for the TPC. " alt="" coords="5,392,168,675"/>
+<area shape="rect" id="node4" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; float, float \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="193,465,380,601"/>
+<area shape="rect" id="node2" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\&lt; T \&gt;\n||+ TimeStamp()\l+ TimeStamp()\l+ getTimeStamp()\l+ setTimeStamp()\l+ operator==()\l}" alt="" coords="77,5,296,141"/>
+</map>

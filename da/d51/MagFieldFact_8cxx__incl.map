@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Common/Field/src/MagFieldFact.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Common/Field/src/MagFieldFact.cxx">
+<area shape="rect" id="node2" href="$da/d34/MagFieldFact_8h.html" title="Definition of the MagFieldFact: factory for ALIDE mag. field from MagFieldParam. " alt="" coords="1839,109,1983,136"/>
+<area shape="rect" id="node4" href="$db/d4b/MagneticField_8h.html" title="Definition of the MagF class. " alt="" coords="1887,184,2033,211"/>
+<area shape="rect" id="node6" href="$d3/d91/MagFieldParam_8h.html" title="Definition of the MagFieldParam: container for ALICE mag. field parameters. " alt="" coords="2295,259,2451,285"/>
+<area shape="rect" id="node9" href="$dd/dfb/MagneticWrapperChebyshev_8h.html" title="Field/MagneticWrapperChebyshev.h" alt="" coords="1751,259,1984,285"/>
+<area shape="rect" id="node17" href="$da/df4/MagFieldFast_8h.html" title="Definition of the fast magnetic field parametrization MagFieldFast. " alt="" coords="1351,333,1495,360"/>
+<area shape="rect" id="node13" href="$d8/d64/Chebyshev3D_8h.html" title="MathUtils/Chebyshev3D.h" alt="" coords="1780,333,1956,360"/>
+<area shape="rect" id="node15" href="$d4/d08/Chebyshev3DCalc_8h.html" title="MathUtils/Chebyshev3DCalc.h" alt="" coords="1681,408,1884,435"/>
+<area shape="rect" id="node19" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1058,408,1224,435"/>
+<area shape="rect" id="node27" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1391,491,1557,517"/>
+</map>

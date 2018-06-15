@@ -1,0 +1,4 @@
+<map id="o2::framework::DeviceSpec" name="o2::framework::DeviceSpec">
+<area shape="rect" id="node9" href="$d6/d43/structo2_1_1framework_1_1CompletionPolicy.html" title="{o2::framework::Completion\lPolicy\n||+ createDefaultPolicies()\l}" alt="" coords="1049,221,1228,313"/>
+<area shape="rect" id="node12" href="$d4/d5e/structo2_1_1framework_1_1AlgorithmSpec.html" title="{o2::framework::AlgorithmSpec\n||+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ operator=()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ emptyErrorCallback()\l}" alt="" coords="1337,177,1535,357"/>
+</map>

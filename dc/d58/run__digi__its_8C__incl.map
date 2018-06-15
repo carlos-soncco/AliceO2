@@ -1,0 +1,24 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/macro/run_digi_its.C" name="/home/travis/build/AliceO2Group/AliceO2/macro/run_digi_its.C">
+<area shape="rect" id="node4" href="$de/d28/GRPObject_8h.html" title="Header of the General Run Parameters object. " alt="" coords="411,350,575,391"/>
+<area shape="rect" id="node24" href="$d9/d51/ITSMFT_2ITS_2simulation_2include_2ITSSimulation_2DigitizerTask_8h.html" title="ITSSimulation/DigitizerTask.h" alt="" coords="1345,109,1540,136"/>
+<area shape="rect" id="node8" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="5,448,241,475"/>
+<area shape="rect" id="node9" href="$da/d58/Units_8h.html" title="Header to collect definitions for different units. " alt="" coords="267,448,424,475"/>
+<area shape="rect" id="node10" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="579,441,787,482"/>
+<area shape="rect" id="node15" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="623,539,743,565"/>
+<area shape="rect" id="node17" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="477,629,715,656"/>
+<area shape="rect" id="node28" href="$df/d29/DigiParams_8h.html" title="Simulation parameters for the ALIPIDE chip. " alt="" coords="2050,267,2264,293"/>
+<area shape="rect" id="node30" href="$d7/d9c/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Digitizer_8h.html" title="ITSMFTSimulation/Digitizer.h" alt="" coords="1345,184,1540,211"/>
+<area shape="rect" id="node35" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="963,441,1115,482"/>
+<area shape="rect" id="node40" href="$d0/dae/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Hit_8h.html" title="ITSMFTSimulation/Hit.h" alt="" coords="2335,267,2497,293"/>
+<area shape="rect" id="node59" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="2976,441,3128,482"/>
+<area shape="rect" id="node29" href="$d1/d47/AlpideSignalTrapezoid_8h.html" title="Simple class describing ALPIDE signal time shape. " alt="" coords="2050,350,2256,391"/>
+<area shape="rect" id="node34" href="$da/d93/ChipDigitsContainer_8h.html" title="transient container for single chip digits accumulation " alt="" coords="1062,259,1257,301"/>
+<area shape="rect" id="node38" href="$dc/d1a/AlpideSimResponse_8h.html" title="Definition of the ITSMFT Alpide simulated response parametrization. " alt="" coords="1780,350,1975,391"/>
+<area shape="rect" id="node54" href="$d0/d2d/common_2base_2include_2ITSMFTBase_2GeometryTGeo_8h.html" title="ITSMFTBase/GeometryTGeo.h" alt="" coords="1466,267,1669,293"/>
+<area shape="rect" id="node57" href="$d0/d06/ITSMFT_2common_2base_2include_2ITSMFTBase_2Digit_8h.html" title="ITSMFTBase/Digit.h" alt="" coords="793,267,935,293"/>
+<area shape="rect" id="node36" href="$d2/d53/PreDigit_8h.html" title="Definition of the digit contribution from single hit. " alt="" coords="1061,357,1253,384"/>
+<area shape="rect" id="node41" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2495,350,2647,391"/>
+<area shape="rect" id="node42" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="2487,448,2653,475"/>
+<area shape="rect" id="node50" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="2994,539,3160,565"/>
+<area shape="rect" id="node56" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="1279,350,1487,391"/>
+</map>

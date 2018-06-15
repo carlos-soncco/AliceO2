@@ -1,0 +1,4 @@
+<map id="o2::framework::ConfigParamSpec" name="o2::framework::ConfigParamSpec">
+<area shape="rect" id="node2" href="$d9/df7/structo2_1_1framework_1_1ConfigParamSpec_1_1HelpString.html" title="{o2::framework::ConfigParam\lSpec::HelpString\n||+ c_str()\l}" alt="" coords="89,206,279,298"/>
+<area shape="rect" id="node5" href="$d8/dff/classo2_1_1framework_1_1Variant.html" title="{o2::framework::Variant\n||+ Variant()\l+ Variant()\l+ Variant()\l+ Variant()\l+ Variant()\l+ ~Variant()\l+ operator=()\l+ get()\l+ set()\l+ type()\l}" alt="" coords="420,147,573,357"/>
+</map>

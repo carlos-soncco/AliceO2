@@ -1,0 +1,15 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/PHOS/base/include/PHOSBase/Geometry.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/PHOS/base/include/PHOSBase/Geometry.h">
+<area shape="rect" id="node2" href="$d0/dab/PHOS_2base_2src_2Geometry_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/base/src\l/Geometry.cxx" alt="" coords="5,126,184,197"/>
+<area shape="rect" id="node3" href="$de/d45/Detectors_2PHOS_2reconstruction_2src_2Cluster_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/reconstruction\l/src/Cluster.cxx" alt="" coords="208,126,417,197"/>
+<area shape="rect" id="node4" href="$d2/d52/PHOS_2reconstruction_2src_2Clusterer_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/reconstruction\l/src/Clusterer.cxx" alt="" coords="443,126,652,197"/>
+<area shape="rect" id="node5" href="$dc/d31/PHOS_2reconstruction_2src_2ClustererTask_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/reconstruction\l/src/ClustererTask.cxx" alt="" coords="677,126,887,197"/>
+<area shape="rect" id="node6" href="$d6/d4b/PHOS_2simulation_2include_2PHOSSimulation_2Digitizer_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/simulation\l/include/PHOSSimulation/Digitizer.h" alt="" coords="963,126,1196,197"/>
+<area shape="rect" id="node8" href="$d1/d5f/PHOS_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/simulation\l/src/DigitizerTask.cxx" alt="" coords="775,379,963,450"/>
+<area shape="rect" id="node9" href="$df/db0/plot__dig__phos_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/testsimulation\l/plot_dig_phos.C" alt="" coords="1223,379,1432,450"/>
+<area shape="rect" id="node10" href="$dc/d6f/plot__hit__phos_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/testsimulation\l/plot_hit_phos.C" alt="" coords="1457,379,1667,450"/>
+<area shape="rect" id="node13" href="$df/d4d/PHOS_2simulation_2src_2Detector_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/simulation\l/src/Detector.cxx" alt="" coords="1530,126,1717,197"/>
+<area shape="rect" id="node14" href="$d5/d3f/plot__clu__phos_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/testsimulation\l/plot_clu_phos.C" alt="" coords="1743,126,1952,197"/>
+<area shape="rect" id="node7" href="$d2/d43/PHOS_2simulation_2include_2PHOSSimulation_2DigitizerTask_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/simulation\l/include/PHOSSimulation/Digitizer\lTask.h" alt="" coords="969,245,1191,331"/>
+<area shape="rect" id="node12" href="$d0/d6d/PHOS_2simulation_2src_2Digitizer_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/simulation\l/src/Digitizer.cxx" alt="" coords="1215,253,1403,323"/>
+<area shape="rect" id="node11" href="$d9/d31/run__digi__phos_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/testsimulation\l/run_digi_phos.C" alt="" coords="988,379,1197,450"/>
+</map>

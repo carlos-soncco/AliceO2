@@ -1,0 +1,17 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/macro/convertClusterToClusterHardware.C" name="/home/travis/build/AliceO2Group/AliceO2/macro/convertClusterToClusterHardware.C">
+<area shape="rect" id="node11" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="147,126,299,167"/>
+<area shape="rect" id="node17" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="1733,382,1885,423"/>
+<area shape="rect" id="node19" href="$d3/dc4/ClusterHardware_8h.html" title="Class of a TPC cluster as produced by the hardware cluster finder (needs a postprocessing step to con..." alt="" coords="766,216,1004,243"/>
+<area shape="rect" id="node21" href="$db/df1/Helpers_8h.html" title="Helper class for memory management of TPC Data Formats, external from the actual data type classes to..." alt="" coords="653,133,837,160"/>
+<area shape="rect" id="node25" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="852,389,1051,416"/>
+<area shape="rect" id="node27" href="$dc/ddf/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Cluster_8h.html" title="DataFormatsTPC/Cluster.h" alt="" coords="1473,389,1655,416"/>
+<area shape="rect" id="node30" href="$df/d26/CRU_8h.html" title="TPCBase/CRU.h" alt="" coords="1157,133,1280,160"/>
+<area shape="rect" id="node23" href="$de/dcd/ClusterNative_8h.html" title="Class of a TPC cluster in TPC&#45;native coordinates (row, time) " alt="" coords="427,216,647,243"/>
+<area shape="rect" id="node26" href="$d8/dc8/ClusterGroupAttribute_8h.html" title="Meta data for a group describing it by sector number and global padrow. " alt="" coords="511,291,717,333"/>
+<area shape="rect" id="node28" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1600,480,1827,507"/>
+<area shape="rect" id="node31" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="1076,389,1244,416"/>
+<area shape="rect" id="node44" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="1073,299,1204,325"/>
+<area shape="rect" id="node45" href="$dc/d14/ROC_8h.html" title="TPCBase/ROC.h" alt="" coords="1131,216,1255,243"/>
+<area shape="rect" id="node33" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="299,571,465,597"/>
+<area shape="rect" id="node36" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1077,480,1243,507"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="o2::TPC::ClusterGroupAttribute" name="o2::TPC::ClusterGroupAttribute">
+<area shape="rect" id="node2" href="$d8/de8/structo2_1_1TPC_1_1ClusterGroupHeader.html" title="{o2::TPC::ClusterGroupHeader\n|+ nClusters\l|+ ClusterGroupHeader()\l}" alt="" coords="5,183,203,260"/>
+<area shape="rect" id="node3" href="$d5/d53/structo2_1_1TPC_1_1ClusterNativeContainer.html" title="{o2::TPC::ClusterNativeContainer\n|+ clusters\l|+ getFlatSize()\l+ data()\l+ data()\l+ sortComparison()\l}" alt="" coords="227,161,441,282"/>
+</map>

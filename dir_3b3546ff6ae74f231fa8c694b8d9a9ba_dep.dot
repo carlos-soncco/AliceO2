@@ -1,0 +1,12 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/TestingSimTools/include/MIDTestingSimTools" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9bff2f830f7118840bde6e50de17d9b8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_9bff2f830f7118840bde6e50de17d9b8.html"]
+  dir_3b3546ff6ae74f231fa8c694b8d9a9ba [shape=box, label="MIDTestingSimTools", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3b3546ff6ae74f231fa8c694b8d9a9ba.html"];
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_3b3546ff6ae74f231fa8c694b8d9a9ba->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000297_000056.html"];
+}

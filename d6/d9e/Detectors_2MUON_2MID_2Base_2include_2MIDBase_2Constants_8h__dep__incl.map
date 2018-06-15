@@ -1,0 +1,10 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/Constants.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/Constants.h">
+<area shape="rect" id="node2" href="$d7/d40/HitFinder_8h.html" title="Hit finder for MID. " alt="" coords="205,126,400,197"/>
+<area shape="rect" id="node3" href="$d4/dc0/HitFinder_8cxx.html" title="Implementation of the hit finder for MID. " alt="" coords="5,246,195,317"/>
+<area shape="rect" id="node6" href="$d2/d2a/Constants_8cxx.html" title="Implementation of constants for MID. " alt="" coords="425,126,615,197"/>
+<area shape="rect" id="node7" href="$dc/d25/GeometryTransformer_8cxx.html" title="Geometry transformer for MID. " alt="" coords="640,126,839,197"/>
+<area shape="rect" id="node8" href="$d9/d73/MID_2Base_2src_2Mapping_8cxx.html" title="Implementation of mapping for MID. " alt="" coords="865,126,1055,197"/>
+<area shape="rect" id="node9" href="$de/dbc/MUON_2MID_2Tracking_2src_2Tracker_8cxx.html" title="Implementation of the tracker algorithm for the MID. " alt="" coords="1080,126,1289,197"/>
+<area shape="rect" id="node4" href="$d0/db9/bench__Tracker_8cxx.html" title="Benchmark tracker device for MID. " alt="" coords="220,246,429,317"/>
+<area shape="rect" id="node5" href="$da/de0/testTracker_8cxx.html" title="Test tracking device for MID. " alt="" coords="455,246,664,317"/>
+</map>

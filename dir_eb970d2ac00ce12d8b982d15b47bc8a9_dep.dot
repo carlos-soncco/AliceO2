@@ -1,0 +1,16 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors/ITSMFT/MFT/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_25272d395c0fdb531d4aff346d96238f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MFT" fontname="Helvetica", fontsize="10", URL="dir_25272d395c0fdb531d4aff346d96238f.html"]
+  subgraph clusterdir_eb970d2ac00ce12d8b982d15b47bc8a9 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_eb970d2ac00ce12d8b982d15b47bc8a9.html"];
+    dir_eb970d2ac00ce12d8b982d15b47bc8a9 [shape=plaintext label="include"];
+    dir_4f7dc14960cf0c541d7416d7271d32cf [shape=box label="DataFormatsMFT" color="black" fillcolor="white" style="filled" URL="dir_4f7dc14960cf0c541d7416d7271d32cf.html"];
+  }
+  }
+  dir_d269712cc31e133b892a3b3f6424741a [shape=box label="Reconstruction" color="red" URL="dir_d269712cc31e133b892a3b3f6424741a.html"];
+  dir_4f7dc14960cf0c541d7416d7271d32cf->dir_d269712cc31e133b892a3b3f6424741a [headlabel="1", labeldistance=1.5 headhref="dir_000094_000100.html"];
+}

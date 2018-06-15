@@ -1,0 +1,14 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Mapping/Interface" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b098e3604916eca5f90f2bb1c75b7880 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Mapping" fontname="Helvetica", fontsize="10", URL="dir_b098e3604916eca5f90f2bb1c75b7880.html"]
+  subgraph clusterdir_bb33a65c2c121b6655a8db1556a9cb2b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_bb33a65c2c121b6655a8db1556a9cb2b.html"];
+    dir_bb33a65c2c121b6655a8db1556a9cb2b [shape=plaintext label="Interface"];
+    dir_b85c32e2f89d94b8a78f223e462bc47b [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_b85c32e2f89d94b8a78f223e462bc47b.html"];
+  }
+  }
+}

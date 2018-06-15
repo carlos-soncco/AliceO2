@@ -1,0 +1,8 @@
+digraph "o2::steer::RunContext"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::steer::RunContext\n||+ RunContext()\l+ getBranch()\l+ getNCollisions()\l+ setMaxNumberParts()\l+ getMaxNumberParts()\l+ getEventRecords()\l+ getEventParts()\l+ getChains()\l+ printCollisionSummary()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

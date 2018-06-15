@@ -1,0 +1,6 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/reconstruction/include/TPCReconstruction/HardwareClusterDecoder.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/reconstruction/include/TPCReconstruction/HardwareClusterDecoder.h">
+<area shape="rect" id="node2" href="$d1/dfd/runHardwareClusterDecoderRaw_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/TPC/reconstruction\l/macro/runHardwareClusterDecoderRaw.C" alt="" coords="5,139,276,210"/>
+<area shape="rect" id="node3" href="$d4/d7c/HardwareClusterDecoder_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/TPC/reconstruction\l/src/HardwareClusterDecoder.cxx" alt="" coords="302,139,521,210"/>
+<area shape="rect" id="node4" href="$d9/d7b/ClusterDecoderRawSpec_8cxx.html" title="Processor spec for decoder of TPC raw cluster data. " alt="" coords="547,139,768,210"/>
+<area shape="rect" id="node5" href="$dc/daf/runHardwareClusterDecoderRoot_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/macro/runHardwareClusterDecoder\lRoot.C" alt="" coords="793,139,1023,210"/>
+</map>

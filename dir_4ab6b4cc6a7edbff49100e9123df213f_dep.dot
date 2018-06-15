@@ -1,0 +1,24 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Common" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4ab6b4cc6a7edbff49100e9123df213f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+    dir_4ab6b4cc6a7edbff49100e9123df213f [shape=plaintext label="Common"];
+    dir_6595de266f53d2529c2724716663252d [shape=box label="Constants" color="red" fillcolor="white" style="filled" URL="dir_6595de266f53d2529c2724716663252d.html"];
+    dir_91c9f7c5ec503f33747eecaa76c19aa0 [shape=box label="Field" color="red" fillcolor="white" style="filled" URL="dir_91c9f7c5ec503f33747eecaa76c19aa0.html"];
+    dir_1e6fb7e1d286de65f5cad603aaa68769 [shape=box label="MathUtils" color="red" fillcolor="white" style="filled" URL="dir_1e6fb7e1d286de65f5cad603aaa68769.html"];
+    dir_3a79d3ee4538628fc18e2135ea9cbf22 [shape=box label="SimConfig" color="red" fillcolor="white" style="filled" URL="dir_3a79d3ee4538628fc18e2135ea9cbf22.html"];
+    dir_a227714f4bf20de28f228c5ebfa34254 [shape=box label="Types" color="red" fillcolor="white" style="filled" URL="dir_a227714f4bf20de28f228c5ebfa34254.html"];
+    dir_dc4810549f8e2e369c60bffc9a91caa2 [shape=box label="Utils" color="red" fillcolor="white" style="filled" URL="dir_dc4810549f8e2e369c60bffc9a91caa2.html"];
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_91c9f7c5ec503f33747eecaa76c19aa0->dir_1e6fb7e1d286de65f5cad603aaa68769 [headlabel="3", labeldistance=1.5 headhref="dir_000020_000025.html"];
+  dir_1e6fb7e1d286de65f5cad603aaa68769->dir_6595de266f53d2529c2724716663252d [headlabel="1", labeldistance=1.5 headhref="dir_000025_000017.html"];
+  dir_3a79d3ee4538628fc18e2135ea9cbf22->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000043_000056.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_6595de266f53d2529c2724716663252d [headlabel="5", labeldistance=1.5 headhref="dir_000056_000017.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_1e6fb7e1d286de65f5cad603aaa68769 [headlabel="12", labeldistance=1.5 headhref="dir_000056_000025.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_a227714f4bf20de28f228c5ebfa34254 [headlabel="1", labeldistance=1.5 headhref="dir_000056_000048.html"];
+  dir_dc4810549f8e2e369c60bffc9a91caa2->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000051_000056.html"];
+}

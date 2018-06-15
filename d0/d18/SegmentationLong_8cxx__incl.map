@@ -1,0 +1,17 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Mapping/test/src/SegmentationLong.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Mapping/test/src/SegmentationLong.cxx">
+<area shape="rect" id="node4" href="$d6/d1f/MUON_2MCH_2Mapping_2Interface_2include_2MCHMappingInterface_2Segmentation_8h.html" title="MCHMappingInterface\l/Segmentation.h" alt="" coords="497,457,649,498"/>
+<area shape="rect" id="node10" href="$dd/d1c/SegmentationContours_8h.html" title="MCHMappingSegContour\l/SegmentationContours.h" alt="" coords="960,366,1131,407"/>
+<area shape="rect" id="node26" href="$d5/d3f/SegmentationSVGWriter_8h.html" title="MCHMappingSegContour\l/SegmentationSVGWriter.h" alt="" coords="1195,126,1375,167"/>
+<area shape="rect" id="node28" href="$de/d51/SVGWriter_8h.html" title="MCHContour/SVGWriter.h" alt="" coords="866,216,1043,243"/>
+<area shape="rect" id="node5" href="$d0/d85/SegmentationCInterface_8h.html" title="SegmentationCInterface.h" alt="" coords="434,547,608,573"/>
+<area shape="rect" id="node11" href="$db/d08/Contour_8h.html" title="MCHContour/Contour.h" alt="" coords="1125,464,1284,491"/>
+<area shape="rect" id="node12" href="$dc/ddd/Polygon_8h.html" title="Polygon.h" alt="" coords="1257,547,1336,573"/>
+<area shape="rect" id="node17" href="$d0/ddc/BBox_8h.html" title="BBox.h" alt="" coords="651,621,716,648"/>
+<area shape="rect" id="node23" href="$dd/dbc/Detectors_2MUON_2MCH_2Contour_2include_2MCHContour_2Vertex_8h.html" title="Vertex.h" alt="" coords="1513,621,1583,648"/>
+<area shape="rect" id="node18" href="$d2/dc4/Helper_8h.html" title="Helper.h" alt="" coords="890,696,960,723"/>
+<area shape="rect" id="node29" href="$d4/d84/ContourCreator_8h.html" title="ContourCreator.h" alt="" coords="1292,291,1415,317"/>
+<area shape="rect" id="node30" href="$dc/d15/ContourCreator_8inl.html" title="ContourCreator.inl" alt="" coords="1361,373,1489,400"/>
+<area shape="rect" id="node31" href="$d5/de0/Edge_8h.html" title="Edge.h" alt="" coords="1666,547,1728,573"/>
+<area shape="rect" id="node33" href="$dc/ded/SegmentTree_8h.html" title="SegmentTree.h" alt="" coords="930,547,1040,573"/>
+<area shape="rect" id="node32" href="$d1/d55/Interval_8h.html" title="Interval.h" alt="" coords="937,621,1012,648"/>
+</map>

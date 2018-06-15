@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$da/d27/classo2_1_1TPC_1_1Clusterer.html" title="Base Class for TPC clusterer. " alt="" coords="6,31,138,57"/>
+<area shape="rect" id="node2" href="$da/d5f/classo2_1_1TPC_1_1BoxClusterer.html" title="o2::TPC::BoxClusterer" alt="" coords="187,5,341,32"/>
+<area shape="rect" id="node3" href="$d8/d61/classo2_1_1TPC_1_1HwClusterer.html" title="Class for TPC HW cluster finding. " alt="" coords="188,56,340,83"/>
+</map>

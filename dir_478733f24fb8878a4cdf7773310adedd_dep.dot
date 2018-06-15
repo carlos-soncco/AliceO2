@@ -1,0 +1,22 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/base" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_088378b58cb1ba39db48039cbd66d10f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="EMCAL" fontname="Helvetica", fontsize="10", URL="dir_088378b58cb1ba39db48039cbd66d10f.html"]
+  subgraph clusterdir_478733f24fb8878a4cdf7773310adedd {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_478733f24fb8878a4cdf7773310adedd.html"];
+    dir_478733f24fb8878a4cdf7773310adedd [shape=plaintext label="base"];
+    dir_d913fa5f752939d931056a55b4543460 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_d913fa5f752939d931056a55b4543460.html"];
+    dir_aaff9a4cab11643ccb41bda8dc752e40 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_aaff9a4cab11643ccb41bda8dc752e40.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_aaff9a4cab11643ccb41bda8dc752e40->dir_d913fa5f752939d931056a55b4543460 [headlabel="6", labeldistance=1.5 headhref="dir_000222_000112.html"];
+  dir_d913fa5f752939d931056a55b4543460->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000112_000016.html"];
+  dir_d913fa5f752939d931056a55b4543460->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000112_000056.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000016_000056.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="18", labeldistance=1.5 headhref="dir_000056_000016.html"];
+}

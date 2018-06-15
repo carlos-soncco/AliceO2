@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/dbd/structo2_1_1header_1_1BaseHeader.html" title="the base header struct Every header type must begin (i.e. derive) with this. Don&#39;t use this struct di..." alt="" coords="5,159,168,185"/>
+<area shape="rect" id="node2" href="$d7/df0/structo2_1_1framework_1_1DataProcessingHeader.html" title="o2::framework::DataProcessing\lHeader" alt="" coords="217,5,423,46"/>
+<area shape="rect" id="node3" href="$db/d87/structo2_1_1header_1_1DataHeader.html" title="the main header struct " alt="" coords="239,71,401,97"/>
+<area shape="rect" id="node4" href="$d4/dfa/structo2_1_1header_1_1HeartbeatFrameEnvelope.html" title="o2::header::HeartbeatFrame\lEnvelope" alt="" coords="227,122,413,163"/>
+<area shape="rect" id="node5" href="$d2/dda/structo2_1_1header_1_1NameHeader.html" title="an example data header containing a name of an object as a null terminated char arr. this is a template! at instantiation the template parameter determines the size of the held string array. a caveat with decoding is (if length of string is not known) you have to use header::get&lt;NameHeader&lt;0&gt;&gt;(buffer) to get it out of a buffer. May improve in the future if enough people complain. If the compiler decides to pad the end of struct, the length of padding is stored in the last byte " alt="" coords="219,188,421,215"/>
+<area shape="rect" id="node6" href="$da/d75/structo2_1_1header_1_1test_1_1MetaHeader.html" title="o2::header::test::MetaHeader" alt="" coords="224,239,416,265"/>
+<area shape="rect" id="node7" href="$dc/d68/structtest_1_1MetaHeader.html" title="test::MetaHeader" alt="" coords="259,289,381,316"/>
+</map>

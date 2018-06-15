@@ -1,0 +1,4 @@
+<map id="IteratorBase" name="IteratorBase">
+<area shape="rect" id="node2" href="$de/d5f/classo2_1_1algorithm_1_1PageParser_1_1Iterator.html" title="{o2::algorithm::PageParser\l\&lt; T \&gt;::Iterator\n||+ Iterator()\l+ Iterator()\l+ ~Iterator()\l+ operator++()\l+ operator++()\l+ operator*()\l+ operator==()\l+ operator!=()\l+ getGroupHeader()\l}" alt="" coords="5,131,179,341"/>
+<area shape="rect" id="node3" href="$d0/d76/classo2_1_1framework_1_1InputRecord_1_1Iterator.html" title="{o2::framework::InputRecord\l::Iterator\&lt; T \&gt;\n||+ Iterator()\l+ Iterator()\l+ ~Iterator()\l+ operator++()\l+ operator++()\l+ operator*()\l+ operator==()\l+ operator!=()\l}" alt="" coords="203,139,387,333"/>
+</map>

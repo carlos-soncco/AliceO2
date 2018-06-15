@@ -1,0 +1,12 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors/MUON/MID/include/DataFormatsMID" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_96aabaa43176ba6e3c12efb65181d828 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_96aabaa43176ba6e3c12efb65181d828.html"]
+  dir_8ba471bec2a3fc401b061f7d272b7379 [shape=box, label="DataFormatsMID", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8ba471bec2a3fc401b061f7d272b7379.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_8ba471bec2a3fc401b061f7d272b7379->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000099_000016.html"];
+}

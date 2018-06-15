@@ -1,0 +1,27 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="o2::BaseHit",height=0.2,width=0.4,color="black",URL="$db/dfe/classo2_1_1BaseHit.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="o2::BasicXYZEHit\< float \>",height=0.2,width=0.4,color="black",URL="$de/d90/classo2_1_1BasicXYZEHit.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="o2::EMCAL::Hit",height=0.2,width=0.4,color="black",URL="$da/d56/classo2_1_1EMCAL_1_1Hit.html",tooltip="EMCAL simulation hit information. "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="o2::mch::Hit",height=0.2,width=0.4,color="black",URL="$dd/dde/classo2_1_1mch_1_1Hit.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="o2::phos::Hit",height=0.2,width=0.4,color="black",URL="$d0/d6a/classo2_1_1phos_1_1Hit.html",tooltip="PHOS simulation hit information. "];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="o2::TPC::Point",height=0.2,width=0.4,color="black",URL="$d1/dbc/classo2_1_1TPC_1_1Point.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="o2::BasicXYZEHit\< Float\l_t, Float_t \>",height=0.2,width=0.4,color="black",URL="$de/d90/classo2_1_1BasicXYZEHit.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="o2::ITSMFT::Hit",height=0.2,width=0.4,color="black",URL="$dd/d52/classo2_1_1ITSMFT_1_1Hit.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="o2::BasicXYZEHit\< T, E \>",height=0.2,width=0.4,color="black",URL="$de/d90/classo2_1_1BasicXYZEHit.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="o2::TPC::HitGroup",height=0.2,width=0.4,color="black",URL="$d6/dec/classo2_1_1TPC_1_1HitGroup.html"];
+}

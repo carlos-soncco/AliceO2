@@ -1,0 +1,17 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors/Common/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_74593c7a91e03746ae2a516888bf9494 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Common" fontname="Helvetica", fontsize="10", URL="dir_74593c7a91e03746ae2a516888bf9494.html"]
+  subgraph clusterdir_67c58cc5aaf29270141b8a8cdbb7295e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_67c58cc5aaf29270141b8a8cdbb7295e.html"];
+    dir_67c58cc5aaf29270141b8a8cdbb7295e [shape=plaintext label="include"];
+    dir_31cee524eb436ea096641b9630c45e12 [shape=box label="DetectorsCommonDataFormats" color="black" fillcolor="white" style="filled" URL="dir_31cee524eb436ea096641b9630c45e12.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_31cee524eb436ea096641b9630c45e12 [headlabel="1", labeldistance=1.5 headhref="dir_000016_000069.html"];
+  dir_31cee524eb436ea096641b9630c45e12->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000069_000016.html"];
+}

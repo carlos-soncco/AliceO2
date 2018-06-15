@@ -1,0 +1,4 @@
+<map id="BenchClustering" name="BenchClustering">
+<area shape="rect" id="node3" href="$d5/dae/classo2_1_1mid_1_1Clusterizer.html" title="Clusterizing algorithm for MID. " alt="" coords="92,57,227,266"/>
+<area shape="rect" id="node4" href="$d1/d66/classo2_1_1mid_1_1Mapping.html" title="{o2::mid::Mapping\n||+ Mapping()\l+ ~Mapping()\l+ Mapping()\l+ operator=()\l+ Mapping()\l+ operator=()\l+ stripByLocation()\l+ stripByLocationInBoard()\l+ stripByPosition()\l+ getStripSize()\l+ getNStripsNBP()\l+ getFirstColumn()\l+ getFirstBoardBP()\l+ getLastBoardBP()\l+ getBoardId()\l+ getNeighbours()\l+ isValid()\l}" alt="" coords="253,5,429,317"/>
+</map>

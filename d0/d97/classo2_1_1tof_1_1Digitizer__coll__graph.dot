@@ -1,0 +1,8 @@
+digraph "o2::tof::Digitizer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tof::Digitizer\n||+ Digitizer()\l+ ~Digitizer()\l+ process()\l+ getShowerTimeSmeared()\l+ getDigitTimeSmeared()\l+ getCharge()\l+ isFired()\l+ getEffX()\l+ getEffZ()\l+ getFractionOfCharge()\l+ getCurrentTimeFrame()\l+ setCurrentTimeFrame()\l+ getTimeLastHit()\l+ getTotLastHit()\l+ getXshift()\l+ getZshift()\l+ setEventTime()\l+ setEventID()\l+ setSrcID()\l+ setMCTruthContainer()\l+ initParameters()\l+ printParameters()\l+ test()\l+ testFromHits()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

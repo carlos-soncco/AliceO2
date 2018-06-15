@@ -1,0 +1,4 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/workflow/src/ClusterReaderSpec.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/workflow/src/ClusterReaderSpec.h">
+<area shape="rect" id="node2" href="$d0/de5/ClusterReaderSpec_8cxx.html" title="Processor spec for a reader of TPC data from ROOT file. " alt="" coords="5,126,192,197"/>
+<area shape="rect" id="node3" href="$d3/dbf/tpc-reco-workflow_8cxx.html" title="Basic DPL workflow for TPC reconstruction starting from digits. " alt="" coords="216,126,392,197"/>
+</map>

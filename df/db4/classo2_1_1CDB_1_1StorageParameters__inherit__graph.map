@@ -1,0 +1,6 @@
+<map id="o2::CDB::StorageParameters" name="o2::CDB::StorageParameters">
+<area shape="rect" id="node3" href="$d4/d3f/classo2_1_1CDB_1_1FileStorageParameters.html" title="{o2::CDB::FileStorageParameters\n||+ FileStorageParameters()\l+ FileStorageParameters()\l+ ~FileStorageParameters()\l+ getPathString()\l+ isReadOnly()\l+ cloneParam()\l+ getHash()\l+ isEqual()\l}" alt="" coords="5,389,219,569"/>
+<area shape="rect" id="node4" href="$d7/dde/classo2_1_1CDB_1_1GridStorageParameters.html" title="{o2::CDB::GridStorageParameters\n||+ GridStorageParameters()\l+ GridStorageParameters()\l+ ~GridStorageParameters()\l+ GridUrl()\l+ getUser()\l+ getDBFolder()\l+ getSE()\l+ getCacheFolder()\l+ getOperateDisconnected()\l+ getCacheSize()\l+ getCleanupInterval()\l+ cloneParam()\l+ getHash()\l+ isEqual()\l}" alt="" coords="243,345,460,613"/>
+<area shape="rect" id="node5" href="$db/dab/classo2_1_1CDB_1_1LocalStorageParameters.html" title="{o2::CDB::LocalStorageParameters\n||+ LocalStorageParameters()\l+ LocalStorageParameters()\l+ LocalStorageParameters()\l+ ~LocalStorageParameters()\l+ getPathString()\l+ cloneParam()\l+ getHash()\l+ isEqual()\l}" alt="" coords="485,389,708,569"/>
+<area shape="rect" id="node2" href="$d5/d0f/classTObject.html" title="{TObject\n||}" alt="" coords="318,5,385,83"/>
+</map>

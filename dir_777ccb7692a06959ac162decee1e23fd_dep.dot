@@ -1,0 +1,15 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Utilities/Publishers/include/Publishers" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bc14c1957ca2806c8900f19df3ee94ed {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_bc14c1957ca2806c8900f19df3ee94ed.html"]
+  dir_777ccb7692a06959ac162decee1e23fd [shape=box, label="Publishers", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_777ccb7692a06959ac162decee1e23fd.html"];
+  }
+  dir_f35ccb320b67f1c85d228c773db13bda [shape=box label="O2Device" color="red" URL="dir_f35ccb320b67f1c85d228c773db13bda.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_f35ccb320b67f1c85d228c773db13bda->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="3", labeldistance=1.5 headhref="dir_000412_000056.html"];
+  dir_777ccb7692a06959ac162decee1e23fd->dir_f35ccb320b67f1c85d228c773db13bda [headlabel="1", labeldistance=1.5 headhref="dir_000424_000412.html"];
+  dir_777ccb7692a06959ac162decee1e23fd->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000424_000056.html"];
+}

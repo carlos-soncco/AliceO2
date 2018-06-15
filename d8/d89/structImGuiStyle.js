@@ -1,0 +1,28 @@
+var structImGuiStyle =
+[
+    [ "ImGuiStyle", "d8/d89/structImGuiStyle.html#ab0a3ffb3aeec3e6b09b9bde812b28369", null ],
+    [ "Alpha", "d8/d89/structImGuiStyle.html#a993312606e9dcb7ca165245150a4da72", null ],
+    [ "AntiAliasedLines", "d8/d89/structImGuiStyle.html#a0164b54454297971d40f3578b2c1ffeb", null ],
+    [ "AntiAliasedShapes", "d8/d89/structImGuiStyle.html#ae3c6b2f226fe51631352a637f3defabb", null ],
+    [ "ButtonTextAlign", "d8/d89/structImGuiStyle.html#a17246b12f4e069229d21808a87f78514", null ],
+    [ "ChildWindowRounding", "d8/d89/structImGuiStyle.html#a4c7010149e61a5d2d954710f9f22b767", null ],
+    [ "Colors", "d8/d89/structImGuiStyle.html#a2b4941240a38d1300c39a7fa4f03d0a3", null ],
+    [ "ColumnsMinSpacing", "d8/d89/structImGuiStyle.html#a8fed04481e1d75bb95c97819f545e2ba", null ],
+    [ "CurveTessellationTol", "d8/d89/structImGuiStyle.html#a41eb9377b63b8b85ab807c28e00198e9", null ],
+    [ "DisplaySafeAreaPadding", "d8/d89/structImGuiStyle.html#a8dd02a6a031ec8667e76aab1e28755bd", null ],
+    [ "DisplayWindowPadding", "d8/d89/structImGuiStyle.html#ab06d6f0c6c5f36ab0c14688448de66f6", null ],
+    [ "FramePadding", "d8/d89/structImGuiStyle.html#af58dc4e954ac95fdb3b0df8efb2fa564", null ],
+    [ "FrameRounding", "d8/d89/structImGuiStyle.html#a15402cededdef985487e986ccce73ad2", null ],
+    [ "GrabMinSize", "d8/d89/structImGuiStyle.html#a04db033d001b343815cdcd2491576ef7", null ],
+    [ "GrabRounding", "d8/d89/structImGuiStyle.html#a42369d83032545066803a7db62936e8f", null ],
+    [ "IndentSpacing", "d8/d89/structImGuiStyle.html#a32ea292dee2b4e178a227acacd061921", null ],
+    [ "ItemInnerSpacing", "d8/d89/structImGuiStyle.html#a1a12021be99583fb491cff2df75d1ae1", null ],
+    [ "ItemSpacing", "d8/d89/structImGuiStyle.html#a6bc07d81e049cd75e86e6b3753c0da4a", null ],
+    [ "ScrollbarRounding", "d8/d89/structImGuiStyle.html#a00efbadb1ad7daa0ee7384864b147d71", null ],
+    [ "ScrollbarSize", "d8/d89/structImGuiStyle.html#a96623380e624d2f2ec207449e700a226", null ],
+    [ "TouchExtraPadding", "d8/d89/structImGuiStyle.html#ab518a0a67df8f14765acc491d7b460f4", null ],
+    [ "WindowMinSize", "d8/d89/structImGuiStyle.html#a060b2f743a086d0f0fee4cd5b3f372d4", null ],
+    [ "WindowPadding", "d8/d89/structImGuiStyle.html#a37f156b53e6dcc99ff57366ceafe8b50", null ],
+    [ "WindowRounding", "d8/d89/structImGuiStyle.html#acd902c2ab4b53d4bb0f64da608320894", null ],
+    [ "WindowTitleAlign", "d8/d89/structImGuiStyle.html#a3fc57a15ab8f206045f1e5dfccd8b2e7", null ]
+];

@@ -1,0 +1,12 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Simulation/macros" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e4cb5181a3c884468a78a261ced84e7b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Simulation" fontname="Helvetica", fontsize="10", URL="dir_e4cb5181a3c884468a78a261ced84e7b.html"]
+  dir_c40713ddd01c0b573220dece6b96c03f [shape=box, label="macros", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_c40713ddd01c0b573220dece6b96c03f.html"];
+  }
+  dir_3dca47489aa3153ac3c60c079f5f624d [shape=box label="include" color="red" URL="dir_3dca47489aa3153ac3c60c079f5f624d.html"];
+  dir_c40713ddd01c0b573220dece6b96c03f->dir_3dca47489aa3153ac3c60c079f5f624d [headlabel="1", labeldistance=1.5 headhref="dir_000258_000175.html"];
+}

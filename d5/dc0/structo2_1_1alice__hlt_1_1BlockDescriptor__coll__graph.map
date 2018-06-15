@@ -1,0 +1,5 @@
+<map id="o2::alice_hlt::BlockDescriptor" name="o2::alice_hlt::BlockDescriptor">
+<area shape="rect" id="node2" href="$d7/d8d/structAliHLTComponentBlockData.html" title="{AliHLTComponentBlockData\n||+ GetDataType()\l+ GetSpecification()\l}" alt="" coords="206,318,396,410"/>
+<area shape="rect" id="node3" href="$df/dcd/structAliHLTComponentDataType.html" title="{AliHLTComponentDataType\n||}" alt="" coords="5,176,192,253"/>
+<area shape="rect" id="node7" href="$d0/d30/structAliHLTComponentShmData.html" title="{AliHLTComponentShmData\n||}" alt="" coords="352,176,536,253"/>
+</map>

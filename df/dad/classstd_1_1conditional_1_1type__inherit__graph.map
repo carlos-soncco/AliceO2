@@ -1,0 +1,4 @@
+<map id="type" name="type">
+<area shape="rect" id="node2" href="$da/deb/structnlohmann_1_1detail_1_1conjunction_3_01B1_00_01Bn_8_8_8_4.html" title="{nlohmann::detail::conjunction\l\&lt; B1, Bn...\&gt;\n||}" alt="" coords="5,161,195,253"/>
+<area shape="rect" id="node3" href="$de/de6/structo2_1_1framework_1_1is__messageable.html" title="{o2::framework::is_messageable\l\&lt; std::is_trivially_copyable\l\&lt; T \&gt;::value &amp;&amp;!std::is_polymorphic\l\&lt; T \&gt;::value &amp;&amp;!std::is_pointer\&lt;\l T \&gt;::value &amp;&amp;!is_forced_non_messageable\l\&lt; T \&gt;::value, std::true_type, std::false_type \&gt;\n||}" alt="" coords="219,131,505,282"/>
+</map>

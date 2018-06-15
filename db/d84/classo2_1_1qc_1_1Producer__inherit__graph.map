@@ -1,0 +1,8 @@
+<map id="o2::qc::Producer" name="o2::qc::Producer">
+<area shape="rect" id="node2" href="$d6/deb/classo2_1_1qc_1_1impl_1_1NeverCalled.html" title="{o2::qc::impl::NeverCalled\n||+ NeverCalled()\l+ produceData()\l}" alt="" coords="5,131,176,223"/>
+<area shape="rect" id="node3" href="$d8/d87/classo2_1_1qc_1_1TH1Producer.html" title="{o2::qc::TH1Producer\n||+ TH1Producer()\l+ produceData()\l}" alt="" coords="201,131,343,223"/>
+<area shape="rect" id="node4" href="$d0/d0f/classo2_1_1qc_1_1TH2Producer.html" title="{o2::qc::TH2Producer\n||+ TH2Producer()\l+ produceData()\l}" alt="" coords="367,131,509,223"/>
+<area shape="rect" id="node5" href="$d5/d21/classo2_1_1qc_1_1TH3Producer.html" title="{o2::qc::TH3Producer\n||+ TH3Producer()\l+ produceData()\l}" alt="" coords="534,131,676,223"/>
+<area shape="rect" id="node6" href="$d9/d17/classo2_1_1qc_1_1THnProducer.html" title="{o2::qc::THnProducer\n||+ THnProducer()\l+ produceData()\l}" alt="" coords="701,131,843,223"/>
+<area shape="rect" id="node7" href="$da/d34/classo2_1_1qc_1_1TreeProducer.html" title="{o2::qc::TreeProducer\n||+ TreeProducer()\l+ produceData()\l}" alt="" coords="868,131,1012,223"/>
+</map>

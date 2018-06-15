@@ -1,0 +1,36 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/monitor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a597e8e061b11201a1dff411feb10d0b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TPC" fontname="Helvetica", fontsize="10", URL="dir_a597e8e061b11201a1dff411feb10d0b.html"]
+  subgraph clusterdir_c8aedc994017b243e124cedd663b3bbb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_c8aedc994017b243e124cedd663b3bbb.html"];
+    dir_c8aedc994017b243e124cedd663b3bbb [shape=plaintext label="monitor"];
+    dir_aa18e31672ad680cbed4898267bc1ea1 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_aa18e31672ad680cbed4898267bc1ea1.html"];
+    dir_ab1441f83870c14eb9a1db7d196c6c0f [shape=box label="macro" color="black" fillcolor="white" style="filled" URL="dir_ab1441f83870c14eb9a1db7d196c6c0f.html"];
+    dir_2712d39f2537201a75009c421509bbae [shape=box label="run" color="black" fillcolor="white" style="filled" URL="dir_2712d39f2537201a75009c421509bbae.html"];
+    dir_75a22ffed9615d68d9baca3734fb0768 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_75a22ffed9615d68d9baca3734fb0768.html"];
+  }
+  }
+  dir_4995562033b321477cfe3c34a14a5189 [shape=box label="calibration" color="red" URL="dir_4995562033b321477cfe3c34a14a5189.html"];
+  dir_677b030cc750909e4cd27413873678d8 [shape=box label="base" color="red" URL="dir_677b030cc750909e4cd27413873678d8.html"];
+  dir_a5de047958dd458e809773c6ffaa8478 [shape=box label="reconstruction" color="red" URL="dir_a5de047958dd458e809773c6ffaa8478.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_ab1441f83870c14eb9a1db7d196c6c0f->dir_677b030cc750909e4cd27413873678d8 [headlabel="5", labeldistance=1.5 headhref="dir_000317_000216.html"];
+  dir_ab1441f83870c14eb9a1db7d196c6c0f->dir_a5de047958dd458e809773c6ffaa8478 [headlabel="2", labeldistance=1.5 headhref="dir_000317_000251.html"];
+  dir_ab1441f83870c14eb9a1db7d196c6c0f->dir_aa18e31672ad680cbed4898267bc1ea1 [headlabel="1", labeldistance=1.5 headhref="dir_000317_000315.html"];
+  dir_75a22ffed9615d68d9baca3734fb0768->dir_677b030cc750909e4cd27413873678d8 [headlabel="4", labeldistance=1.5 headhref="dir_000319_000216.html"];
+  dir_75a22ffed9615d68d9baca3734fb0768->dir_aa18e31672ad680cbed4898267bc1ea1 [headlabel="1", labeldistance=1.5 headhref="dir_000319_000315.html"];
+  dir_75a22ffed9615d68d9baca3734fb0768->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000319_000056.html"];
+  dir_4995562033b321477cfe3c34a14a5189->dir_677b030cc750909e4cd27413873678d8 [headlabel="10", labeldistance=1.5 headhref="dir_000309_000216.html"];
+  dir_4995562033b321477cfe3c34a14a5189->dir_a5de047958dd458e809773c6ffaa8478 [headlabel="3", labeldistance=1.5 headhref="dir_000309_000251.html"];
+  dir_4995562033b321477cfe3c34a14a5189->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="3", labeldistance=1.5 headhref="dir_000309_000056.html"];
+  dir_677b030cc750909e4cd27413873678d8->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="13", labeldistance=1.5 headhref="dir_000216_000056.html"];
+  dir_a5de047958dd458e809773c6ffaa8478->dir_4995562033b321477cfe3c34a14a5189 [headlabel="1", labeldistance=1.5 headhref="dir_000251_000309.html"];
+  dir_a5de047958dd458e809773c6ffaa8478->dir_677b030cc750909e4cd27413873678d8 [headlabel="38", labeldistance=1.5 headhref="dir_000251_000216.html"];
+  dir_a5de047958dd458e809773c6ffaa8478->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="51", labeldistance=1.5 headhref="dir_000251_000056.html"];
+  dir_aa18e31672ad680cbed4898267bc1ea1->dir_4995562033b321477cfe3c34a14a5189 [headlabel="1", labeldistance=1.5 headhref="dir_000315_000309.html"];
+  dir_aa18e31672ad680cbed4898267bc1ea1->dir_677b030cc750909e4cd27413873678d8 [headlabel="2", labeldistance=1.5 headhref="dir_000315_000216.html"];
+}

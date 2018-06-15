@@ -1,0 +1,8 @@
+digraph "o2::dataformats::MCTruthContainer&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::dataformats::MCTruth\lContainer\< T \>\n||+ MCTruthContainer()\l+ ~MCTruthContainer()\l+ MCTruthContainer()\l+ operator=()\l+ getMCTruthHeader()\l+ getElement()\l+ getIndexedSize()\l+ getNElements()\l+ getLabels()\l+ getLabels()\l+ clear()\l+ addElement()\l+ addElements()\l+ addElements()\l+ addElementRandomAccess()\l+ mergeAtBack()\l+ ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

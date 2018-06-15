@@ -1,0 +1,14 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Generators/include/Generators/Pythia8Generator.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Generators/include/Generators\l/Pythia8Generator.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Generators/src/GeneratorFactory.cxx",height=0.2,width=0.4,color="black",URL="$d0/d83/GeneratorFactory_8cxx.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Generators/src/Pythia8Generator.cxx",height=0.2,width=0.4,color="black",URL="$da/d0e/Pythia8Generator_8cxx.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/macro/run_sim_pythia8hi.C",height=0.2,width=0.4,color="black",URL="$d3/dcc/run__sim__pythia8hi_8C.html"];
+}

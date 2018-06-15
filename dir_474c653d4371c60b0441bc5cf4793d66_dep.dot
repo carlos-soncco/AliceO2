@@ -1,0 +1,14 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/reconstruction/include/ITSReconstruction/CA/gpu" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c7a92f3e18e0ff6ceaaae36b970770e6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="CA" fontname="Helvetica", fontsize="10", URL="dir_c7a92f3e18e0ff6ceaaae36b970770e6.html"]
+  subgraph clusterdir_474c653d4371c60b0441bc5cf4793d66 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_474c653d4371c60b0441bc5cf4793d66.html"];
+    dir_474c653d4371c60b0441bc5cf4793d66 [shape=plaintext label="gpu"];
+    dir_7b30eb9b8b53f1093a9e1fa053e22214 [shape=box label="gpu" color="black" fillcolor="white" style="filled" URL="dir_7b30eb9b8b53f1093a9e1fa053e22214.html"];
+  }
+  }
+}

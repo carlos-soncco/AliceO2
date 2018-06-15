@@ -1,0 +1,14 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Framework/DebugGUI/include/DebugGUI/imgui.h" name="/home/travis/build/AliceO2Group/AliceO2/Framework/DebugGUI/include/DebugGUI/imgui.h">
+<area shape="rect" id="node2" href="$d1/d95/PaletteHelpers_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/Core/include\l/Framework/PaletteHelpers.h" alt="" coords="341,126,533,197"/>
+<area shape="rect" id="node3" href="$d3/d29/FrameworkGUIDebugger_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/Core/src/Framework\lGUIDebugger.cxx" alt="" coords="5,246,219,317"/>
+<area shape="rect" id="node4" href="$d7/d5a/FrameworkGUIDevicesGraph_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/Core/src/Framework\lGUIDevicesGraph.cxx" alt="" coords="527,246,741,317"/>
+<area shape="rect" id="node6" href="$d4/de4/src_2imgui_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/src\l/imgui.h" alt="" coords="767,126,945,197"/>
+<area shape="rect" id="node11" href="$dc/d77/imgui__draw_8cpp.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/src\l/imgui_draw.cpp" alt="" coords="969,126,1148,197"/>
+<area shape="rect" id="node12" href="$d5/d0a/imgui__demo_8cpp.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/test\l/imgui_demo.cpp" alt="" coords="1173,126,1355,197"/>
+<area shape="rect" id="node13" href="$d2/d69/test__ImGUI_8cpp.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/test\l/test_ImGUI.cpp" alt="" coords="1379,126,1561,197"/>
+<area shape="rect" id="node5" href="$d9/da2/PaletteHelpers_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/Core/src/PaletteHelpers.cxx" alt="" coords="243,253,503,309"/>
+<area shape="rect" id="node7" href="$dc/d32/DebugGUI_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/src\l/DebugGUI.cxx" alt="" coords="767,246,945,317"/>
+<area shape="rect" id="node8" href="$da/d72/imgui_8cpp.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/src\l/imgui.cpp" alt="" coords="969,246,1148,317"/>
+<area shape="rect" id="node9" href="$da/ddc/imgui_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/src\l/imgui.cxx" alt="" coords="1172,246,1351,317"/>
+<area shape="rect" id="node10" href="$d3/d94/imgui__impl__glfw__gl3_8cpp.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Framework/DebugGUI/src\l/imgui_impl_glfw_gl3.cpp" alt="" coords="1375,246,1553,317"/>
+</map>

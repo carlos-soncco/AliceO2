@@ -1,0 +1,29 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Base/include/MCHBase/DigitBlock.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Base\l/include/MCHBase/DigitBlock.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Base\l/include/MCHBase/PreClusterBlock.h",height=0.2,width=0.4,color="black",URL="$db/da1/PreClusterBlock_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Base\l/src/PreClusterBlock.cxx",height=0.2,width=0.4,color="black",URL="$d0/db5/PreClusterBlock_8cxx.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/PreClustering\l/src/PreClusterFinderDevice.h",height=0.2,width=0.4,color="black",URL="$dd/db2/PreClusterFinderDevice_8h.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/PreClustering\l/src/PreClusterFinderDevice.cxx",height=0.2,width=0.4,color="black",URL="$dc/d75/PreClusterFinderDevice_8cxx.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/PreClustering\l/src/runPreClusterFinder.cxx",height=0.2,width=0.4,color="black",URL="$d2/db8/runPreClusterFinder_8cxx.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Base\l/src/DigitBlock.cxx",height=0.2,width=0.4,color="black",URL="$d8/d26/DigitBlock_8cxx.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/PreClustering\l/src/DumpDigits.cxx",height=0.2,width=0.4,color="black",URL="$d3/d04/DumpDigits_8cxx.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/PreClustering\l/src/PreClusterFinder.h",height=0.2,width=0.4,color="black",URL="$db/dad/PreClusterFinder_8h.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/PreClustering\l/src/PreClusterFinder.cxx",height=0.2,width=0.4,color="black",URL="$d8/dfc/PreClusterFinder_8cxx.html"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

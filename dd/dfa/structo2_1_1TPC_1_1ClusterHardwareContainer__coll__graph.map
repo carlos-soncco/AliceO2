@@ -1,0 +1,3 @@
+<map id="o2::TPC::ClusterHardwareContainer" name="o2::TPC::ClusterHardwareContainer">
+<area shape="rect" id="node5" href="$db/d62/structo2_1_1TPC_1_1ClusterHardware.html" title="{o2::TPC::ClusterHardware\n||+ getQTotFloat()\l+ getQTot()\l+ getQMax()\l+ getRow()\l+ getFlags()\l+ getPadPre()\l+ getPad()\l+ getTimeLocalPre()\l+ getTimeLocal()\l+ getSigmaPad2()\l+ getSigmaTime2()\l+ setCluster()\l}" alt="" coords="146,206,322,445"/>
+</map>

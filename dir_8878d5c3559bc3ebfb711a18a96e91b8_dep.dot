@@ -1,0 +1,18 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/base/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_677b030cc750909e4cd27413873678d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_677b030cc750909e4cd27413873678d8.html"]
+  subgraph clusterdir_8878d5c3559bc3ebfb711a18a96e91b8 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8878d5c3559bc3ebfb711a18a96e91b8.html"];
+    dir_8878d5c3559bc3ebfb711a18a96e91b8 [shape=plaintext label="include"];
+    dir_239a27e254c844c85fd0f03c74d81139 [shape=box label="TPCBase" color="black" fillcolor="white" style="filled" URL="dir_239a27e254c844c85fd0f03c74d81139.html"];
+  }
+  }
+  dir_6af676bf18881990e4083e191d0e63e0 [shape=box label="CCDB" color="red" URL="dir_6af676bf18881990e4083e191d0e63e0.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_239a27e254c844c85fd0f03c74d81139->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="3", labeldistance=1.5 headhref="dir_000218_000004.html"];
+  dir_239a27e254c844c85fd0f03c74d81139->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="12", labeldistance=1.5 headhref="dir_000218_000056.html"];
+}

@@ -1,0 +1,9 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/Tracking/src/TrackerDevice.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MID/Tracking/src/TrackerDevice.h">
+<area shape="rect" id="node3" href="$d6/d51/MUON_2MID_2Tracking_2src_2Tracker_8h.html" title="Track reconstruction algorithm for MID. " alt="" coords="841,125,917,152"/>
+<area shape="rect" id="node5" href="$d6/d31/Cluster2D_8h.html" title="Reconstructed cluster per RPC. " alt="" coords="560,200,757,227"/>
+<area shape="rect" id="node8" href="$d0/daa/Cluster3D_8h.html" title="Reconstructed MID cluster (global coordinates) " alt="" coords="781,200,979,227"/>
+<area shape="rect" id="node21" href="$d4/d54/DataFormats_2Detectors_2MUON_2MID_2include_2DataFormatsMID_2Track_8h.html" title="Reconstructed MID track. " alt="" coords="1245,200,1416,227"/>
+<area shape="rect" id="node26" href="$de/d0c/GeometryTransformer_8h.html" title="Geometry transformer for MID. " alt="" coords="1003,200,1221,227"/>
+<area shape="rect" id="node9" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="967,283,1133,309"/>
+<area shape="rect" id="node18" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1490,373,1656,400"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="o2::Base::O2Device" name="o2::Base::O2Device">
+<area shape="rect" id="node3" href="$d2/d4c/classo2_1_1DataFlow_1_1FakeTimeframeGeneratorDevice.html" title="A device which writes to file the timeframes. " alt="" coords="5,344,243,539"/>
+<area shape="rect" id="node4" href="$d3/d5a/classo2_1_1DataFlow_1_1HeartbeatSampler.html" title="A sampler for heartbeat triggers. " alt="" coords="267,373,484,509"/>
+<area shape="rect" id="node5" href="$db/ded/classo2_1_1DataFlow_1_1SubframeBuilderDevice.html" title="{o2::DataFlow::SubframeBuilder\lDevice\n|+ OptionKeyInputChannelName\l+ OptionKeyOutputChannelName\l+ OptionKeyOrbitDuration\l+ OptionKeyOrbitsPerTimeframe\l+ OptionKeyInDataFile\l+ OptionKeyDetector\l+ OptionKeyFLPId\l+ OptionKeyStripHBF\l+ DefaultOrbitDuration\l+ DefaultOrbitsPerTimeframe\l+ DefaultHeartbeatStart\l|+ SubframeBuilderDevice()\l+ ~SubframeBuilderDevice()\l# InitTask()\l# HandleData()\l# BuildAndSendFrame()\l}" alt="" coords="509,293,725,590"/>
+<area shape="rect" id="node6" href="$d4/dea/classo2_1_1DataFlow_1_1TimeframeReaderDevice.html" title="A device which writes to file the timeframes. " alt="" coords="750,337,967,546"/>
+<area shape="rect" id="node7" href="$d8/d54/classo2_1_1DataFlow_1_1TimeframeValidatorDevice.html" title="A validating device for time frame data (coming from EPN) " alt="" coords="992,366,1213,517"/>
+<area shape="rect" id="node8" href="$d0/d3e/classo2_1_1DataFlow_1_1TimeframeWriterDevice.html" title="A device which writes to file the timeframes. " alt="" coords="1238,285,1468,597"/>
+<area shape="rect" id="node9" href="$d7/dd8/classo2_1_1utilities_1_1DataPublisherDevice.html" title="{o2::utilities::DataPublisher\lDevice\n|+ OptionKeyInputChannelName\l+ OptionKeyOutputChannelName\l+ OptionKeyDataDescription\l+ OptionKeyDataOrigin\l+ OptionKeySubspecification\l+ OptionKeyFileName\l|+ DataPublisherDevice()\l+ ~DataPublisherDevice()\l# InitTask()\l# HandleData()\l# HandleO2LogicalBlock()\l# AppendFile()\l}" alt="" coords="1493,322,1709,561"/>
+<area shape="rect" id="node10" href="$de/d01/classO2MessageMonitor.html" title="{O2MessageMonitor\n||+ O2MessageMonitor()\l+ ~O2MessageMonitor()\l# Run()\l# InitTask()\l}" alt="" coords="1735,381,1897,502"/>
+<area shape="rect" id="node2" href="$db/dfe/classFairMQDevice.html" title="{FairMQDevice\n||}" alt="" coords="927,5,1033,83"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/base/include/TPCBase/Mapper.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/base/include/TPCBase/Mapper.h">
+<area shape="rect" id="node7" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="1069,424,1237,451"/>
+<area shape="rect" id="node20" href="$de/d41/PadPos_8h.html" title="TPCBase/PadPos.h" alt="" coords="898,275,1037,301"/>
+<area shape="rect" id="node21" href="$dd/d0b/PadSecPos_8h.html" title="TPCBase/PadSecPos.h" alt="" coords="779,200,941,227"/>
+<area shape="rect" id="node22" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="918,349,1049,376"/>
+<area shape="rect" id="node24" href="$da/d61/PadROCPos_8h.html" title="TPCBase/PadROCPos.h" alt="" coords="1216,200,1387,227"/>
+<area shape="rect" id="node26" href="$d3/d54/DigitPos_8h.html" title="TPCBase/DigitPos.h" alt="" coords="1016,125,1160,152"/>
+<area shape="rect" id="node28" href="$d1/d1f/FECInfo_8h.html" title="TPCBase/FECInfo.h" alt="" coords="1602,349,1744,376"/>
+<area shape="rect" id="node29" href="$da/d9d/PadRegionInfo_8h.html" title="TPCBase/PadRegionInfo.h" alt="" coords="657,125,836,152"/>
+<area shape="rect" id="node30" href="$d6/d42/PartitionInfo_8h.html" title="TPCBase/PartitionInfo.h" alt="" coords="1563,125,1727,152"/>
+<area shape="rect" id="node8" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="143,581,309,608"/>
+<area shape="rect" id="node11" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1070,499,1236,525"/>
+<area shape="rect" id="node23" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="845,424,1044,451"/>
+<area shape="rect" id="node25" href="$dc/d14/ROC_8h.html" title="TPCBase/ROC.h" alt="" coords="1165,275,1288,301"/>
+<area shape="rect" id="node27" href="$df/d26/CRU_8h.html" title="TPCBase/CRU.h" alt="" coords="1067,200,1191,227"/>
+</map>

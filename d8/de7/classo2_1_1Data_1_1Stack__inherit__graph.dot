@@ -1,0 +1,10 @@
+digraph "o2::Data::Stack"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::Data::Stack\n||+ Stack()\l+ ~Stack()\l+ PushTrack()\l+ PushTrack()\l+ PushTrack()\l+ PopNextTrack()\l+ PopPrimaryForTracking()\l+ SetCurrentTrack()\l+ GetNtrack()\l+ GetNprimary()\l+ GetCurrentTrack()\l+ GetCurrentTrackNumber()\l+ GetCurrentParentTrackNumber()\l+ FillTrackArray()\l+ UpdateTrackIndex()\l+ FinishPrimary()\l+ Reset()\l+ Register()\l+ Print()\l+ Print()\l+ StoreSecondaries()\l+ setMinHits()\l+ SetEnergyCut()\l+ StoreMothers()\l+ addHit()\l+ GetListOfParticles()\l+ CloneStack()\l+ notifyFinishPrimary()\l+ addTrackReference()\l+ getPrimaries()\l+ initFromPrimaries()\l+ setExternalMode()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{FairGenericStack\n||}",height=0.2,width=0.4,color="black",URL="$dd/d76/classFairGenericStack.html"];
+}

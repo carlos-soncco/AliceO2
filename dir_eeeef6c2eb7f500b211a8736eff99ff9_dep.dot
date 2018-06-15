@@ -1,0 +1,21 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/Base/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_37c90836491b695b472bf98d1be8336b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Base" fontname="Helvetica", fontsize="10", URL="dir_37c90836491b695b472bf98d1be8336b.html"]
+  dir_eeeef6c2eb7f500b211a8736eff99ff9 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eeeef6c2eb7f500b211a8736eff99ff9.html"];
+  }
+  dir_548839eeca1931d32df07653a7903e44 [shape=box label="include" color="red" URL="dir_548839eeca1931d32df07653a7903e44.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_548839eeca1931d32df07653a7903e44->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000155_000016.html"];
+  dir_548839eeca1931d32df07653a7903e44->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000155_000056.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000016_000056.html"];
+  dir_eeeef6c2eb7f500b211a8736eff99ff9->dir_548839eeca1931d32df07653a7903e44 [headlabel="6", labeldistance=1.5 headhref="dir_000192_000155.html"];
+  dir_eeeef6c2eb7f500b211a8736eff99ff9->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="3", labeldistance=1.5 headhref="dir_000192_000016.html"];
+  dir_eeeef6c2eb7f500b211a8736eff99ff9->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="3", labeldistance=1.5 headhref="dir_000192_000056.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_548839eeca1931d32df07653a7903e44 [headlabel="1", labeldistance=1.5 headhref="dir_000056_000155.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="18", labeldistance=1.5 headhref="dir_000056_000016.html"];
+}

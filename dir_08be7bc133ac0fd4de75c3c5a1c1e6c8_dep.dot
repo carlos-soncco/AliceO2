@@ -1,0 +1,10 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Framework/DebugGUI/src/GL" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_98f4601f151917f192e5caded93b8eca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_98f4601f151917f192e5caded93b8eca.html"]
+  dir_08be7bc133ac0fd4de75c3c5a1c1e6c8 [shape=box, label="GL", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_08be7bc133ac0fd4de75c3c5a1c1e6c8.html"];
+  }
+}

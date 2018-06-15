@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="o2::header::LHCClockParameter\l::Property\< OrbitPrecision \>",height=0.2,width=0.4,color="black",URL="$d0/dcb/structo2_1_1header_1_1LHCClockParameter_1_1Property_3_01OrbitPrecision_01_4.html"];
+}

@@ -1,0 +1,10 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/Passive/include/DetectorsPassive/FrameStructure.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/Passive/include/DetectorsPassive/FrameStructure.h">
+<area shape="rect" id="node2" href="$d3/ddc/drawEMCALgeometry_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/EMCAL/testsimulation\l/drawEMCALgeometry.C" alt="" coords="5,126,224,197"/>
+<area shape="rect" id="node3" href="$d5/dce/PutEmcalInTop_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/EMCAL/testsimulation\l/PutEmcalInTop.C" alt="" coords="248,126,467,197"/>
+<area shape="rect" id="node4" href="$dc/dd2/PutFrameInTop_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/Passive/macro\l/PutFrameInTop.C" alt="" coords="491,126,665,197"/>
+<area shape="rect" id="node5" href="$de/da5/FrameStructure_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/Passive/src\l/FrameStructure.cxx" alt="" coords="691,126,848,197"/>
+<area shape="rect" id="node6" href="$d0/d2a/drawPHOSgeometry_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/testsimulation\l/drawPHOSgeometry.C" alt="" coords="872,126,1081,197"/>
+<area shape="rect" id="node7" href="$d9/dba/PutPhosInTop_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/PHOS/testsimulation\l/PutPhosInTop.C" alt="" coords="1107,126,1316,197"/>
+<area shape="rect" id="node8" href="$de/d69/drawTOFgeometry_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/TOF/prototyping\l/drawTOFgeometry.C" alt="" coords="1341,126,1523,197"/>
+<area shape="rect" id="node9" href="$dc/d6a/run__sim__tof_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/macro/run_sim_tof.C" alt="" coords="1547,133,1704,189"/>
+</map>

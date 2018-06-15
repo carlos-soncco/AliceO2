@@ -1,0 +1,30 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/monitor/macro/RunSimpleEventDisplay.C" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/monitor/macro/RunSimpleEventDisplay.C">
+<area shape="rect" id="node18" href="$db/dc3/SimpleEventDisplay_8h.html" title="TPCMonitor/SimpleEventDisplay.h" alt="" coords="2890,125,3115,152"/>
+<area shape="rect" id="node20" href="$d8/d81/CalDet_8h.html" title="TPCBase/CalDet.h" alt="" coords="3006,357,3140,384"/>
+<area shape="rect" id="node41" href="$d7/d2c/Mapper_8h.html" title="TPCBase/Mapper.h" alt="" coords="2745,539,2881,565"/>
+<area shape="rect" id="node55" href="$db/d9b/CalArray_8h.html" title="TPCBase/CalArray.h" alt="" coords="3193,448,3337,475"/>
+<area shape="rect" id="node51" href="$df/d26/CRU_8h.html" title="TPCBase/CRU.h" alt="" coords="3609,696,3732,723"/>
+<area shape="rect" id="node58" href="$d7/dd7/CalibRawBase_8h.html" title="TPCCalibration/CalibRawBase.h" alt="" coords="2432,200,2645,227"/>
+<area shape="rect" id="node27" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="3395,920,3563,947"/>
+<area shape="rect" id="node49" href="$dc/d14/ROC_8h.html" title="TPCBase/ROC.h" alt="" coords="3458,771,3581,797"/>
+<area shape="rect" id="node29" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="3526,1077,3692,1104"/>
+<area shape="rect" id="node32" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="2837,995,3003,1021"/>
+<area shape="rect" id="node44" href="$de/d41/PadPos_8h.html" title="TPCBase/PadPos.h" alt="" coords="3095,771,3235,797"/>
+<area shape="rect" id="node45" href="$dd/d0b/PadSecPos_8h.html" title="TPCBase/PadSecPos.h" alt="" coords="2973,696,3136,723"/>
+<area shape="rect" id="node46" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="3187,845,3319,872"/>
+<area shape="rect" id="node48" href="$da/d61/PadROCPos_8h.html" title="TPCBase/PadROCPos.h" alt="" coords="3363,696,3533,723"/>
+<area shape="rect" id="node50" href="$d3/d54/DigitPos_8h.html" title="TPCBase/DigitPos.h" alt="" coords="3157,621,3301,648"/>
+<area shape="rect" id="node52" href="$d1/d1f/FECInfo_8h.html" title="TPCBase/FECInfo.h" alt="" coords="2161,771,2303,797"/>
+<area shape="rect" id="node53" href="$da/d9d/PadRegionInfo_8h.html" title="TPCBase/PadRegionInfo.h" alt="" coords="2851,621,3031,648"/>
+<area shape="rect" id="node54" href="$d6/d42/PartitionInfo_8h.html" title="TPCBase/PartitionInfo.h" alt="" coords="2611,621,2775,648"/>
+<area shape="rect" id="node47" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="3153,920,3352,947"/>
+<area shape="rect" id="node61" href="$db/d52/GBTFrameContainer_8h.html" title="Container class for the GBT Frames. " alt="" coords="1397,441,1603,482"/>
+<area shape="rect" id="node75" href="$d3/d11/RawReader_8h.html" title="TPCReconstruction/RawReader.h" alt="" coords="2079,275,2300,301"/>
+<area shape="rect" id="node78" href="$d6/dbe/RawReaderEventSync_8h.html" title="TPCReconstruction/RawReader\lEventSync.h" alt="" coords="1863,350,2072,391"/>
+<area shape="rect" id="node62" href="$df/db1/TPC_2base_2include_2TPCBase_2Digit_8h.html" title="TPCBase/Digit.h" alt="" coords="1854,539,1975,565"/>
+<area shape="rect" id="node65" href="$d5/d41/AdcClockMonitor_8h.html" title="Class to monitor the ADC smapling clock contained in the GBT frame. " alt="" coords="342,531,540,573"/>
+<area shape="rect" id="node67" href="$dc/dea/GBTFrame_8h.html" title="GBT Frame object. " alt="" coords="615,539,831,565"/>
+<area shape="rect" id="node68" href="$df/dc4/HalfSAMPAData_8h.html" title="Class for data from one half SAMPA. " alt="" coords="1092,539,1343,565"/>
+<area shape="rect" id="node69" href="$d1/df0/SyncPatternMonitor_8h.html" title="Class to monitor the data stream and detect synchronization patterns. " alt="" coords="855,531,1068,573"/>
+<area shape="rect" id="node63" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1908,845,2135,872"/>
+</map>

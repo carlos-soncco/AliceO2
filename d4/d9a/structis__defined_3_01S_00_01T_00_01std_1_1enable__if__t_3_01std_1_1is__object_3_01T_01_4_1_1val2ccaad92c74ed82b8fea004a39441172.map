@@ -1,0 +1,2 @@
+<map id="is_defined&lt; S, T, std::enable_if_t&lt; std::is_object&lt; T &gt;::value &amp;&amp;!std::is_pointer&lt; T &gt;::value &amp;&amp;(sizeof(T) &gt; 0)&gt;" name="is_defined&lt; S, T, std::enable_if_t&lt; std::is_object&lt; T &gt;::value &amp;&amp;!std::is_pointer&lt; T &gt;::value &amp;&amp;(sizeof(T) &gt; 0)&gt;">
+</map>

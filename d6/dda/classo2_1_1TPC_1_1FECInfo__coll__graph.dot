@@ -1,0 +1,8 @@
+digraph "o2::TPC::FECInfo"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::TPC::FECInfo\n||+ FECInfo()\l+ FECInfo()\l+ getIndex()\l+ getSampaChip()\l+ getSampaChannel()\l+ operator==()\l+ operator\<()\l+ globalSAMPAId()\l+ fecInSector()\l+ sampaOnFEC()\l+ channelOnSAMPA()\l+ sampaInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

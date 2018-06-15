@@ -1,0 +1,25 @@
+var classo2_1_1phos_1_1Digitizer =
+[
+    [ "Digitizer", "db/d73/classo2_1_1phos_1_1Digitizer.html#aef607a9f8991cf73b4df401707a575aa", null ],
+    [ "~Digitizer", "db/d73/classo2_1_1phos_1_1Digitizer.html#a68f85b47ad237e80154275abbc28ae47", null ],
+    [ "Digitizer", "db/d73/classo2_1_1phos_1_1Digitizer.html#ac46458342e127471806242319eb2c3b8", null ],
+    [ "Decalibrate", "db/d73/classo2_1_1phos_1_1Digitizer.html#afe0b8968d6259b206be008583b3393fd", null ],
+    [ "DigitizeEnergy", "db/d73/classo2_1_1phos_1_1Digitizer.html#aa40614ab6b0fd625b226e2534a615929", null ],
+    [ "finish", "db/d73/classo2_1_1phos_1_1Digitizer.html#a3212538d53b52df78017067ae27da424", null ],
+    [ "getCurrEvID", "db/d73/classo2_1_1phos_1_1Digitizer.html#a301b19bf928f263f8d08267f52980ee5", null ],
+    [ "getCurrSrcID", "db/d73/classo2_1_1phos_1_1Digitizer.html#a328357365222b52f8fdbb79d75125b0a", null ],
+    [ "getEventTime", "db/d73/classo2_1_1phos_1_1Digitizer.html#ad6f74351267470a96a42e7a39199e199", null ],
+    [ "init", "db/d73/classo2_1_1phos_1_1Digitizer.html#ae79504d03f4e601ab160cce29500b123", null ],
+    [ "isContinuous", "db/d73/classo2_1_1phos_1_1Digitizer.html#af1aacee221e74a752857fc5ba8d6ec12", null ],
+    [ "NonLinearity", "db/d73/classo2_1_1phos_1_1Digitizer.html#a85c2bfa4b39f7a3093e227ddcbe19b94", null ],
+    [ "operator=", "db/d73/classo2_1_1phos_1_1Digitizer.html#a9817e9f9ab9a6542588855a2b0a02681", null ],
+    [ "process", "db/d73/classo2_1_1phos_1_1Digitizer.html#a90ecb4cd649a052e3d2602d765929004", null ],
+    [ "setCoeffToNanoSecond", "db/d73/classo2_1_1phos_1_1Digitizer.html#a7cd7b027d434163eb453839b2f65a75b", null ],
+    [ "setContinuous", "db/d73/classo2_1_1phos_1_1Digitizer.html#a78b75ae2fa84259f1f63140947b5410f", null ],
+    [ "setCurrEvID", "db/d73/classo2_1_1phos_1_1Digitizer.html#a7faaaa7b1f84dc58b8671414d760df23", null ],
+    [ "setCurrSrcID", "db/d73/classo2_1_1phos_1_1Digitizer.html#a7605f2d3ca351ff825e0abb00732d7d6", null ],
+    [ "setEventTime", "db/d73/classo2_1_1phos_1_1Digitizer.html#a43b9d5eb29737f8ba58704e384717863", null ],
+    [ "SimulateNoiseEnergy", "db/d73/classo2_1_1phos_1_1Digitizer.html#aca3dfc4574e67fb06a8e755c57f3e208", null ],
+    [ "SimulateNoiseTime", "db/d73/classo2_1_1phos_1_1Digitizer.html#aab6b29eb368f5cec19e5b4d7cba99b3c", null ],
+    [ "TimeResolution", "db/d73/classo2_1_1phos_1_1Digitizer.html#a3a79947d0d2cf3321cd343149f3ba18b", null ]
+];

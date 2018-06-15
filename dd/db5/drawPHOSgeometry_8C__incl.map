@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/PHOS/testsimulation/drawPHOSgeometry.C" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/PHOS/testsimulation/drawPHOSgeometry.C">
+<area shape="rect" id="node2" href="$d9/d6d/Cave_8h.html" title="DetectorsPassive/Cave.h" alt="" coords="102,200,273,227"/>
+<area shape="rect" id="node7" href="$d2/d69/FrameStructure_8h.html" title="DetectorsPassive/FrameStructure.h" alt="" coords="2077,125,2307,152"/>
+<area shape="rect" id="node10" href="$d4/dd8/PHOS_2simulation_2include_2PHOSSimulation_2Detector_8h.html" title="PHOSSimulation/Detector.h" alt="" coords="1865,125,2052,152"/>
+<area shape="rect" id="node11" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="1041,200,1215,227"/>
+<area shape="rect" id="node26" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="2047,365,2213,392"/>
+<area shape="rect" id="node37" href="$d1/def/PHOS_2base_2include_2PHOSBase_2Hit_8h.html" title="PHOSBase/Hit.h" alt="" coords="2097,200,2220,227"/>
+<area shape="rect" id="node16" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="673,283,892,309"/>
+<area shape="rect" id="node34" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="2381,448,2547,475"/>
+<area shape="rect" id="node38" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2097,275,2249,317"/>
+</map>

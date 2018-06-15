@@ -1,0 +1,37 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/macros/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d1915fc52ae3a2d414030e7b83b60b4d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="macros" fontname="Helvetica", fontsize="10", URL="dir_d1915fc52ae3a2d414030e7b83b60b4d.html"]
+  dir_2182485e2bad8012cf176841f5534402 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2182485e2bad8012cf176841f5534402.html"];
+  }
+  dir_eedff867f3c4e67d20b227cb6e0f96ab [shape=box label="base" color="red" URL="dir_eedff867f3c4e67d20b227cb6e0f96ab.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_a597e8e061b11201a1dff411feb10d0b [shape=box label="TPC" color="red" URL="dir_a597e8e061b11201a1dff411feb10d0b.html"];
+  dir_37c90836491b695b472bf98d1be8336b [shape=box label="Base" color="red" URL="dir_37c90836491b695b472bf98d1be8336b.html"];
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf [shape=box label="common" color="red" URL="dir_85bf31a2e8d306e7598ffcb73f8df6bf.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_eedff867f3c4e67d20b227cb6e0f96ab->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000244_000016.html"];
+  dir_eedff867f3c4e67d20b227cb6e0f96ab->dir_37c90836491b695b472bf98d1be8336b [headlabel="2", labeldistance=1.5 headhref="dir_000244_000154.html"];
+  dir_eedff867f3c4e67d20b227cb6e0f96ab->dir_85bf31a2e8d306e7598ffcb73f8df6bf [headlabel="2", labeldistance=1.5 headhref="dir_000244_000206.html"];
+  dir_eedff867f3c4e67d20b227cb6e0f96ab->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000244_000056.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000016_000056.html"];
+  dir_a597e8e061b11201a1dff411feb10d0b->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="4", labeldistance=1.5 headhref="dir_000184_000016.html"];
+  dir_a597e8e061b11201a1dff411feb10d0b->dir_37c90836491b695b472bf98d1be8336b [headlabel="1", labeldistance=1.5 headhref="dir_000184_000154.html"];
+  dir_a597e8e061b11201a1dff411feb10d0b->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="100", labeldistance=1.5 headhref="dir_000184_000056.html"];
+  dir_37c90836491b695b472bf98d1be8336b->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="5", labeldistance=1.5 headhref="dir_000154_000016.html"];
+  dir_37c90836491b695b472bf98d1be8336b->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="5", labeldistance=1.5 headhref="dir_000154_000056.html"];
+  dir_2182485e2bad8012cf176841f5534402->dir_eedff867f3c4e67d20b227cb6e0f96ab [headlabel="5", labeldistance=1.5 headhref="dir_000257_000244.html"];
+  dir_2182485e2bad8012cf176841f5534402->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="7", labeldistance=1.5 headhref="dir_000257_000016.html"];
+  dir_2182485e2bad8012cf176841f5534402->dir_a597e8e061b11201a1dff411feb10d0b [headlabel="1", labeldistance=1.5 headhref="dir_000257_000184.html"];
+  dir_2182485e2bad8012cf176841f5534402->dir_37c90836491b695b472bf98d1be8336b [headlabel="1", labeldistance=1.5 headhref="dir_000257_000154.html"];
+  dir_2182485e2bad8012cf176841f5534402->dir_85bf31a2e8d306e7598ffcb73f8df6bf [headlabel="10", labeldistance=1.5 headhref="dir_000257_000206.html"];
+  dir_2182485e2bad8012cf176841f5534402->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="21", labeldistance=1.5 headhref="dir_000257_000056.html"];
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000206_000016.html"];
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf->dir_37c90836491b695b472bf98d1be8336b [headlabel="2", labeldistance=1.5 headhref="dir_000206_000154.html"];
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="16", labeldistance=1.5 headhref="dir_000206_000056.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="18", labeldistance=1.5 headhref="dir_000056_000016.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_37c90836491b695b472bf98d1be8336b [headlabel="1", labeldistance=1.5 headhref="dir_000056_000154.html"];
+}

@@ -1,0 +1,12 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Steer/include/Steer" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a1435872ec32250c24e4b9798bc29a35 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_a1435872ec32250c24e4b9798bc29a35.html"]
+  dir_be98980dc6c8c736476413a948821f88 [shape=box, label="Steer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_be98980dc6c8c736476413a948821f88.html"];
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_be98980dc6c8c736476413a948821f88->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="3", labeldistance=1.5 headhref="dir_000393_000056.html"];
+}

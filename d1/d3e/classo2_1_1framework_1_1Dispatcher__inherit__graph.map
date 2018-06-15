@@ -1,0 +1,5 @@
+<map id="o2::framework::Dispatcher" name="o2::framework::Dispatcher">
+<area shape="rect" id="node2" href="$dd/d4f/classo2_1_1framework_1_1DispatcherDPL.html" title="A dispatcher for clients inside Data Processing Layer. " alt="" coords="5,256,208,363"/>
+<area shape="rect" id="node3" href="$d5/d49/classo2_1_1framework_1_1DispatcherFairMQ.html" title="A dispatcher for clients that are FairMQDevices using O2 Data Model. " alt="" coords="232,249,408,370"/>
+<area shape="rect" id="node4" href="$de/ddf/classo2_1_1framework_1_1DispatcherFlpProto.html" title="A special dispatcher for QC tasks that are FairMQ devices, using FLP Proto data model. " alt="" coords="432,249,608,370"/>
+</map>

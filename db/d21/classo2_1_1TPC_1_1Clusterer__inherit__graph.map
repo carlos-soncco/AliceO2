@@ -1,0 +1,4 @@
+<map id="o2::TPC::Clusterer" name="o2::TPC::Clusterer">
+<area shape="rect" id="node2" href="$da/d5f/classo2_1_1TPC_1_1BoxClusterer.html" title="{o2::TPC::BoxClusterer\n||+ BoxClusterer()\l+ ~BoxClusterer()\l+ Process()\l+ Process()\l+ setPedestals()\l}" alt="" coords="5,484,159,620"/>
+<area shape="rect" id="node3" href="$d8/d61/classo2_1_1TPC_1_1HwClusterer.html" title="Class for TPC HW cluster finding. " alt="" coords="185,440,359,664"/>
+</map>

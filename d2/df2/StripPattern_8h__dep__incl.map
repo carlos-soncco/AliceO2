@@ -1,0 +1,12 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors/MUON/MID/include/DataFormatsMID/StripPattern.h" name="/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors/MUON/MID/include/DataFormatsMID/StripPattern.h">
+<area shape="rect" id="node2" href="$d0/dc4/LegacyUtility_8h.html" title="Utility for MID detection element IDs. " alt="" coords="225,139,441,210"/>
+<area shape="rect" id="node5" href="$d7/dc5/ClusterizerDevice_8cxx.html" title="Implementation of the cluster reconstruction device for MID. " alt="" coords="389,379,608,450"/>
+<area shape="rect" id="node6" href="$d5/d53/Clusterizer_8h.html" title="Cluster reconstruction algorithm for MID. " alt="" coords="781,139,1000,210"/>
+<area shape="rect" id="node10" href="$d2/d12/bench__Clusterizer_8cxx.html" title="Benchmark clustering device for MID. " alt="" coords="1269,259,1488,330"/>
+<area shape="rect" id="node3" href="$d3/d77/LegacyUtility_8cxx.html" title="Utility for MID detection element IDs. " alt="" coords="5,259,195,330"/>
+<area shape="rect" id="node4" href="$d2/dbd/testDEconversion_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MID/Base\l/test/testDEconversion.cxx" alt="" coords="219,259,409,330"/>
+<area shape="rect" id="node7" href="$d9/dd5/Clusterizer_8cxx.html" title="Implementation of the cluster reconstruction algorithm for MID. " alt="" coords="537,259,756,330"/>
+<area shape="rect" id="node8" href="$d8/de7/ClusterizerDevice_8h.html" title="Cluster reconstruction device for MID. " alt="" coords="781,259,1000,330"/>
+<area shape="rect" id="node11" href="$d6/dee/testClusterizer_8cxx.html" title="Test clustering device for MID. " alt="" coords="1025,259,1244,330"/>
+<area shape="rect" id="node9" href="$d8/d5f/runMIDClusterizer_8cxx.html" title="A simple program to reconstruct MID clusters. " alt="" coords="781,379,1000,450"/>
+</map>

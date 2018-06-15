@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d5/d88/class__BASE.html" title="_BASE" alt="" coords="6,149,71,176"/>
+<area shape="rect" id="node2" href="$dc/d31/classo2_1_1HuffmanModel.html" title="o2::HuffmanModel\&lt; \l_BASE, _NodeType, _orderMSB \&gt;" alt="" coords="121,5,346,46"/>
+<area shape="rect" id="node3" href="$d7/da1/classo2_1_1test_1_1Fifo.html" title="A thread safe FIFO. " alt="" coords="173,70,293,111"/>
+<area shape="rect" id="node4" href="$d6/da1/classo2_1_1test_1_1geometric__distribution.html" title="specialization of std::geometric_distribution which implements also the analytic formula. " alt="" coords="157,135,309,191"/>
+<area shape="rect" id="node5" href="$db/d37/classo2_1_1test_1_1normal__distribution.html" title="specialization of std::normal_distribution which implements also the analytic formula. " alt="" coords="142,214,325,255"/>
+<area shape="rect" id="node6" href="$d2/dde/classo2_1_1test_1_1poisson__distribution.html" title="specialization of std::poisson_distribution which implements also the analytic formula. " alt="" coords="139,279,328,321"/>
+</map>

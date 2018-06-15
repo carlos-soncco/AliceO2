@@ -1,0 +1,12 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/FIT/base/include/FITBase/Digit.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/FIT/base/include/FITBase/Digit.h">
+<area shape="rect" id="node2" href="$d9/de8/FIT_2base_2src_2Digit_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/base/src\l/Digit.cxx" alt="" coords="5,133,165,203"/>
+<area shape="rect" id="node3" href="$d1/d6c/CollisionTimeRecoTask_8h.html" title="Definition of the FIT collision time reconstruction task. " alt="" coords="242,259,435,344"/>
+<area shape="rect" id="node4" href="$d9/d2f/CollisionTimeRecoTask_8cxx.html" title="Implementation of the FIT reconstruction task. " alt="" coords="233,393,444,463"/>
+<area shape="rect" id="node5" href="$d4/d57/RecPoints_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/reconstruction\l/include/FITReconstruction\l/RecPoints.h" alt="" coords="377,125,569,211"/>
+<area shape="rect" id="node7" href="$d3/da0/FIT_2simulation_2include_2FITSimulation_2Digitizer_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/simulation\l/include/FITSimulation/Digitizer.h" alt="" coords="723,133,937,203"/>
+<area shape="rect" id="node8" href="$d4/dcd/FIT_2simulation_2include_2FITSimulation_2DigitizerTask_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/simulation\l/include/FITSimulation/Digitizer\lTask.h" alt="" coords="729,259,932,344"/>
+<area shape="rect" id="node6" href="$d3/d21/RecPoints_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/reconstruction\l/src/RecPoints.cxx" alt="" coords="511,266,704,337"/>
+<area shape="rect" id="node11" href="$d1/d0b/FIT_2simulation_2src_2Digitizer_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/simulation\l/src/Digitizer.cxx" alt="" coords="957,266,1128,337"/>
+<area shape="rect" id="node9" href="$d5/d69/FIT_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/FIT/simulation\l/src/DigitizerTask.cxx" alt="" coords="839,393,1009,463"/>
+<area shape="rect" id="node10" href="$d9/d7d/run__digi__fit_8C.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/macro/run_digi_fit.C" alt="" coords="657,400,815,456"/>
+</map>

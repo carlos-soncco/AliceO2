@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/CCDB/test/testQueryServerStandalone.cxx" name="/home/travis/build/AliceO2Group/AliceO2/CCDB/test/testQueryServerStandalone.cxx">
+<area shape="rect" id="node2" href="$d7/da5/BackendOCDB_8h.html" title="Definition of the BackendOCDB class. " alt="" coords="415,109,581,136"/>
+<area shape="rect" id="node10" href="$da/d6a/Condition_8h.html" title="Definition of the Condition class (CDB object) containing the condition and its metadata. " alt="" coords="1040,109,1169,136"/>
+<area shape="rect" id="node30" href="$df/de5/TestClass_8h.html" title="TestClass.h" alt="" coords="2004,109,2097,136"/>
+<area shape="rect" id="node3" href="$df/d83/Backend_8h.html" title="Definition of the Backend class. " alt="" coords="221,184,347,211"/>
+<area shape="rect" id="node11" href="$da/d53/ConditionId_8h.html" title="CCDB/ConditionId.h" alt="" coords="1226,184,1368,211"/>
+<area shape="rect" id="node13" href="$d4/dd1/IdPath_8h.html" title="CCDB/IdPath.h" alt="" coords="1423,267,1537,293"/>
+<area shape="rect" id="node17" href="$d1/d3f/ConditionMetaData_8h.html" title="CCDB/ConditionMetaData.h" alt="" coords="1613,267,1800,293"/>
+<area shape="rect" id="node19" href="$d7/d44/TObjectWrapper_8h.html" title="CCDB/TObjectWrapper.h" alt="" coords="805,184,976,211"/>
+<area shape="rect" id="node16" href="$dd/d18/IdRunRange_8h.html" title="CCDB/IdRunRange.h" alt="" coords="1199,267,1347,293"/>
+</map>

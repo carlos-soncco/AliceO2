@@ -1,0 +1,19 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors/TPC/include/DataFormatsTPC" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6f22cbd49ee75d810f2bfe3ea5accc3c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_6f22cbd49ee75d810f2bfe3ea5accc3c.html"]
+  dir_4e2a5e5ba58223c96ff5b40c7fcc0e28 [shape=box, label="DataFormatsTPC", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4e2a5e5ba58223c96ff5b40c7fcc0e28.html"];
+  }
+  dir_d269712cc31e133b892a3b3f6424741a [shape=box label="Reconstruction" color="red" URL="dir_d269712cc31e133b892a3b3f6424741a.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_7924ba4398ae4560cd37376e44666c6d [shape=box label="common" color="red" URL="dir_7924ba4398ae4560cd37376e44666c6d.html"];
+  dir_d269712cc31e133b892a3b3f6424741a->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="5", labeldistance=1.5 headhref="dir_000100_000016.html"];
+  dir_d269712cc31e133b892a3b3f6424741a->dir_7924ba4398ae4560cd37376e44666c6d [headlabel="4", labeldistance=1.5 headhref="dir_000100_000057.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_d269712cc31e133b892a3b3f6424741a [headlabel="1", labeldistance=1.5 headhref="dir_000016_000100.html"];
+  dir_4e2a5e5ba58223c96ff5b40c7fcc0e28->dir_d269712cc31e133b892a3b3f6424741a [headlabel="1", labeldistance=1.5 headhref="dir_000078_000100.html"];
+  dir_4e2a5e5ba58223c96ff5b40c7fcc0e28->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000078_000016.html"];
+  dir_4e2a5e5ba58223c96ff5b40c7fcc0e28->dir_7924ba4398ae4560cd37376e44666c6d [headlabel="1", labeldistance=1.5 headhref="dir_000078_000057.html"];
+}

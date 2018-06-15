@@ -1,0 +1,10 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Common/Constants/include/CommonConstants" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1fdf69d6f2eb49866d13f85c4de733a5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_1fdf69d6f2eb49866d13f85c4de733a5.html"]
+  dir_1ca36cf38ce2d8bf197a851b091a0423 [shape=box, label="CommonConstants", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1ca36cf38ce2d8bf197a851b091a0423.html"];
+  }
+}

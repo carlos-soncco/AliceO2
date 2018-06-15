@@ -1,0 +1,17 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Framework/DebugGUI/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f0af9df59806ed8bcb6931e6b1774828 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DebugGUI" fontname="Helvetica", fontsize="10", URL="dir_f0af9df59806ed8bcb6931e6b1774828.html"]
+  subgraph clusterdir_98f4601f151917f192e5caded93b8eca {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_98f4601f151917f192e5caded93b8eca.html"];
+    dir_98f4601f151917f192e5caded93b8eca [shape=plaintext label="src"];
+    dir_08be7bc133ac0fd4de75c3c5a1c1e6c8 [shape=box label="GL" color="black" fillcolor="white" style="filled" URL="dir_08be7bc133ac0fd4de75c3c5a1c1e6c8.html"];
+  }
+  }
+  dir_9f67c1693d5e4a33705ade974fc96801 [shape=box label="include" color="red" URL="dir_9f67c1693d5e4a33705ade974fc96801.html"];
+  dir_98f4601f151917f192e5caded93b8eca->dir_9f67c1693d5e4a33705ade974fc96801 [headlabel="2", labeldistance=1.5 headhref="dir_000378_000376.html"];
+  dir_98f4601f151917f192e5caded93b8eca->dir_08be7bc133ac0fd4de75c3c5a1c1e6c8 [headlabel="3", labeldistance=1.5 headhref="dir_000378_000379.html"];
+}

@@ -1,0 +1,4 @@
+<map id="o2::ITSMFT::PixelReader" name="o2::ITSMFT::PixelReader">
+<area shape="rect" id="node2" href="$d2/dfc/classo2_1_1ITSMFT_1_1DigitPixelReader.html" title="DigitPixelReader class for the ITS. Feeds the MC digits to the Cluster Finder. " alt="" coords="5,235,203,386"/>
+<area shape="rect" id="node3" href="$df/dae/classo2_1_1ITSMFT_1_1RawPixelReader.html" title="RawPixelReader class for the ITS. Feeds raw data to the Cluster Finder. " alt="" coords="227,243,425,379"/>
+</map>

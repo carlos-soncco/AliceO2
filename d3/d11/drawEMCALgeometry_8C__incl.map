@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/testsimulation/drawEMCALgeometry.C" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/testsimulation/drawEMCALgeometry.C">
+<area shape="rect" id="node2" href="$d9/d6d/Cave_8h.html" title="DetectorsPassive/Cave.h" alt="" coords="73,200,245,227"/>
+<area shape="rect" id="node7" href="$d2/d69/FrameStructure_8h.html" title="DetectorsPassive/FrameStructure.h" alt="" coords="1681,125,1911,152"/>
+<area shape="rect" id="node9" href="$d8/d3d/EMCAL_2simulation_2include_2EMCALSimulation_2Detector_8h.html" title="EMCALSimulation/Detector.h" alt="" coords="1462,125,1657,152"/>
+<area shape="rect" id="node10" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="1103,200,1277,227"/>
+<area shape="rect" id="node25" href="$d5/d8b/EMCAL_2base_2include_2EMCALBase_2Hit_8h.html" title="EMCALBase/Hit.h" alt="" coords="1973,200,2102,227"/>
+<area shape="rect" id="node27" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1968,365,2134,392"/>
+<area shape="rect" id="node15" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="996,283,1215,309"/>
+<area shape="rect" id="node26" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1967,275,2119,317"/>
+<area shape="rect" id="node35" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="2341,448,2507,475"/>
+</map>

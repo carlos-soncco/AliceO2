@@ -1,0 +1,8 @@
+digraph "o2::globaltracking::MatchTPCITS"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::globaltracking\l::MatchTPCITS\n||+ run()\l+ init()\l+ getMaxOutputTracksPerEntry()\l+ setMaxOutputTracksPerEntry()\l+ setITSROFrameLengthMUS()\l+ setITSROFrameOffsetMUS()\l+ setInputTreeITSTracks()\l+ setInputTreeTPCTracks()\l+ setInputTreeITSClusters()\l+ setOutputTree()\l+ setITSTrackBranchName()\l+ setTPCTrackBranchName()\l+ setITSClusterBranchName()\l+ setITSMCTruthBranchName()\l+ setTPCMCTruthBranchName()\l+ setOutTPCITSTracksBranchName()\l+ getITSTrackBranchName()\l+ getTPCTrackBranchName()\l+ getITSClusterBranchName()\l+ getITSMCTruthBranchName()\l+ getTPCMCTruthBranchName()\l+ getOutTPCITSTracksBranchName()\l+ print()\l+ printCandidatesTPC()\l+ printCandidatesITS()\l+ setCrudeAbsDiffCut()\l+ getCrudeAbsDiffCut()\l+ setCrudeNSigma2Cut()\l+ getCrudeNSigma2Cut()\l+ setCutMatchingChi2()\l+ getCutMatchingChi2()\l+ setMaxMatchCandidates()\l+ getMaxMatchCandidates()\l+ setTimeBinTolerance()\l+ getTimeBinTolerance()\l+ setTPCTimeEdgeZSafeMargin()\l+ getTPCTimeEdgeZSafeMargin()\l+ isDebugFlag()\l+ getDebugFlags()\l+ setDebugFlag()\l+ setDebugTreeFileName()\l+ getDebugTreeFileName()\l+ fillITSTPCmatchTree()\l+ dumpWinnerMatches()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

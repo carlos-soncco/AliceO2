@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Simulation/src/Detector.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Simulation/src/Detector.cxx">
+<area shape="rect" id="node2" href="$dc/dab/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Detector_8h.html" title="MCHSimulation/Detector.h" alt="" coords="1617,125,1796,152"/>
+<area shape="rect" id="node34" href="$d5/dc1/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Geometry_8h.html" title="MCHSimulation/Geometry.h" alt="" coords="1823,125,2009,152"/>
+<area shape="rect" id="node36" href="$df/d6c/Stepper_8h.html" title="Stepper.h" alt="" coords="2086,125,2164,152"/>
+<area shape="rect" id="node3" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="857,200,1031,227"/>
+<area shape="rect" id="node21" href="$de/d89/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Hit_8h.html" title="MCHSimulation/Hit.h" alt="" coords="1845,200,1992,227"/>
+<area shape="rect" id="node10" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="1321,283,1540,309"/>
+<area shape="rect" id="node22" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1864,275,2016,317"/>
+<area shape="rect" id="node23" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1866,365,2032,392"/>
+<area shape="rect" id="node31" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="2290,448,2456,475"/>
+</map>

@@ -1,0 +1,16 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/FIT/base/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_efd5be80f1ea96799fa313034d485898 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_efd5be80f1ea96799fa313034d485898.html"]
+  subgraph clusterdir_fbe3a7987f4be7f8a99542f1b75035a2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fbe3a7987f4be7f8a99542f1b75035a2.html"];
+    dir_fbe3a7987f4be7f8a99542f1b75035a2 [shape=plaintext label="include"];
+    dir_b016b77b44be30242eb72f1b24cc7d7b [shape=box label="FITBase" color="black" fillcolor="white" style="filled" URL="dir_b016b77b44be30242eb72f1b24cc7d7b.html"];
+  }
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_b016b77b44be30242eb72f1b24cc7d7b->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000205_000056.html"];
+}

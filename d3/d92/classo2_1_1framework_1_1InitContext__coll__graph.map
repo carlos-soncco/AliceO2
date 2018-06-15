@@ -1,0 +1,4 @@
+<map id="o2::framework::InitContext" name="o2::framework::InitContext">
+<area shape="rect" id="node2" href="$d7/d13/classo2_1_1framework_1_1ServiceRegistry.html" title="{o2::framework::ServiceRegistry\n||+ registerService()\l+ get()\l}" alt="" coords="5,42,211,134"/>
+<area shape="rect" id="node3" href="$df/d6f/classo2_1_1framework_1_1ConfigParamRegistry.html" title="{o2::framework::ConfigParam\lRegistry\n||+ ConfigParamRegistry()\l+ get()\l+ get()\l+ get()\l+ get()\l+ get()\l}" alt="" coords="236,5,425,171"/>
+</map>

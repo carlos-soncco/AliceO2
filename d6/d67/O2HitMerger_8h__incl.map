@@ -1,0 +1,45 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/run/O2HitMerger.h" name="/home/travis/build/AliceO2Group/AliceO2/run/O2HitMerger.h">
+<area shape="rect" id="node6" href="$dc/db6/Stack_8h.html" title="Definition of the Stack class. " alt="" coords="802,185,954,226"/>
+<area shape="rect" id="node7" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="1822,366,2030,407"/>
+<area shape="rect" id="node36" href="$d9/d45/PrimaryChunk_8h.html" title="SimulationDataFormat\l/PrimaryChunk.h" alt="" coords="1371,185,1523,226"/>
+<area shape="rect" id="node46" href="$df/dff/InteractionSampler_8h.html" title="Steer/InteractionSampler.h" alt="" coords="3837,192,4014,219"/>
+<area shape="rect" id="node51" href="$db/d82/O2SimDevice_8h.html" title="O2SimDevice.h" alt="" coords="3111,109,3226,136"/>
+<area shape="rect" id="node65" href="$da/d96/TPC_2simulation_2include_2TPCSimulation_2Detector_8h.html" title="TPCSimulation/Detector.h" alt="" coords="5889,109,6063,136"/>
+<area shape="rect" id="node81" href="$d6/d8d/ITSMFT_2ITS_2simulation_2include_2ITSSimulation_2Detector_8h.html" title="ITSSimulation/Detector.h" alt="" coords="4289,109,4458,136"/>
+<area shape="rect" id="node87" href="$d5/d9e/ITSMFT_2MFT_2simulation_2include_2MFTSimulation_2Detector_8h.html" title="MFTSimulation/Detector.h" alt="" coords="4512,109,4686,136"/>
+<area shape="rect" id="node88" href="$d8/d3d/EMCAL_2simulation_2include_2EMCALSimulation_2Detector_8h.html" title="EMCALSimulation/Detector.h" alt="" coords="6286,109,6481,136"/>
+<area shape="rect" id="node91" href="$d5/d3c/TOF_2simulation_2include_2TOFSimulation_2Detector_8h.html" title="TOFSimulation/Detector.h" alt="" coords="5603,109,5777,136"/>
+<area shape="rect" id="node93" href="$df/df0/TRD_2simulation_2include_2TRDSimulation_2Detector_8h.html" title="TRDSimulation/Detector.h" alt="" coords="5391,109,5567,136"/>
+<area shape="rect" id="node94" href="$de/d6b/FIT_2simulation_2include_2FITSimulation_2Detector_8h.html" title="FITSimulation/Detector.h" alt="" coords="4983,109,5151,136"/>
+<area shape="rect" id="node96" href="$df/d79/HMPID_2simulation_2include_2HMPIDSimulation_2Detector_8h.html" title="HMPIDSimulation/Detector.h" alt="" coords="5175,109,5367,136"/>
+<area shape="rect" id="node97" href="$d4/dd8/PHOS_2simulation_2include_2PHOSSimulation_2Detector_8h.html" title="PHOSSimulation/Detector.h" alt="" coords="6831,109,7018,136"/>
+<area shape="rect" id="node99" href="$dc/dab/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Detector_8h.html" title="MCHSimulation/Detector.h" alt="" coords="4781,109,4959,136"/>
+<area shape="rect" id="node18" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="689,275,841,317"/>
+<area shape="rect" id="node26" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="225,275,377,317"/>
+<area shape="rect" id="node30" href="$d5/dbe/TrackReference_8h.html" title="SimulationDataFormat\l/TrackReference.h" alt="" coords="915,275,1067,317"/>
+<area shape="rect" id="node14" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1945,456,2065,483"/>
+<area shape="rect" id="node16" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1957,531,2195,557"/>
+<area shape="rect" id="node49" href="$d1/dbe/MCInteractionRecord_8h.html" title="SimulationDataFormat\l/MCInteractionRecord.h" alt="" coords="3901,366,4062,407"/>
+<area shape="rect" id="node52" href="$dc/d6b/o2sim_8C.html" title="../macro/o2sim.C" alt="" coords="2485,192,2607,219"/>
+<area shape="rect" id="node57" href="$d4/dee/SimConfig_8h.html" title="SimConfig/SimConfig.h" alt="" coords="2789,283,2947,309"/>
+<area shape="rect" id="node55" href="$d4/d6f/GeneratorFactory_8h.html" title="Generators/GeneratorFactory.h" alt="" coords="2085,283,2287,309"/>
+<area shape="rect" id="node56" href="$de/d73/PDG_8h.html" title="Generators/PDG.h" alt="" coords="2566,373,2695,400"/>
+<area shape="rect" id="node59" href="$de/d28/GRPObject_8h.html" title="Header of the General Run Parameters object. " alt="" coords="1747,275,1911,317"/>
+<area shape="rect" id="node61" href="$df/d35/SimSetup_8h.html" title="SimSetup/SimSetup.h" alt="" coords="2471,283,2621,309"/>
+<area shape="rect" id="node62" href="$d9/d9b/O2RunSim_8h.html" title="Steer/O2RunSim.h" alt="" coords="3024,283,3155,309"/>
+<area shape="rect" id="node66" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="5175,192,5349,219"/>
+<area shape="rect" id="node75" href="$d4/de5/Point_8h.html" title="Class for TPC Point. " alt="" coords="6038,192,6191,219"/>
+<area shape="rect" id="node78" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="6473,192,6605,219"/>
+<area shape="rect" id="node69" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="5539,283,5758,309"/>
+<area shape="rect" id="node76" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="6111,275,6263,317"/>
+<area shape="rect" id="node77" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="6440,373,6606,400"/>
+<area shape="rect" id="node79" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="6439,283,6638,309"/>
+<area shape="rect" id="node80" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="6765,283,6933,309"/>
+<area shape="rect" id="node82" href="$db/dcc/Detectors_2Base_2include_2DetectorsBase_2GeometryManager_8h.html" title="DetectorsBase/GeometryManager.h" alt="" coords="4055,283,4285,309"/>
+<area shape="rect" id="node85" href="$d0/dae/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Hit_8h.html" title="ITSMFTSimulation/Hit.h" alt="" coords="4577,192,4739,219"/>
+<area shape="rect" id="node89" href="$d5/d8b/EMCAL_2base_2include_2EMCALBase_2Hit_8h.html" title="EMCALBase/Hit.h" alt="" coords="6318,192,6447,219"/>
+<area shape="rect" id="node92" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="5747,192,5863,219"/>
+<area shape="rect" id="node95" href="$d1/db1/FIT_2base_2include_2FITBase_2Geometry_8h.html" title="FITBase/Geometry.h" alt="" coords="4665,283,4809,309"/>
+<area shape="rect" id="node98" href="$d1/def/PHOS_2base_2include_2PHOSBase_2Hit_8h.html" title="PHOSBase/Hit.h" alt="" coords="6913,192,7035,219"/>
+<area shape="rect" id="node100" href="$de/d89/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Hit_8h.html" title="MCHSimulation/Hit.h" alt="" coords="5374,192,5521,219"/>
+</map>

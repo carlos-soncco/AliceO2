@@ -1,0 +1,11 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Mapping/Interface/include/MCHMappingInterface/Segmentation.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/MUON/MCH/Mapping/Interface/include/MCHMappingInterface/Segmentation.h">
+<area shape="rect" id="node2" href="$d3/dea/SegmentationImpl3_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/Impl3/src/SegmentationImpl3.cxx" alt="" coords="331,146,552,217"/>
+<area shape="rect" id="node3" href="$dd/d1c/SegmentationContours_8h.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/SegContour/include/MCHMappingSegContour\l/SegmentationContours.h" alt="" coords="677,139,971,224"/>
+<area shape="rect" id="node5" href="$de/d56/SegmentationSVGWriter_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/SegContour/src/SegmentationSVGWriter.cxx" alt="" coords="5,273,293,343"/>
+<area shape="rect" id="node6" href="$d2/d0f/SVGSegmentation_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/SegContour/src/SVGSegmentation.cxx" alt="" coords="318,273,572,343"/>
+<area shape="rect" id="node7" href="$da/d72/BenchSegmentation_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/test/src/BenchSegmentation.cxx" alt="" coords="900,273,1116,343"/>
+<area shape="rect" id="node8" href="$d5/d2d/MUON_2MCH_2Mapping_2test_2src_2Segmentation_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/test/src/Segmentation.cxx" alt="" coords="1140,273,1356,343"/>
+<area shape="rect" id="node9" href="$df/ded/SegmentationLong_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/test/src/SegmentationLong.cxx" alt="" coords="1380,273,1596,343"/>
+<area shape="rect" id="node10" href="$dd/df0/testGeometry_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Simulation\l/test/testGeometry.cxx" alt="" coords="1147,146,1375,217"/>
+<area shape="rect" id="node4" href="$de/de2/SegmentationContours_8cxx.html" title="/home/travis/build\l/AliceO2Group/AliceO2\l/Detectors/MUON/MCH/Mapping\l/SegContour/src/SegmentationContours.cxx" alt="" coords="597,273,875,343"/>
+</map>

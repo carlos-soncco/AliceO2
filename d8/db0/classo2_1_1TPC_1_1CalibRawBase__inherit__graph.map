@@ -1,0 +1,6 @@
+<map id="o2::TPC::CalibRawBase" name="o2::TPC::CalibRawBase">
+<area shape="rect" id="node2" href="$db/d00/classo2_1_1TPC_1_1CalibPedestal.html" title="Pedestal calibration class. " alt="" coords="5,439,164,678"/>
+<area shape="rect" id="node3" href="$d0/dd2/classo2_1_1TPC_1_1CalibPulser.html" title="Pulser calibration class. " alt="" coords="189,395,357,722"/>
+<area shape="rect" id="node4" href="$d4/d92/classo2_1_1TPC_1_1RawClusterFinder.html" title="Raw cluster conversion. " alt="" coords="381,447,565,671"/>
+<area shape="rect" id="node5" href="$db/d2e/classo2_1_1TPC_1_1SimpleEventDisplay.html" title="Base of a simple event display for digits. " alt="" coords="589,454,787,663"/>
+</map>

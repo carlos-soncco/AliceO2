@@ -1,0 +1,15 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/gconfig/src/G3Config.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/gconfig/src/G3Config.cxx">
+<area shape="rect" id="node5" href="$dc/db6/Stack_8h.html" title="Definition of the Stack class. " alt="" coords="1524,126,1676,167"/>
+<area shape="rect" id="node39" href="$d9/d6d/Cave_8h.html" title="DetectorsPassive/Cave.h" alt="" coords="2037,133,2208,160"/>
+<area shape="rect" id="node43" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="2233,133,2452,160"/>
+<area shape="rect" id="node46" href="$df/d35/SimSetup_8h.html" title="SimSetup/SimSetup.h" alt="" coords="2477,133,2627,160"/>
+<area shape="rect" id="node47" href="$d7/d91/g3Config_8C.html" title="../g3Config.C" alt="" coords="2651,133,2751,160"/>
+<area shape="rect" id="node49" href="$d7/de7/SetCuts_8h.html" title="../SetCuts.h" alt="" coords="2776,133,2869,160"/>
+<area shape="rect" id="node6" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="424,307,632,349"/>
+<area shape="rect" id="node17" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="1096,217,1248,258"/>
+<area shape="rect" id="node25" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="208,307,360,349"/>
+<area shape="rect" id="node29" href="$d5/dbe/TrackReference_8h.html" title="SimulationDataFormat\l/TrackReference.h" alt="" coords="1513,217,1665,258"/>
+<area shape="rect" id="node13" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="583,397,703,424"/>
+<area shape="rect" id="node15" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="355,472,593,499"/>
+<area shape="rect" id="node48" href="$d1/ddc/commonConfig_8C.html" title="commonConfig.C" alt="" coords="2658,224,2781,251"/>
+</map>

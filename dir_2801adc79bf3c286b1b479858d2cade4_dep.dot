@@ -1,0 +1,36 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/DataFormats/Detectors" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2171f7ec022c5423887b07c69b2f5b48 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DataFormats" fontname="Helvetica", fontsize="10", URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"]
+  subgraph clusterdir_2801adc79bf3c286b1b479858d2cade4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2801adc79bf3c286b1b479858d2cade4.html"];
+    dir_2801adc79bf3c286b1b479858d2cade4 [shape=plaintext label="Detectors"];
+    dir_74593c7a91e03746ae2a516888bf9494 [shape=box label="Common" color="red" fillcolor="white" style="filled" URL="dir_74593c7a91e03746ae2a516888bf9494.html"];
+    dir_ff53c4a4c37940dfaa1ef75e68c4ec2e [shape=box label="ITSMFT" color="red" fillcolor="white" style="filled" URL="dir_ff53c4a4c37940dfaa1ef75e68c4ec2e.html"];
+    dir_39a68910f3cfdc380c901647ab1550b8 [shape=box label="MUON" color="red" fillcolor="white" style="filled" URL="dir_39a68910f3cfdc380c901647ab1550b8.html"];
+    dir_87e4e27fa2128902da5e37b3e7ab3f52 [shape=box label="TPC" color="red" fillcolor="white" style="filled" URL="dir_87e4e27fa2128902da5e37b3e7ab3f52.html"];
+  }
+  }
+  dir_d269712cc31e133b892a3b3f6424741a [shape=box label="Reconstruction" color="red" URL="dir_d269712cc31e133b892a3b3f6424741a.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_047746f9f311f49446db9474b7431d0d [shape=box label="simulation" color="red" URL="dir_047746f9f311f49446db9474b7431d0d.html"];
+  dir_7924ba4398ae4560cd37376e44666c6d [shape=box label="common" color="red" URL="dir_7924ba4398ae4560cd37376e44666c6d.html"];
+  dir_d269712cc31e133b892a3b3f6424741a->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="5", labeldistance=1.5 headhref="dir_000100_000016.html"];
+  dir_d269712cc31e133b892a3b3f6424741a->dir_74593c7a91e03746ae2a516888bf9494 [headlabel="1", labeldistance=1.5 headhref="dir_000100_000067.html"];
+  dir_d269712cc31e133b892a3b3f6424741a->dir_7924ba4398ae4560cd37376e44666c6d [headlabel="4", labeldistance=1.5 headhref="dir_000100_000057.html"];
+  dir_39a68910f3cfdc380c901647ab1550b8->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000096_000016.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_d269712cc31e133b892a3b3f6424741a [headlabel="1", labeldistance=1.5 headhref="dir_000016_000100.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_74593c7a91e03746ae2a516888bf9494 [headlabel="1", labeldistance=1.5 headhref="dir_000016_000067.html"];
+  dir_ff53c4a4c37940dfaa1ef75e68c4ec2e->dir_d269712cc31e133b892a3b3f6424741a [headlabel="3", labeldistance=1.5 headhref="dir_000072_000100.html"];
+  dir_ff53c4a4c37940dfaa1ef75e68c4ec2e->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000072_000016.html"];
+  dir_047746f9f311f49446db9474b7431d0d->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000144_000016.html"];
+  dir_047746f9f311f49446db9474b7431d0d->dir_74593c7a91e03746ae2a516888bf9494 [headlabel="4", labeldistance=1.5 headhref="dir_000144_000067.html"];
+  dir_87e4e27fa2128902da5e37b3e7ab3f52->dir_d269712cc31e133b892a3b3f6424741a [headlabel="1", labeldistance=1.5 headhref="dir_000076_000100.html"];
+  dir_87e4e27fa2128902da5e37b3e7ab3f52->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000076_000016.html"];
+  dir_87e4e27fa2128902da5e37b3e7ab3f52->dir_047746f9f311f49446db9474b7431d0d [headlabel="2", labeldistance=1.5 headhref="dir_000076_000144.html"];
+  dir_87e4e27fa2128902da5e37b3e7ab3f52->dir_7924ba4398ae4560cd37376e44666c6d [headlabel="1", labeldistance=1.5 headhref="dir_000076_000057.html"];
+  dir_74593c7a91e03746ae2a516888bf9494->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="3", labeldistance=1.5 headhref="dir_000067_000016.html"];
+}

@@ -1,0 +1,23 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Detectors/FIT/simulation/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d961a1fccbdc187b00f8f36febec53be {
+    graph [ bgcolor="#ddddee", pencolor="black", label="simulation" fontname="Helvetica", fontsize="10", URL="dir_d961a1fccbdc187b00f8f36febec53be.html"]
+  subgraph clusterdir_2465f3075ac35f5821daf5bc0e4d2732 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2465f3075ac35f5821daf5bc0e4d2732.html"];
+    dir_2465f3075ac35f5821daf5bc0e4d2732 [shape=plaintext label="include"];
+    dir_1ccafe3e5c085868d7cb60b85337d877 [shape=box label="FITSimulation" color="black" fillcolor="white" style="filled" URL="dir_1ccafe3e5c085868d7cb60b85337d877.html"];
+  }
+  }
+  dir_37c90836491b695b472bf98d1be8336b [shape=box label="Base" color="red" URL="dir_37c90836491b695b472bf98d1be8336b.html"];
+  dir_efd5be80f1ea96799fa313034d485898 [shape=box label="base" color="red" URL="dir_efd5be80f1ea96799fa313034d485898.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_37c90836491b695b472bf98d1be8336b->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="5", labeldistance=1.5 headhref="dir_000154_000056.html"];
+  dir_1ccafe3e5c085868d7cb60b85337d877->dir_37c90836491b695b472bf98d1be8336b [headlabel="1", labeldistance=1.5 headhref="dir_000163_000154.html"];
+  dir_1ccafe3e5c085868d7cb60b85337d877->dir_efd5be80f1ea96799fa313034d485898 [headlabel="3", labeldistance=1.5 headhref="dir_000163_000203.html"];
+  dir_1ccafe3e5c085868d7cb60b85337d877->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000163_000056.html"];
+  dir_efd5be80f1ea96799fa313034d485898->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000203_000056.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_37c90836491b695b472bf98d1be8336b [headlabel="1", labeldistance=1.5 headhref="dir_000056_000154.html"];
+}
