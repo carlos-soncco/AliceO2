@@ -19,6 +19,9 @@ set(SRCS
   src/Support.cxx
   src/HeatExchanger.cxx
   src/HalfCone.cxx
+ 
+  src/HalfSupport.cxx
+
 )
 
 set(HEADERS
@@ -39,6 +42,8 @@ set(HEADERS
   include/${MODULE_NAME}/Support.h
   include/${MODULE_NAME}/HeatExchanger.h
   include/${MODULE_NAME}/HalfCone.h
+  include/${MODULE_NAME}/HalfSupport.h
+
 )
 
 Set(LINKDEF src/MFTBaseLinkDef.h)
