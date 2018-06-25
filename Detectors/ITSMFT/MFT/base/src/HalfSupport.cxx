@@ -918,8 +918,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       //HalfSupportVolume->AddNode(sup_rail_MBL_vol1, 2);
 
     //  HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,-288,0));
-  //ok.    HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,0));
-      HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,-69,6)); // R&L
+      HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,0)); //ok
+      HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,-69,6)); // R&L ok
     //  HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(-71,-162,-325)); //
     //  HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(71,-162,-325,rot_halfR));//     
     //  HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-76.25,-241.5)); //
