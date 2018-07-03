@@ -818,9 +818,37 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      Double_t z_mb_box=0.81;  // dz=4     to quit
      TGeoTranslation *tr_mb_box= new TGeoTranslation("tr_mb_box",24.05,9.55,0);// 240.5
      tr_mb_box->RegisterYourself();
+
+      
+     ////lateral hole-box
+     Double_t x_lat_box=0.7;  //dx=0.35
+     Double_t y_lat_box=1.8;  // dy=0.9
+     Double_t z_lat_box=0.2;  // dz=0.1 
+     TGeoTranslation *tr_lat1L_box= new TGeoTranslation("tr_lat1L_box",4.6,0,0.4);// 
+     tr_lat1L_box->RegisterYourself();    
+     TGeoTranslation *tr_lat2L_box= new TGeoTranslation("tr_lat2L_box",9.6,1.65,0.4);// 
+     tr_lat2L_box->RegisterYourself();
+     TGeoTranslation *tr_lat3L_box= new TGeoTranslation("tr_lat3L_box",18.53,6.1,0.4);// 
+     tr_lat3L_box->RegisterYourself();
+     TGeoTranslation *tr_lat4L_box= new TGeoTranslation("tr_lat4L_box",26.45,10,0.4);// 
+     tr_lat4L_box->RegisterYourself();
+     TGeoTranslation *tr_lat5L_box= new TGeoTranslation("tr_lat5L_box",29.9,11.6,0.4);// 
+     tr_lat5L_box->RegisterYourself();
+
+     TGeoTranslation *tr_lat1R_box= new TGeoTranslation("tr_lat1R_box",4.6,0,-0.4);// 
+     tr_lat1R_box->RegisterYourself();    
+     TGeoTranslation *tr_lat2R_box= new TGeoTranslation("tr_lat2R_box",9.6,1.65,-0.4);// 
+     tr_lat2R_box->RegisterYourself();
+     TGeoTranslation *tr_lat3R_box= new TGeoTranslation("tr_lat3R_box",18.53,6.1,-0.4);// 
+     tr_lat3R_box->RegisterYourself();
+     TGeoTranslation *tr_lat4R_box= new TGeoTranslation("tr_lat4R_box",26.45,10,-0.4);// 
+     tr_lat4R_box->RegisterYourself();
+     TGeoTranslation *tr_lat5R_box= new TGeoTranslation("tr_lat5R_box",29.9,11.6,-0.4);// 
+     tr_lat5R_box->RegisterYourself();
+
     /// circular hole_1mbl. diameter=3.5 H9  
      Double_t radin_1mb =0.; 
-     Double_t radout_1mb=0.175;// diameter 3.5
+     Double_t radout_1mb=0.175;// diameter 3.5mm _0.35 cm
      Double_t high_1mb=2.825;///  dh=+/- 4
      TGeoTranslation *tr1_mb= new TGeoTranslation("tr1_mb",18.48,6.1,0.); //right
      tr1_mb->RegisterYourself();
@@ -853,25 +881,38 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      auto *s_mb_box =new TGeoBBox("S_MB_BOX", x_mb_box/2,y_mb_box/2,z_mb_box/2);
      auto *s_hole_1mbl=new TGeoTube("S_HOLE_1MBL",radin_1mb,radout_1mb,high_1mb/2); // d3.5
      auto *s_hole_2mbl=new TGeoTube("S_HOLE_2MBL",radin_2mb,radout_2mb,high_2mb/2); //d3
+     auto *s_lat_box =new TGeoBBox("S_LAT_BOX",x_lat_box/2,y_lat_box/2,z_lat_box/2);
  
     ////////////////////// composite shape for rail_MB  R + L //////////////////////
 
     // auto * MB_Shape_0 = new TGeoCompositeShape("MB_Shape_0","  V_MBL_0 - S_MB_BOX:tr_mb_box - S_HOLE_1MBL:tr1_mb + S_HOLE_1MBL:tr2_mb -S_HOLE_2MBL:combi_hup_mb  ");
-     auto * MB_Shape_0 = new TGeoCompositeShape("MB_Shape_0","  S_XTRU_MBL_0 - S_MB_BOX:tr_mb_box - S_HOLE_1MBL:tr1_mb -S_HOLE_2MBL:combi_hup_mb  "); 
+     auto * MB_Shape_0 = new TGeoCompositeShape("MB_Shape_0","S_XTRU_MBL_0 - S_MB_BOX:tr_mb_box - S_HOLE_1MBL:tr1_mb -S_HOLE_2MBL:combi_hup_mb  "); 
+
+    auto * MB_Shape_0L = new TGeoCompositeShape("MB_Shape_0L","MB_Shape_0 -S_LAT_BOX:tr_lat1L_box -S_LAT_BOX:tr_lat2L_box - S_LAT_BOX:tr_lat3L_box -S_LAT_BOX:tr_lat4L_box- S_LAT_BOX:tr_lat5L_box "); 
+
+    auto * MB_Shape_0R = new TGeoCompositeShape("MB_Shape_0R","MB_Shape_0 - S_LAT_BOX:tr_lat1R_box -S_LAT_BOX:tr_lat2R_box - S_LAT_BOX:tr_lat3R_box -S_LAT_BOX:tr_lat4R_box- S_LAT_BOX:tr_lat5R_box"); 
       
-     auto * MB_Shape_1 = new TGeoCompositeShape("MB_Shape_1","  MB_Shape_0:rot1_MBL_0  - S_HOLE_2MBL  "); // one piece "completed"
+     auto * MB_Shape_1L = new TGeoCompositeShape("MB_Shape_1L","MB_Shape_0L:rot1_MBL_0 - S_HOLE_2MBL"); // one piece "completed"
     // left and right-->
-     auto * MB_Shape_3 = new TGeoCompositeShape("MB_Shape_3"," MB_Shape_1:tr_mbl +  MB_Shape_1:tr_mbr ");  
+    auto * MB_Shape_1R = new TGeoCompositeShape("MB_Shape_1R","MB_Shape_0R:rot1_MBL_0 - S_HOLE_2MBL");
+  
+     auto * MB_Shape_2 = new TGeoCompositeShape("MB_Shape_2"," MB_Shape_1L:tr_mbl +  MB_Shape_1R:tr_mbr ");  
     
   /////////
-      TGeoVolume *sup_rail_MBL_vol0 = new TGeoVolume("SUPPORT_MBL_VOL0",MB_Shape_0,kMedAlu);
-      TGeoVolume *sup_rail_MBL_vol1 = new TGeoVolume("SUPPORT_MBL_VOL1",MB_Shape_3,kMedAlu);
-
+     // TGeoVolume *sup_rail_MBL_vol0 = new TGeoVolume("SUPPORT_MBL_VOL0",MB_Shape_0,Al);
+      TGeoVolume *sup_rail_MBL_vol = new TGeoVolume("SUPPORT_MBL_VOL",MB_Shape_2,kMedAlu);
      ////////////////////////////////
      TGeoRotation  *rot_halfR = new TGeoRotation("rot_halfR", 180,180,0);//half0_R
      rot_halfR->RegisterYourself();
  
-     sup_rail_MBL->AddNode(sup_rail_MBL_vol1,1,rot_halfR); 
+     sup_rail_MBL->AddNode(sup_rail_MBL_vol,1,rot_halfR); 
+  ///////
+
+
+
+
+
+
     
      
                 
