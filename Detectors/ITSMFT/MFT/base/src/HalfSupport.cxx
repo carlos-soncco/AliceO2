@@ -922,12 +922,12 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
                            
       auto *stair = new TGeoVolumeAssembly("stair");
 
-     stair->AddNode(sup_rail_MBL,1,new TGeoTranslation(0,0-28.8,0));//
-     stair->AddNode(Cross_mft,2,new TGeoTranslation(0,-28.8,4.55));
-     stair->AddNode(Cross_mb0,3,new TGeoTranslation(0,1.65-28.8,9.55));
-     stair->AddNode(Cross_mb0,4,new TGeoTranslation(0,6.1-28.8,18.48));
-     stair->AddNode(Cross_mft,6,new TGeoTranslation(0,10.0-28.8,26.4));
-     stair->AddNode(Cross_mft,7,  new TGeoTranslation(0,11.6-28.8,29.85));
+     stair->AddNode(sup_rail_MBL,1,new TGeoTranslation(0,0-28.8,0+0.675));//
+     stair->AddNode(Cross_mft,2,new TGeoTranslation(0,-28.8,4.55+0.675));
+     stair->AddNode(Cross_mb0,3,new TGeoTranslation(0,1.65-28.8,9.55+0.675));
+     stair->AddNode(Cross_mb0,4,new TGeoTranslation(0,6.1-28.8,18.48+0.675));
+     stair->AddNode(Cross_mft,6,new TGeoTranslation(0,10.0-28.8,26.4+0.675));
+     stair->AddNode(Cross_mft,7,  new TGeoTranslation(0,11.6-28.8,29.85+0.675));
     
     ///--HalfConeVolume->AddNode(rail_L, 0); //
     ////-- HalfConeVolume->AddNode(rail_L, 1); //
@@ -949,7 +949,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
    //HalfSupportVolume->AddNode(sup_rail_MBL_vol1, 2);
 
-      HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,0.675-80));
+      HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,-80)); //+0.675z
       HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,-80));
       HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,-6.9,-0.5-80));//0.6 R&L
       HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(-7.1,-16.2,32.5-80));
