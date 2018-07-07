@@ -790,7 +790,13 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      
       TGeoVolume *rail_L_R_vol0 = new TGeoVolume("RAIL_L_R_VOL0",rail_L_R_Shape,kMedAlu);
 
-    rail_L_R->AddNode(rail_L_R_vol0,2,rot_base); 
+     TGeoRotation *rot_rLR = new TGeoRotation("rot_rLR", 180,180,0);
+     rot_rLR->RegisterYourself();
+     TGeoCombiTrans *combi_rLR = new TGeoCombiTrans(0,-6.9, -0.5,rot_rLR);//0,-6.9,-0.5-80
+     combi_rLR->SetName("combi_rLR");
+     combi_rLR->RegisterYourself();
+
+    rail_L_R->AddNode(rail_L_R_vol0,2,combi_rLR); 
  
    /// ///__8th___ pice support rail MB  /////////////////////////////////////////
 
@@ -951,7 +957,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
       HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,-80)); //+0.675z
       HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,-80));
-      HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,-6.9,-0.5-80));//0.6 R&L
+      HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,0,-80));//0.6 R&L (0,-6.9,-0.5-80)
       HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(-7.1,-16.2,32.5-80));
       HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(7.1,-16.2,32.5-80,rot_halfR));//     
       HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-7.625,24.15-80)); //
