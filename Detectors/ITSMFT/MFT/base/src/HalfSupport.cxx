@@ -247,6 +247,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       auto * Fra_front_Shape_1 = new TGeoCompositeShape("Fra_front_Shape_1","Fra_front_Shape_0 - S_TUBDOWN:tr_tubdown -TUB_UP:combi_3a");
       auto * Fra_front_Shape_2 = new TGeoCompositeShape("Fra_front_Shape_2","SEG_TUB+BOXB_DOWN ");
 
+ //-auto * Fra_front_Shape_3 = new TGeoCompositeShape("Fra_front_Shape_3","Fra_front_Shape_2 +Fra_front_Shape_3:  ");
+
 
       auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_1,kMedAlu);
   
@@ -920,41 +922,39 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
                            
       auto *stair = new TGeoVolumeAssembly("stair");
 
-     stair->AddNode(sup_rail_MBL,1,new TGeoTranslation(0,0,0));
-     stair->AddNode(Cross_mft,2,new TGeoTranslation(0,0,4.55));
-     stair->AddNode(Cross_mb0,3,new TGeoTranslation(0,1.65,9.55));
-     stair->AddNode(Cross_mb0,4,new TGeoTranslation(0,6.1,18.48));
-     stair->AddNode(Cross_mft,6,new TGeoTranslation(0,10.0,26.4));
-     stair->AddNode(Cross_mft,7,  new TGeoTranslation(0,11.6,29.85));
+     stair->AddNode(sup_rail_MBL,1,new TGeoTranslation(0,0-28.8,0));//
+     stair->AddNode(Cross_mft,2,new TGeoTranslation(0,-28.8,4.55));
+     stair->AddNode(Cross_mb0,3,new TGeoTranslation(0,1.65-28.8,9.55));
+     stair->AddNode(Cross_mb0,4,new TGeoTranslation(0,6.1-28.8,18.48));
+     stair->AddNode(Cross_mft,6,new TGeoTranslation(0,10.0-28.8,26.4));
+     stair->AddNode(Cross_mft,7,  new TGeoTranslation(0,11.6-28.8,29.85));
     
     ///--HalfConeVolume->AddNode(rail_L, 0); //
     ////-- HalfConeVolume->AddNode(rail_L, 1); //
 
-         //////// stair->Draw();
-   /////////////////////////////
-   // Cross_mb0->Draw("ogl");
-   // Cross_mft->Draw("ogl");
+    if (half == 0){
+       Double_t x_final = ;
+       Double_t Y_final = ;
+       Double_t z_final = -80;
 
-   // Fra_front->Draw();
-   // base->Draw("ogl");  //"ogl"
-    //  midle->Draw("ogl");
-  // rail_L->Draw("ogl");
+       Double_t rotx_final = ;
+       Double_t roty_final = ;
+       Double_t rotz_final = ;
+             
 
-  ///// rail_R->Draw("ogl");
-   // rail_L_R->Draw("ogl");
- //     sup_rail_MBL->Draw("ogl");
+
  
    //// HalfConeVolume->Draw();
 
    //HalfSupportVolume->AddNode(sup_rail_MBL_vol1, 2);
 
-      HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,-28.8+6.5,0.675-80));
-      HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,6.5,-80));
-      HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,-6.9+6.5,-0.5-80));//0.6 R&L
-      HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(-7.1,-16.2+6.5,32.5-80));
-      HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(7.1,-16.2+6.5,32.5-80,rot_halfR));//     
-      HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-7.625+6.5,24.15-80)); //
-      HalfSupportVolume->AddNode(midle,7, new TGeoCombiTrans(0,-7.625+6.5,24.15-80,rot_halfR)); 
+      HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,0.675-80));
+      HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,-80));
+      HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,-6.9,-0.5-80));//0.6 R&L
+      HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(-7.1,-16.2,32.5-80));
+      HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(7.1,-16.2,32.5-80,rot_halfR));//     
+      HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-7.625,24.15-80)); //
+      HalfSupportVolume->AddNode(midle,7, new TGeoCombiTrans(0,-7.625,24.15-80,rot_halfR)); 
 
 
      ////HalfSupportVolume->Draw("ogl");
