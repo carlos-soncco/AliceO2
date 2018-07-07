@@ -933,13 +933,14 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
     ////-- HalfConeVolume->AddNode(rail_L, 1); //
 
     if (half == 0){
-       Double_t x_final = ;
-       Double_t Y_final = ;
+       Double_t x_final = 0;
+       Double_t Y_final = 0;
        Double_t z_final = -80;
 
-       Double_t rotx_final = ;
-       Double_t roty_final = ;
-       Double_t rotz_final = ;
+       Double_t rotx_final =0 ;
+       Double_t roty_final = 0;
+       Double_t rotz_final = 0;
+     }
              
 
 
