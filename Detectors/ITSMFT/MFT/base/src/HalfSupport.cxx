@@ -178,6 +178,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
    
     ////3th piece    Framework front
     auto *Fra_front = new TGeoVolumeAssembly("Fra_front");
+         auto *Fra_front_L = new TGeoVolumeAssembly("Fra_front_L");
+         auto *Fra_front_R = new TGeoVolumeAssembly("Fra_front_R");
      
       Double_t x_box_up =0.6;  // cm
       Double_t y_box_up =0.605;
@@ -245,7 +247,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       auto * Fra_front_Shape_0 = new TGeoCompositeShape("Fra_front_Shape_0","BOX_UP:tr1_up +SEG_TUB:combi_3b+ BOXB_DOWN:tr3_box + BOXA_DOWN:tr_2_box"); 
 
       auto * Fra_front_Shape_1 = new TGeoCompositeShape("Fra_front_Shape_1","Fra_front_Shape_0 - S_TUBDOWN:tr_tubdown -TUB_UP:combi_3a");
-      auto * Fra_front_Shape_2 = new TGeoCompositeShape("Fra_front_Shape_2","Fra_front_Shape_1:rot_90x -");
+      auto * Fra_front_Shape_2 = new TGeoCompositeShape("Fra_front_Shape_2","Fra_front_Shape_1:rot_90x -TUB_UP:combi_3a");
   
    TGeoRotation  *rot_halfR = new TGeoRotation("rot_halfR", 180,180,0);//half0_R
      rot_halfR->RegisterYourself();
@@ -266,8 +268,14 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
       //auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_2,kMedAlu);
 
-       auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_4,kMedAlu);
-  
+       auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_2,kMedAlu);
+
+   Fra_fron_L->AddNode(Fra_front_Volume,1);
+
+   Fra_fron_R->AddNode(Fra_front_Volume,1,rot_halfR);
+
+
+ 
    Fra_front->AddNode(Fra_front_Volume,1);  //rot_90x
        
  ///////////////////////////////////////////////-----
