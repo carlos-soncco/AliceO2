@@ -1055,7 +1055,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 //-HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-7.625,24.15+0.675-80)); //
    //-   HalfSupportVolume->AddNode(midle,7, new TGeoCombiTrans(0,-7.625,24.15+0.675-80,rot_halfR));
 
-   HalfSupportVolume->AddNode(midle,6,c_final)); // 
+   HalfSupportVolume->AddNode(midle,6,c_final); // 
 
 
      ////HalfSupportVolume->Draw("ogl");
