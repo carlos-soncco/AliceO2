@@ -973,23 +973,40 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
     ////-- HalfConeVolume->AddNode(rail_L, 1); //
 
     if (half == 0){
-       Double_t x_final = 0;
-       Double_t Y_final = 0;
-       Double_t z_final = -80;
+       Double_t t_final_x = 0;
+       Double_t t_final_y = 0;
+       Double_t t_final_z = -80;
 
-       Double_t rotx_final =0 ;
-       Double_t roty_final = 0;
-       Double_t rotz_final = 0;
+       Double_t r_final_x =0 ;
+       Double_t r_final_y = 0;
+       Double_t r_final_z = 0;
      }
-             
+         
+     if (half == 1){
+       Double_t t_final_x = 0;
+       Double_t t_final_y = 0;
+       Double_t t_final_z = -80;
 
+       Double_t r_final_x =0 ;
+       Double_t r_final_y = 0;
+       Double_t r_final_z= 180;
+     }
+    
+    auto* t_final = new TGeoTranslation("t_final", t_final_x, t_final_y, t_final_z);
+    auto* r_final = new TGeoRotation("r_final", r_final_x, r_final_y, r_final_z);
+    auto* c_final = new TGeoCombiTrans(*t_final, *r_final);
 
  
    //// HalfConeVolume->Draw();
 
    //HalfSupportVolume->AddNode(sup_rail_MBL_vol1, 2);
 
-      HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,-80)); //+0.675z
+     //-HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,-80)); //+0.675z
+      HalfSupportVolume->AddNode(stair,1,t_final ); //+0.675z
+
+
+
+
       HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,-80));
       HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,0,-80));//0.6 R&L (0,-6.9,-0.5-80)
     ///-  HalfSupportVolume->AddNode(Fra_front_L,4,new TGeoTranslation(0,0,-80));//-7.1,-16.2,32.5-80
