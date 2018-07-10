@@ -570,7 +570,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
      auto * midle_Shape_1 = new TGeoCompositeShape("midle_Shape_1"," midle_Shape_0 -S_MID_1TUBHOLE:combi_mid_1tubhole-S_MID_2TUBHOLE:combi_mid_2tubhole");
 
-    TGeoRotation  *rot_midlez = new TGeoRotation("rot_midley", 180,0,0);//half0_R
+    TGeoRotation  *rot_midlez = new TGeoRotation("rot_midley", 180,180,0);//half0_R
      rot_midlez->RegisterYourself();
      TGeoCombiTrans *combi_midle_L = new TGeoCombiTrans(0, -7.625, 24.15+0.675,rot_90x);//x=7.35, y=0, z=15.79  -- 0,-7.625,24.15+0.675-80)
       combi_midle_L->SetName("combi_midle_L");
