@@ -255,11 +255,11 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
   
    TGeoRotation  *rot_halfR = new TGeoRotation("rot_halfR", 180,180,0);//half0_R
      rot_halfR->RegisterYourself();
-     TGeoCombiTrans *combi_front_L = new TGeoCombiTrans(-7.1, -16.2, 32.5,rot_90x);//x=7.35, y=0, z=15.79
+     TGeoCombiTrans *combi_front_L = new TGeoCombiTrans(-7.1, -16.2, 32.5+0.675,rot_90x);//x=7.35, y=0, z=15.79
       combi_front_L->SetName("combi_front_L");
       combi_front_L->RegisterYourself();
 
-     TGeoCombiTrans *combi_front_R = new TGeoCombiTrans(7.1, -16.2, 32.5,rot_z180x90);//x=7.35, y=0, z=15.79
+     TGeoCombiTrans *combi_front_R = new TGeoCombiTrans(7.1, -16.2, 32.5+0.675,rot_z180x90);//x=7.35, y=0, z=15.79
       combi_front_R->SetName("combi_front_R");
       combi_front_R->RegisterYourself();
 
