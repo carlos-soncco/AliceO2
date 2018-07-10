@@ -249,8 +249,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       auto * Fra_front_Shape_1 = new TGeoCompositeShape("Fra_front_Shape_1","Fra_front_Shape_0 - S_TUBDOWN:tr_tubdown -TUB_UP:combi_3a");
       auto * Fra_front_Shape_2 = new TGeoCompositeShape("Fra_front_Shape_2","Fra_front_Shape_1:rot_90x -TUB_UP:combi_3a"); //-
 
-          TGeoRotation  *z180x90 = new TGeoRotation("z180x90", 180,90,0);//half0_R
-     z180x90->RegisterYourself();
+          TGeoRotation  *rot_z180x90 = new TGeoRotation("rot_z180x90", 180,90,0);//half0_R
+     rot_z180x90->RegisterYourself();
    
   
    TGeoRotation  *rot_halfR = new TGeoRotation("rot_halfR", 180,180,0);//half0_R
