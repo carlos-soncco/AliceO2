@@ -995,9 +995,9 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
     ///-  HalfSupportVolume->AddNode(Fra_front_L,4,new TGeoTranslation(0,0,-80));//-7.1,-16.2,32.5-80
  
    ///-   HalfSupportVolume->AddNode(Fra_front_R,5,new TGeoTranslation(0,0,-80));//-7.1,-16.2,32.5-80
-        HalfSupportVolume->AddNode(Fra_front,4,new TGeoCombiTrans(0,0,-80));    
+        HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(0,0,-80));    
  
-      HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(7.1,-16.2,32.5-80,rot_halfR));//  7.1,-16.2,32.5-80,rot_halfR   
+     //-- HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(7.1,-16.2,32.5-80,rot_halfR));//  7.1,-16.2,32.5-80,rot_halfR   
       HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-7.625,24.15+0.675-80)); //
       HalfSupportVolume->AddNode(midle,7, new TGeoCombiTrans(0,-7.625,24.15+0.675-80,rot_halfR)); 
 
