@@ -1002,7 +1002,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
    //HalfSupportVolume->AddNode(sup_rail_MBL_vol1, 2);
 
      //-HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,-80)); //+0.675z
-      HalfSupportVolume->AddNode(stair,1,t_final ); //+0.675z
+      HalfSupportVolume->AddNode(stair,1,c_final ); //+0.675z
 
 
 
