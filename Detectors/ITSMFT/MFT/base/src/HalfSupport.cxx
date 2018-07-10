@@ -270,7 +270,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
        auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_1,kMedAlu);
 
-   Fra_front_L->AddNode(Fra_front_Volume,1,rot_90x);
+   Fra_front_L->AddNode(Fra_front_Volume,1);
 
    Fra_front_R->AddNode(Fra_front_Volume,1,rot_halfR);
 
