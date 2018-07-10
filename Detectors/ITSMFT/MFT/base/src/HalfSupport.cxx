@@ -972,24 +972,33 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
     ///--HalfConeVolume->AddNode(rail_L, 0); //
     ////-- HalfConeVolume->AddNode(rail_L, 1); //
 
-    if (half == 0){
-       Double_t t_final_x = 0;
-       Double_t t_final_y = 0;
-       Double_t t_final_z = -80;
+       Double_t t_final_x;
+       Double_t t_final_y;
+       Double_t t_final_z;
 
-       Double_t r_final_x =0 ;
-       Double_t r_final_y = 0;
-       Double_t r_final_z = 0;
+       Double_t r_final_x ;
+       Double_t r_final_y ;
+       Double_t r_final_z ;
+
+
+    if (half == 0){
+                t_final_x = 0;
+                t_final_y = 0;
+                t_final_z = -80;
+
+                 r_final_x =0 ;
+                 r_final_y = 0;
+                 r_final_z = 0;
      }
          
      if (half == 1){
-       Double_t t_final_x = 0;
-       Double_t t_final_y = 0;
-       Double_t t_final_z = -80;
+                t_final_x = 0;
+                t_final_y = 0;
+                t_final_z = -80;
 
-       Double_t r_final_x =0 ;
-       Double_t r_final_y = 0;
-       Double_t r_final_z= 180;
+                r_final_x =0 ;
+                r_final_y = 0;
+                r_final_z= 180;
      }
     
     auto* t_final = new TGeoTranslation("t_final", t_final_x, t_final_y, t_final_z);
