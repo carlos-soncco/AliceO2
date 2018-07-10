@@ -591,7 +591,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
    //midle->AddNode(midle0_Volume,1); 
    midle->AddNode(midle_L,1);
-   midle->AddNode(midle_R,2);  
+  // midle->AddNode(midle_R,2);  
 
       ////////////////////////////////////new piece ... _/   \_  
       /// Support_rail_L & Support_rail_R
