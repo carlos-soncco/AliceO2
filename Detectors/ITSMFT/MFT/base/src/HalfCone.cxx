@@ -661,10 +661,10 @@ TGeoCompositeShape("Half_0_Holes","Half_0_Hole0:cHalf_0_Hole0+Half_0_Hole1:cHalf
   // overlap problem
   HalfConeVolume->AddNode(Half_0, 0, cTotal); // barres intérieures horizontales fm
   HalfConeVolume->AddNode(Half_1, 0, cTotal); // barres intérieures horizontales fm
-  //HalfConeVolume->AddNode(Half_2, 0, cTotal);
-  //-HalfConeVolume->AddNode(Half_3, 0, cTotal);
-  //-HalfConeVolume->AddNode(Half_4, 0, cTotal); // support milieu perpendiculaire
-  //-HalfConeVolume->AddNode(Half_5, 0, cTotal); // barre médiane
+  HalfConeVolume->AddNode(Half_2, 0, cTotal);
+  HalfConeVolume->AddNode(Half_3, 0, cTotal);
+  HalfConeVolume->AddNode(Half_4, 0, cTotal); // support milieu perpendiculaire
+  HalfConeVolume->AddNode(Half_5, 0, cTotal); // barre médiane
 
   return HalfConeVolume;
 }
