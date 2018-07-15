@@ -1,6 +1,6 @@
 
 
-   /// --- copied from Halfcone.cxx
+   /// --- based in Halfcone.cxx
 
 #include "TGeoManager.h"
 #include "TGeoMatrix.h"
@@ -16,7 +16,6 @@
 #include "TMath.h"
 #include "TGeoXtru.h"
 
-//#include "/home/carlos/alice2/O2/Detectors/ITSMFT/MFT/base/include/MFTBase/HalfSupport.h"
 #include "MFTBase/HalfSupport.h"
 
 using namespace o2::MFT;
@@ -44,10 +43,6 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
   
   
          TGeoMedium *kMedAlu = gGeoManager->GetMedium("MFT_Alu$");
- ///////  add->
-        ///  auto *HalfSupportVolume = new TGeoVolumeAssembly("HalfSupportVolume");
-
-    // auto *HalfSupportVolume = new TGeoVolumeAssembly("HalfSupportVolume");
       //--- define some materials
       TGeoMaterial *matVacuum = new TGeoMaterial("Vacuum", 0,0,0);
       TGeoMaterial *matAl = new TGeoMaterial("Al", 26.98,13,2.7);
@@ -56,7 +51,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       TGeoMedium *Al = new TGeoMedium("Root Material",2, matAl);
    /////Rotation  ////
             
-    TGeoRotation   *rot1 = new TGeoRotation("rot1", 180,-180,0); //around z,  90 rotation base -90,180,90
+    TGeoRotation   *rot1 = new TGeoRotation("rot1", 180,-180,0); 
 
       rot1->RegisterYourself();
       TGeoRotation   *rot2 = new TGeoRotation("rot2", 90,-90,0);
@@ -73,7 +68,6 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       TGeoRotation   *rot_base = new TGeoRotation("rot_base", 180,180,0); // rail_r
       rot_base->RegisterYourself();
       
-           
 
       TGeoCombiTrans *combi1 = new TGeoCombiTrans(0, -10.3, 1.29, rot1); //y=-10.80 belt
       combi1->RegisterYourself();
@@ -83,7 +77,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       TGeoRotation *r0 = new TGeoRotation("r0",10.,0.,0.);
       r0->RegisterYourself();
 
-    ///// 1st piece    Cross_beam_MB0----------------------///
+    ///// 1st piece  ---------  Cross_beam_MB0----------------------///
 
        auto *Cross_mb0 = new TGeoVolumeAssembly("Cross_mb0");
       /// variables
@@ -107,7 +101,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       bcombi_1h_mb0->SetName("bcombi_1h_mb0");
       bcombi_1h_mb0->RegisterYourself();
 
-      ////////// 2hole coaxial
+      ///// 2hole coaxial
       Double_t radin_2hole_mb0=0.;
       Double_t radout_2hole_mb0=0.15;// diameter M3
       Double_t high_2hole_mb0=1.2;/// 12
@@ -141,7 +135,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
 ////////////////////////////////////////////
 
-    ///// 2nd piece   ------ cross beam--MFT---------(cbeam)-----/// ========
+    ///// 2nd piece   ------ cross beam--MFT---------(cbeam)-----
 
     auto *Cross_mft = new TGeoVolumeAssembly("Cross_mft");
       /// variables
@@ -176,7 +170,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 ////////////////////////////////////////////
 
    
-    ////3th piece    Framework front
+    ////3th piece  -------- Framework front ------------
+
     auto *Fra_front = new TGeoVolumeAssembly("Fra_front");
          auto *Fra_front_L = new TGeoVolumeAssembly("Fra_front_L");
          auto *Fra_front_R = new TGeoVolumeAssembly("Fra_front_R");
@@ -217,7 +212,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       TGeoTranslation *tr1_tub1 = new TGeoTranslation("tr1_tub1",0,0.,3.075);
       tr1_tub1->RegisterYourself();
 
-      TGeoCombiTrans *combi_3b = new TGeoCombiTrans(7.118, 0, 16.16,rot3);//x=7.35, y=0, z=15.79
+      TGeoCombiTrans *combi_3b = new TGeoCombiTrans(7.118, 0, 16.16,rot3);
       combi_3b->SetName("combi_3b");
       combi_3b->RegisterYourself();
    
@@ -264,35 +259,21 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       combi_front_R->RegisterYourself();
 
 
- auto * Fra_front_Shape_3 = new TGeoCompositeShape("Fra_front_Shape_3","Fra_front_Shape_2:rot_halfR  "); // 7.1,-16.2,32.5-80,rot_halfR
+      auto * Fra_front_Shape_3 = new TGeoCompositeShape("Fra_front_Shape_3","Fra_front_Shape_2:rot_halfR  "); 
 
-  //-    TGeoTranslation *tr_L_front = new TGeoTranslation("tr_L_front",-7.1,-16.2,32.5); //
-  //-    tr_L_front->RegisterYourself();
+      auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_1,kMedAlu);
 
-  //-    TGeoTranslation *tr_R_front = new TGeoTranslation("tr_R_front",7.1,-16.6,32.5);  //
- //-     tr_R_front->RegisterYourself();
-
- //-  auto * Fra_front_Shape_4 = new TGeoCompositeShape("Fra_front_Shape_4","Fra_front_Shape_1:tr_L_front + Fra_front_Shape_1:tr_R_front ");
-
-
-      //auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_2,kMedAlu);
-
-       auto * Fra_front_Volume = new TGeoVolume("Fra_front_Volume",Fra_front_Shape_1,kMedAlu);
-
-   Fra_front_L->AddNode(Fra_front_Volume,1,combi_front_L);
-
-   Fra_front_R->AddNode(Fra_front_Volume,1,combi_front_R);
-
-
+        Fra_front_L->AddNode(Fra_front_Volume,1,combi_front_L);
+        Fra_front_R->AddNode(Fra_front_Volume,1,combi_front_R);
  
-   //Fra_front->AddNode(Fra_front_Volume,1,combi_front_R);  //rot_90x
-   Fra_front->AddNode(Fra_front_L,1);  
-   Fra_front->AddNode(Fra_front_R,2);
+      Fra_front->AddNode(Fra_front_L,1);  
+      Fra_front->AddNode(Fra_front_R,2);
   
  ///////////////////////////////////////////////-----
 
-     //4th piece "BASE" framework half support /////////////
-   auto *base = new TGeoVolumeAssembly("base");
+     //4th piece ------------------"BASE" framework half support ------
+
+     auto *base = new TGeoVolumeAssembly("base");
 
    //seg tub  disc
       Double_t radin_disc=23.6;
@@ -401,8 +382,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
       tr_tong->RegisterYourself();
      //// circular central hole1 to conexion with other parts 
       Double_t radin_hole1=0;
-      Double_t radout_hole1=0.4;//304
-      Double_t high_hole1=1.36;///13.5
+      Double_t radout_hole1=0.4;//
+      Double_t high_hole1=1.36;///
       TGeoTranslation *tr_hole1= new TGeoTranslation("tr_hole1",0,-28.0,0);  //tonge
       tr_hole1->RegisterYourself();
        
@@ -424,8 +405,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
 
 //////////// hole "0" two tubs together  
-      Double_t radin_T1=0.325; // diam 6.5
-      Double_t radout_T1=0.55;// dia 11   
+      Double_t radin_T1=0.325; // diam 0.65cm
+      Double_t radout_T1=0.55;// dia 1.1   
       Double_t high_T1=1.2;///  dz 6
        
       Double_t radin_T2=0;
@@ -482,7 +463,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
  //////////////////////////////////////////
 
 
-   ///5th piece MIDLE ------ Framework midle---
+   ///5th piece MIDLE ------ Framework midle--------------------
 
      auto *midle = new TGeoVolumeAssembly("Midle");
 
@@ -686,8 +667,8 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 //////////////////////////////// similar hole for R -- Join.
      /// circular hole_ir. diameter=M3 (3 mm)) prof trou:8, tar:6mm 
      Double_t radin_ir_railL=0.;
-     Double_t radout_ir_railL=0.15;// diameter 3
-     Double_t high_ir_railL=3.9;// 19
+     Double_t radout_ir_railL=0.15;// diameter 0.3cm
+     Double_t high_ir_railL=3.9;// 
      TGeoRotation *rot_ir_RL = new TGeoRotation("rot_ir_RL", 90,90,0);
      rot_ir_RL->RegisterYourself();
         //// in y = l_253.5 - 6. enter in (0,6,0)
@@ -718,13 +699,10 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
    rail_L->AddNode(rail_L_vol0,1,new TGeoTranslation(0., 0., 1.5) );
  
     
-    ////__7___ pice RAIL RIGHT  //////////////////////////////////-----
+    ////piece 7th ---------------RAIL RIGHT  ----  //////////////-----
 
     auto *rail_R = new TGeoVolumeAssembly("rail_R");
 
-    /////////////////VARIAb
-      /// variable
-        ////box 
      Double_t x_RR_1box=3.0; //dx=15
      Double_t y_RR_1box=1.2;  // dy=6, -dy=6
      Double_t z_RR_1box=0.8; // dz=4     to quit
@@ -757,14 +735,12 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      xtru_RR2->DefinePolygon(8,x_RR2,y_RR2);
      xtru_RR2->DefineSection(0,0.776,0,0,1);//(plane,-zplane/+zplane, x0, y0,(x/y))
      xtru_RR2->DefineSection(1,2.225 ,0,0,1);
-/////////////////////////  ////////////////////
+
      //////////////  knee (small)
 
      TGeoXtru *xtru3_RR = new TGeoXtru(2);
      xtru3_RR->SetName("S_XTRU3_RR");
-     //-TGeoVolume *vol3_RR = gGeoManager->MakeXtru("S_XTRU3_RR",kMedAlu,2);
-     //-TGeoXtru *xtru3_RR = (TGeoXtru*)vol3_RR->GetShape();
-
+     
      Double_t x_3RR[6]={1.0,1.0,-1.2497,-2.2138,-0.5,-0.5};//R,Q,P,O,N.M   //vertices
      Double_t y_3RR[6]={10.91,14.41,17.0911,15.9421,13.86,10.91};
 
@@ -776,9 +752,9 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      tr_vol3_RR->RegisterYourself();
 
       /////////////////////////////////  quit diagona-> qdi/////////////////
-     Double_t x_qdi_Rbox=3.1; //dx=15
-     Double_t y_qdi_Rbox=7.159;  // dy=17.5
-     Double_t z_qdi_Rbox=3.005; // dz=7.5     to quit
+     Double_t x_qdi_Rbox=3.1; //dx=1.5
+     Double_t y_qdi_Rbox=7.159;  // 
+     Double_t z_qdi_Rbox=3.005; // 
 
      TGeoRotation *rot_Rqdi = new TGeoRotation("rot_Rqdi", 0,24.775,0);
      rot_Rqdi->RegisterYourself();
@@ -854,9 +830,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
 
     rail_L_R->AddNode(rail_L_R_vol0,2,combi_rLR); 
  
-   /// ///__8th___ pice support rail MB  /////////////////////////////////////////
-
-   // piece  -\_ -----0000------
+   ///  piece 8th -------support rail  MB ---------------  -\_ 
 
     auto *sup_rail_MBL = new TGeoVolumeAssembly("sup_rail_MBL");
 
@@ -882,8 +856,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      Double_t z_mb_box=0.81;  // dz=4     to quit
      TGeoTranslation *tr_mb_box= new TGeoTranslation("tr_mb_box",24.05,9.55,0);// 240.5
      tr_mb_box->RegisterYourself();
-
-      
+    
      ////lateral hole-box
      Double_t x_lat_box=0.7;  //dx=0.35
      Double_t y_lat_box=1.8;  // dy=0.9
@@ -920,10 +893,9 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      TGeoTranslation *tr2_mb= new TGeoTranslation("tr2_mb",24.15,8.9,0.); //right
      tr2_mb->RegisterYourself();
 
-      // ....
       ///circular hole_2mbl inclined and hole-up.diameter=M3 (3 mm)) prof , tar:8mm 
      Double_t radin_2mb =0.; 
-     Double_t radout_2mb=0.15;// diameter 3
+     Double_t radout_2mb=0.15;// diameter 0.3
      Double_t high_2mb=0.82;///  dh=+/- 4
 
      TGeoRotation *rot_hole2_MBL = new TGeoRotation("rot_hole2_MBL", 0,90,0);
@@ -969,15 +941,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      
  
      sup_rail_MBL->AddNode(sup_rail_MBL_vol,1,rot_halfR); 
-  ///////
-
-
-
-
-
-
-    
-     
+      
                 
   /////////////////////////////////////////////////  =|=|=
                            
@@ -990,9 +954,7 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
      stair->AddNode(Cross_mft,6,new TGeoTranslation(0,10.0-28.8,26.4+0.675));
      stair->AddNode(Cross_mft,7,  new TGeoTranslation(0,11.6-28.8,29.85+0.675));
     
-    ///--HalfConeVolume->AddNode(rail_L, 0); //
-    ////-- HalfConeVolume->AddNode(rail_L, 1); //
-
+    
        Double_t t_final_x;
        Double_t t_final_y;
        Double_t t_final_z;
@@ -1027,28 +989,11 @@ TGeoVolumeAssembly* HalfSupport::createHalfSupport(Int_t half)
     auto* c_final = new TGeoCombiTrans(*t_final, *r_final);
 
  
-   
-   //HalfSupportVolume->AddNode(sup_rail_MBL_vol1, 2);
-  //-HalfSupportVolume->AddNode(stair,1,new TGeoTranslation(0,0,-80)); //+0.675z
-   //-HalfSupportVolume->AddNode(base,2,new TGeoTranslation(0,0,-80));
-   //- HalfSupportVolume->AddNode(rail_L_R,3,new TGeoTranslation(0,0,-80));//0.6 R&L (0,-6.9,-0.5-80)
-   ///-  HalfSupportVolume->AddNode(Fra_front_L,4,new TGeoTranslation(0,0,-80));//-7.1,-16.2,32.5-80
- 
-   ///-   HalfSupportVolume->AddNode(Fra_front_R,5,new TGeoTranslation(0,0,-80));//-7.1,-16.2,32.5-80
-    //-    HalfSupportVolume->AddNode(Fra_front,4,new TGeoTranslation(0,0,-80)); 
-    //-- HalfSupportVolume->AddNode(Fra_front,5,new TGeoCombiTrans(7.1,-16.2,32.5-80,rot_halfR));//  7.1,-16.2,32.5-80,rot_halfR   
-   //-HalfSupportVolume->AddNode(midle,6,new TGeoTranslation(0,-7.625,24.15+0.675-80)); //
-   //-   HalfSupportVolume->AddNode(midle,7, new TGeoCombiTrans(0,-7.625,24.15+0.675-80,rot_halfR));
-
-     HalfSupportVolume->AddNode(stair,1,c_final ); //+0.675z
+     HalfSupportVolume->AddNode(stair,1,c_final ); //
      HalfSupportVolume->AddNode(base,2,c_final);
-     HalfSupportVolume->AddNode(rail_L_R,3, c_final);//0.6 R&L (0,-6.9,-0.5-80)
+     HalfSupportVolume->AddNode(rail_L_R,3, c_final);// R&L 
      HalfSupportVolume->AddNode(Fra_front,4,c_final);   
      HalfSupportVolume->AddNode(midle,6,c_final); // 
-
-
-     
-
 
 ////////////
    
