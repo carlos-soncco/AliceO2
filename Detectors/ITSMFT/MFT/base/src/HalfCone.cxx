@@ -10,7 +10,7 @@
 
 /// \file HalfCone.cxx
 /// \brief Class building geometry of one half of one MFT half-cone
-/// \author sbest@pucp.pe, eric.endress@gmx.de, franck.manso@clermont.in2p3.fr
+/// \author sbest@pucp.pe, eric.endress@gmx.de, franck.manso@clermont.in2p3.fr csoncco@pucp.pe
 /// \date 15/12/2016
 
 #include "TGeoManager.h"
@@ -25,6 +25,7 @@
 #include "TGeoTube.h"
 #include "TGeoTrd1.h"
 #include "TMath.h"
+#include "TGeoXtru.h"
 
 #include "MFTBase/HalfCone.h"
 
