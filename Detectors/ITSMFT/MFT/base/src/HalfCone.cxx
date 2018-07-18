@@ -996,11 +996,11 @@ TGeoVolumeAssembly* HalfCone::createHalfCone(Int_t half)
     auto* c_final = new TGeoCombiTrans(*t_final, *r_final);
 
  
-     HalfSupportVolume->AddNode(stair,1,c_final ); //
-     HalfSupportVolume->AddNode(base,2,c_final);
-     HalfSupportVolume->AddNode(rail_L_R,3, c_final);// R&L 
-     HalfSupportVolume->AddNode(Fra_front,4,c_final);   
-     HalfSupportVolume->AddNode(midle,6,c_final); // 
+     HalfConeVolume->AddNode(stair,1,c_final ); //
+     HalfConeVolume->AddNode(base,2,c_final);
+     HalfConeVolume->AddNode(rail_L_R,3, c_final);// R&L 
+     HalfConeVolume->AddNode(Fra_front,4,c_final);   
+     HalfConeVolume->AddNode(midle,6,c_final); // 
 
 ////////////
  
