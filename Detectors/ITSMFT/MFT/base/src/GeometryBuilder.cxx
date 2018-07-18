@@ -73,18 +73,18 @@ void GeometryBuilder::buildGeometry()
 
   /// \todo Add the service, Barrel, etc Those objects will probably be defined into the COMMON ITSMFT area.
 
-   //-auto* halfCone = new HalfCone();
-  //- TGeoVolumeAssembly* halfCone1 = halfCone->createHalfCone(0);
-  //- TGeoVolumeAssembly* halfCone2 = halfCone->createHalfCone(1);
-  //- volMFT->AddNode(halfCone1, 1);
-  //- volMFT->AddNode(halfCone2, 1);
+    auto* halfCone = new HalfCone();
+    TGeoVolumeAssembly* halfCone1 = halfCone->createHalfCone(0);
+    TGeoVolumeAssembly* halfCone2 = halfCone->createHalfCone(1);
+    volMFT->AddNode(halfCone1, 1);
+    volMFT->AddNode(halfCone2, 1);
 
 
-   auto* halfSupport = new HalfSupport();
-   TGeoVolumeAssembly* halfSupport1 = halfSupport->createHalfSupport(0);
-   TGeoVolumeAssembly* halfSupport2 = halfSupport->createHalfSupport(1);
-   volMFT->AddNode(halfSupport1, 1);
-   volMFT->AddNode(halfSupport2, 1);
+  //- auto* halfSupport = new HalfSupport();
+  //- TGeoVolumeAssembly* halfSupport1 = halfSupport->createHalfSupport(0);
+  //- TGeoVolumeAssembly* halfSupport2 = halfSupport->createHalfSupport(1);
+  //- volMFT->AddNode(halfSupport1, 1);
+  //- volMFT->AddNode(halfSupport2, 1);
 
 
 
