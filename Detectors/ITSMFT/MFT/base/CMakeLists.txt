@@ -20,7 +20,6 @@ set(SRCS
   src/HeatExchanger.cxx
   src/HalfCone.cxx
  
-  src/HalfSupport.cxx
 
 )
 
@@ -42,7 +41,7 @@ set(HEADERS
   include/${MODULE_NAME}/Support.h
   include/${MODULE_NAME}/HeatExchanger.h
   include/${MODULE_NAME}/HalfCone.h
-  include/${MODULE_NAME}/HalfSupport.h
+  
 
 )
 
