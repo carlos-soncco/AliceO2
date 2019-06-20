@@ -805,7 +805,7 @@ TGeoVolumeAssembly* PatchPanel::createPatchPanel(Int_t half)
   // auto * base1_Volume = new TGeoVolume("base1_Volume",baseB_Shape_1,kMedAlu);
   //   auto * base2_Volume = new TGeoVolume("base2_Volume",base_Shape_2,Al);
 
-  auto *faceB_Volume = new TGeoVolume("faceB_Volume", baseB_Shape_2, kMedAlu);
+  //auto *faceB_Volume = new TGeoVolume("faceB_Volume", baseB_Shape_2, kMedAlu);
 
   PatchPanelVolume->AddNode(patchpanel_Volume, 1);
 
